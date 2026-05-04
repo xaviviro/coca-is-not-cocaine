@@ -156,6 +156,8 @@ selecció i l'advertiment sobre la circularitat (mitigada).
 | Regenerar cada figura i CSV des d'un clon fresc            | [`docs/reproduce.md`](docs/reproduce.md)                   |
 | Tots els descobriments + taules per model                  | [`docs/findings.md`](docs/findings.md)                     |
 | Què **no** pretén aquest estudi                            | [`docs/limitations.md`](docs/limitations.md)               |
+| Treballs previs en què s'inspira (CAMeL, etc.)             | [`docs/related-work.md`](docs/related-work.md)             |
+| La memòria metodològica (PDF, en català)                   | [`metodologia.pdf`](metodologia.pdf)                       |
 | L'informe final i els fitxers CSV                          | [`out/report.md`](out/report.md), `out/*.csv`              |
 
 ---
