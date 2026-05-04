@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: >-
+  Coca Is Not Cocaine: Three Lexical-Cultural Collision Modes in
+  Open-Weight LLMs, Probed in Catalan
+message: If you use this dataset or code, please cite as below.
+type: software
+authors:
+  - family-names: Vinaixa Roselló
+    given-names: Xavier
+    email: xavi@sorensen.ai
+    orcid: "https://orcid.org/0009-0005-2769-9215"
+    affiliation: "Sorensen AI (sorensen.ai), Barcelona, Catalonia"
+    website: "https://sorensen.ai"
+repository-code: "https://github.com/xaviviro/coca-is-not-cocaine"
+url: "https://github.com/xaviviro/coca-is-not-cocaine"
+abstract: >-
+  Three-mode taxonomy of lexical-cultural collisions
+  (cross_lingual_bias / domain_specific / internal_polysemy) for
+  probing culturally-marked low-resource vocabulary in multilingual
+  base LLMs, instantiated on a 56-concept Catalan lexicon and applied
+  across eleven open-weight base models (Google Gemma, Alibaba Qwen,
+  Mistral, DeepSeek, and BSC-LT Salamandra/ALIA — Catalan-aware
+  control). Includes a five-method statistical-rigour suite
+  (paired-bootstrap delta, layer-depth sweep, sub-clustered Anglo
+  anchors, stratified-bootstrap CIs, Procrustes cross-model alignment),
+  a pre-registered title test (n_noise ≥ 2 falsifier), and the empirical
+  finding that intentional Catalan training does not erase the F1/F2/F3
+  collisions — only Catalan-language framing at inference time does.
+keywords:
+  - cultural-bias
+  - low-resource-language
+  - catalan
+  - llm-probing
+  - representation-geometry
+  - open-weight-models
+  - gemma
+  - qwen
+  - mistral
+  - deepseek
+  - salamandra
+  - alia
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+version: 0.2.0
+date-released: "2026-05-04"

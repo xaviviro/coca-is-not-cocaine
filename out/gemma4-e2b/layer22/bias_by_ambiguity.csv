@@ -1,0 +1,13 @@
+ambiguity_type,frame_id,median_bias_ratio,median_top10_catalan_frac,count
+cross_lingual_bias,anglo_en,0.4610789036992653,0.8,9
+cross_lingual_bias,bare,0.47496130381291757,0.8,9
+cross_lingual_bias,catalan_frame,0.4400256396539876,0.8,9
+cross_lingual_bias,neutral_ca,0.4486609271113395,0.9,9
+domain_specific,anglo_en,0.4571661965549452,0.8,27
+domain_specific,bare,0.4734229170468434,0.8,27
+domain_specific,catalan_frame,0.4350550445859239,0.9,27
+domain_specific,neutral_ca,0.4471772392569497,0.9,27
+internal_polysemy,anglo_en,0.4580597736980704,0.8,14
+internal_polysemy,bare,0.4797662279868534,0.8,14
+internal_polysemy,catalan_frame,0.4350401435511394,0.9,14
+internal_polysemy,neutral_ca,0.4481660353945338,0.9,14

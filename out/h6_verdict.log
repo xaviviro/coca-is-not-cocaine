@@ -1,0 +1,148 @@
+Salamandra models with artifacts: ['salamandra-2b', 'salamandra-7b', 'ALIA-40b']
+General-purpose models with artifacts: ['gemma2-2b', 'gemma4-e2b', 'qwen2-1.5b', 'qwen3.5-4b-base', 'gemma4-26b-a4b', 'qwen3.6-35b-a3b']
+
+{
+  "best_layers": {
+    "salamandra-2b": 21,
+    "salamandra-7b": 29,
+    "ALIA-40b": 43
+  },
+  "H6.a": {
+    "pivot_F2_median_top10ca": {
+      "bare": {
+        "salamandra-2b": 0.8,
+        "salamandra-7b": 0.9,
+        "ALIA-40b": 0.8
+      },
+      "anglo_en": {
+        "salamandra-2b": 0.6,
+        "salamandra-7b": 0.7,
+        "ALIA-40b": 0.5
+      },
+      "catalan_frame": {
+        "salamandra-2b": 1.0,
+        "salamandra-7b": 1.0,
+        "ALIA-40b": 1.0
+      },
+      "neutral_ca": {
+        "salamandra-2b": 1.0,
+        "salamandra-7b": 1.0,
+        "ALIA-40b": 0.8
+      }
+    },
+    "H6.a (>=0.85 on all 12 cells)": "FAIL",
+    "cells_below_0.85": [
+      [
+        "salamandra-2b",
+        "bare",
+        0.8
+      ],
+      [
+        "salamandra-2b",
+        "anglo_en",
+        0.6
+      ],
+      [
+        "salamandra-7b",
+        "anglo_en",
+        0.7
+      ],
+      [
+        "ALIA-40b",
+        "bare",
+        0.8
+      ],
+      [
+        "ALIA-40b",
+        "anglo_en",
+        0.5
+      ],
+      [
+        "ALIA-40b",
+        "neutral_ca",
+        0.8
+      ]
+    ],
+    "F-H6.a (any cell <0.7)": "TRIGGERED",
+    "cells_below_0.7": [
+      [
+        "salamandra-2b",
+        "anglo_en",
+        0.6
+      ],
+      [
+        "ALIA-40b",
+        "anglo_en",
+        0.5
+      ]
+    ]
+  },
+  "H6.b": {
+    "per_model": {
+      "salamandra-2b": {
+        "n_F1_bare": 10,
+        "frac_saturating_1.0": 0.0
+      },
+      "salamandra-7b": {
+        "n_F1_bare": 10,
+        "frac_saturating_1.0": 0.3
+      },
+      "ALIA-40b": {
+        "n_F1_bare": 10,
+        "frac_saturating_1.0": 0.0
+      }
+    },
+    "H6.b (ALIA-40b >=80% saturating on F1 bare)": "FAIL",
+    "F-H6.b (ALIA-40b does not saturate)": "TRIGGERED"
+  },
+  "H6.c": {
+    "salamandra_per_model_delta_median": {
+      "median": {
+        "ALIA-40b": 0.045,
+        "salamandra-2b": 0.039,
+        "salamandra-7b": 0.035
+      },
+      "count": {
+        "ALIA-40b": 56,
+        "salamandra-2b": 56,
+        "salamandra-7b": 56
+      }
+    },
+    "salamandra_pooled_delta_median": 0.039,
+    "salamandra_pooled_delta_95pct_quantile_band": [
+      0.023,
+      0.071
+    ],
+    "general_purpose_per_model_delta_median": {
+      "gemma2-2b": 0.02,
+      "gemma4-26b-a4b": 0.068,
+      "gemma4-e2b": 0.023,
+      "qwen2-1.5b": 0.01,
+      "qwen3.5-4b-base": 0.096,
+      "qwen3.6-35b-a3b": 0.046
+    },
+    "H6.c (|sal median \u0394|<0.02 with band \u2283 0)": "FAIL",
+    "F-H6.c (|sal median \u0394|>0.05)": "NOT TRIGGERED"
+  },
+  "H6.d": {
+    "noise_hits_per_cell": {
+      "ALIA-40b/anglo_en": 7,
+      "ALIA-40b/bare": 7,
+      "ALIA-40b/catalan_frame": 6,
+      "ALIA-40b/neutral_ca": 6,
+      "salamandra-2b/anglo_en": 7,
+      "salamandra-2b/bare": 7,
+      "salamandra-2b/catalan_frame": 5,
+      "salamandra-2b/neutral_ca": 6,
+      "salamandra-7b/anglo_en": 9,
+      "salamandra-7b/bare": 6,
+      "salamandra-7b/catalan_frame": 3,
+      "salamandra-7b/neutral_ca": 5
+    },
+    "n_cells_with_noise (out of 12)": 12,
+    "H6.d (max n_noise = 0 across 12 cells)": "FAIL",
+    "F-H6.d (>=1 noise hit on any Salamandra)": "TRIGGERED"
+  }
+}
+
+Wrote /workspace/jack-and-the-gegant/out/h6_verdict.json

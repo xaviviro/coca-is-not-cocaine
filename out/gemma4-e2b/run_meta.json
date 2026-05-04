@@ -1,0 +1,21 @@
+{
+  "model": "google/gemma-4-E2B",
+  "revision": null,
+  "dtype": "bf16",
+  "device_map": "auto",
+  "layers": [
+    6,
+    15,
+    22
+  ],
+  "num_hidden_layers": null,
+  "seed": 42,
+  "batch_size": 1,
+  "n_probes": 282,
+  "transformers_version": "5.6.2",
+  "torch_version": "2.11.0+cu130",
+  "python_version": "3.11.13 (main, Jun  4 2025, 08:57:30) [GCC 13.3.0]",
+  "timestamp": "2026-04-25T06:14:44+0000",
+  "tokenizer_class": "GemmaTokenizer",
+  "model_slug": "google-gemma-4-e2b"
+}

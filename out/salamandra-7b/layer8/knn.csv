@@ -1,0 +1,2241 @@
+concept,frame_id,rank,neighbor,neighbor_cluster,cosine
+gegant,bare,1,giant,anchor_anglo,0.678288459777832
+gegant,bare,2,fairy,anchor_anglo,0.5841851234436035
+gegant,bare,3,grallers,anchor_catalan,0.581601619720459
+gegant,bare,4,pessebre,anchor_catalan,0.5689866542816162
+gegant,bare,5,cercavila,anchor_catalan,0.5675374865531921
+gegant,bare,6,diables,anchor_catalan,0.5666974782943726
+gegant,bare,7,dwarf,anchor_anglo,0.5642075538635254
+gegant,bare,8,goblin,anchor_anglo,0.5576306581497192
+gegant,bare,9,tavern,anchor_anglo,0.5555735230445862
+gegant,bare,10,dragon,anchor_anglo,0.5542910099029541
+gegant,anglo_en,1,giant,anchor_anglo,0.4600249230861664
+gegant,anglo_en,2,ogre,anchor_anglo,0.36620184779167175
+gegant,anglo_en,3,goblin,anchor_anglo,0.3586258888244629
+gegant,anglo_en,4,grallers,anchor_catalan,0.31943294405937195
+gegant,anglo_en,5,xeremia,anchor_catalan,0.31625956296920776
+gegant,anglo_en,6,fairy,anchor_anglo,0.31449317932128906
+gegant,anglo_en,7,dwarf,anchor_anglo,0.3111765384674072
+gegant,anglo_en,8,festa major,anchor_catalan,0.30897361040115356
+gegant,anglo_en,9,pessebre,anchor_catalan,0.3063531816005707
+gegant,anglo_en,10,peasant,anchor_anglo,0.3037651777267456
+gegant,catalan_frame,1,giant,anchor_anglo,0.4395601451396942
+gegant,catalan_frame,2,festa major,anchor_catalan,0.36129462718963623
+gegant,catalan_frame,3,castellers,anchor_catalan,0.32834795117378235
+gegant,catalan_frame,4,casteller,anchor_catalan,0.29926034808158875
+gegant,catalan_frame,5,dwarf,anchor_anglo,0.29170775413513184
+gegant,catalan_frame,6,goblin,anchor_anglo,0.2849491536617279
+gegant,catalan_frame,7,ogre,anchor_anglo,0.2824547290802002
+gegant,catalan_frame,8,cercavila,anchor_catalan,0.2777053117752075
+gegant,catalan_frame,9,enxaneta,anchor_catalan,0.2760092616081238
+gegant,catalan_frame,10,grallers,anchor_catalan,0.2670532464981079
+gegant,neutral_ca,1,giant,anchor_anglo,0.4951017498970032
+gegant,neutral_ca,2,festa major,anchor_catalan,0.4003627300262451
+gegant,neutral_ca,3,goblin,anchor_anglo,0.3651707172393799
+gegant,neutral_ca,4,dwarf,anchor_anglo,0.3608506917953491
+gegant,neutral_ca,5,grallers,anchor_catalan,0.35886114835739136
+gegant,neutral_ca,6,ogre,anchor_anglo,0.35442087054252625
+gegant,neutral_ca,7,cercavila,anchor_catalan,0.3479871451854706
+gegant,neutral_ca,8,pessebre,anchor_catalan,0.33812275528907776
+gegant,neutral_ca,9,diables,anchor_catalan,0.33357954025268555
+gegant,neutral_ca,10,kingdom,anchor_anglo,0.33032917976379395
+castell,bare,1,castellers,anchor_catalan,0.7766598463058472
+castell,bare,2,castle,anchor_anglo,0.6983650922775269
+castell,bare,3,casteller,anchor_catalan,0.6475708484649658
+castell,bare,4,dragon,anchor_anglo,0.6007487773895264
+castell,bare,5,princess,anchor_anglo,0.5904413461685181
+castell,bare,6,dungeon,anchor_anglo,0.5862026810646057
+castell,bare,7,troll,anchor_anglo,0.5855708122253418
+castell,bare,8,cercavila,anchor_catalan,0.5815240144729614
+castell,bare,9,plaça,anchor_catalan,0.5731232762336731
+castell,bare,10,brand,anchor_noise,0.57158362865448
+castell,anglo_en,1,castellers,anchor_catalan,0.5751476883888245
+castell,anglo_en,2,casteller,anchor_catalan,0.4861856698989868
+castell,anglo_en,3,castle,anchor_anglo,0.4755631685256958
+castell,anglo_en,4,dungeon,anchor_anglo,0.333166241645813
+castell,anglo_en,5,festa major,anchor_catalan,0.2803063690662384
+castell,anglo_en,6,kingdom,anchor_anglo,0.27206650376319885
+castell,anglo_en,7,knight,anchor_anglo,0.2701586186885834
+castell,anglo_en,8,enxaneta,anchor_catalan,0.2698858380317688
+castell,anglo_en,9,tavern,anchor_anglo,0.2695654034614563
+castell,anglo_en,10,colla,anchor_catalan,0.26911190152168274
+castell,catalan_frame,1,castellers,anchor_catalan,0.661885678768158
+castell,catalan_frame,2,casteller,anchor_catalan,0.598882794380188
+castell,catalan_frame,3,castle,anchor_anglo,0.40570083260536194
+castell,catalan_frame,4,enxaneta,anchor_catalan,0.31406116485595703
+castell,catalan_frame,5,festa major,anchor_catalan,0.2750188112258911
+castell,catalan_frame,6,colla,anchor_catalan,0.23790842294692993
+castell,catalan_frame,7,dungeon,anchor_anglo,0.2376360148191452
+castell,catalan_frame,8,knight,anchor_anglo,0.2303529679775238
+castell,catalan_frame,9,cercavila,anchor_catalan,0.22524620592594147
+castell,catalan_frame,10,grallers,anchor_catalan,0.2188727855682373
+castell,neutral_ca,1,castle,anchor_anglo,0.5880947113037109
+castell,neutral_ca,2,castellers,anchor_catalan,0.5830826163291931
+castell,neutral_ca,3,casteller,anchor_catalan,0.5136794447898865
+castell,neutral_ca,4,dungeon,anchor_anglo,0.42135298252105713
+castell,neutral_ca,5,festa major,anchor_catalan,0.3944849967956543
+castell,neutral_ca,6,kingdom,anchor_anglo,0.3694550096988678
+castell,neutral_ca,7,ajuntament,anchor_catalan,0.36636126041412354
+castell,neutral_ca,8,tavern,anchor_anglo,0.36095279455184937
+castell,neutral_ca,9,knight,anchor_anglo,0.3558979630470276
+castell,neutral_ca,10,sword,anchor_anglo,0.3558027744293213
+drac,bare,1,dragon,anchor_anglo,0.6867337226867676
+drac,bare,2,cercavila,anchor_catalan,0.6059067845344543
+drac,bare,3,monkey,anchor_anglo,0.5991386771202087
+drac,bare,4,brand,anchor_noise,0.5964489579200745
+drac,bare,5,coke,anchor_noise,0.5960795879364014
+drac,bare,6,sword,anchor_anglo,0.595891535282135
+drac,bare,7,troll,anchor_anglo,0.5941256284713745
+drac,bare,8,ogre,anchor_anglo,0.5866098403930664
+drac,bare,9,Jack,anchor_anglo,0.5834318399429321
+drac,bare,10,princess,anchor_anglo,0.5801964998245239
+drac,anglo_en,1,dragon,anchor_anglo,0.395114541053772
+drac,anglo_en,2,goblin,anchor_anglo,0.36256712675094604
+drac,anglo_en,3,ogre,anchor_anglo,0.3381579518318176
+drac,anglo_en,4,cocaine,anchor_noise,0.3283635377883911
+drac,anglo_en,5,Cinderella,anchor_anglo,0.32771754264831543
+drac,anglo_en,6,Coca-Cola,anchor_noise,0.3257949948310852
+drac,anglo_en,7,sword,anchor_anglo,0.3225727677345276
+drac,anglo_en,8,dungeon,anchor_anglo,0.32193824648857117
+drac,anglo_en,9,soda,anchor_noise,0.32157430052757263
+drac,anglo_en,10,xeremia,anchor_catalan,0.31712332367897034
+drac,catalan_frame,1,dragon,anchor_anglo,0.4025960862636566
+drac,catalan_frame,2,castellers,anchor_catalan,0.35990089178085327
+drac,catalan_frame,3,festa major,anchor_catalan,0.3384247124195099
+drac,catalan_frame,4,goblin,anchor_anglo,0.3303755223751068
+drac,catalan_frame,5,sword,anchor_anglo,0.3235611915588379
+drac,catalan_frame,6,diables,anchor_catalan,0.32314133644104004
+drac,catalan_frame,7,casteller,anchor_catalan,0.3173825144767761
+drac,catalan_frame,8,dungeon,anchor_anglo,0.30758896470069885
+drac,catalan_frame,9,grallers,anchor_catalan,0.3050420582294464
+drac,catalan_frame,10,knight,anchor_anglo,0.30423688888549805
+drac,neutral_ca,1,dragon,anchor_anglo,0.46761131286621094
+drac,neutral_ca,2,goblin,anchor_anglo,0.40695953369140625
+drac,neutral_ca,3,ogre,anchor_anglo,0.3877289891242981
+drac,neutral_ca,4,sword,anchor_anglo,0.37386831641197205
+drac,neutral_ca,5,dungeon,anchor_anglo,0.3661119341850281
+drac,neutral_ca,6,Coca-Cola,anchor_noise,0.3635878562927246
+drac,neutral_ca,7,monkey,anchor_anglo,0.3632747530937195
+drac,neutral_ca,8,diables,anchor_catalan,0.36286190152168274
+drac,neutral_ca,9,cercavila,anchor_catalan,0.36208629608154297
+drac,neutral_ca,10,cocaine,anchor_noise,0.3619565963745117
+capgròs,bare,1,sword,anchor_anglo,0.641407310962677
+capgròs,bare,2,cercavila,anchor_catalan,0.6333635449409485
+capgròs,bare,3,monkey,anchor_anglo,0.6289681792259216
+capgròs,bare,4,coke,anchor_noise,0.6160109043121338
+capgròs,bare,5,dragon,anchor_anglo,0.6111183166503906
+capgròs,bare,6,cobla,anchor_catalan,0.610228419303894
+capgròs,bare,7,addiction,anchor_noise,0.6093904972076416
+capgròs,bare,8,goblin,anchor_anglo,0.6042255163192749
+capgròs,bare,9,fairy,anchor_anglo,0.5992357730865479
+capgròs,bare,10,brand,anchor_noise,0.5989696383476257
+capgròs,anglo_en,1,castellers,anchor_catalan,0.3435419797897339
+capgròs,anglo_en,2,goblin,anchor_anglo,0.33952707052230835
+capgròs,anglo_en,3,casteller,anchor_catalan,0.33567655086517334
+capgròs,anglo_en,4,cercavila,anchor_catalan,0.3295803666114807
+capgròs,anglo_en,5,sword,anchor_anglo,0.3284611403942108
+capgròs,anglo_en,6,festa major,anchor_catalan,0.3274041712284088
+capgròs,anglo_en,7,caffeine,anchor_noise,0.3272656500339508
+capgròs,anglo_en,8,cobla,anchor_catalan,0.3200110197067261
+capgròs,anglo_en,9,castle,anchor_anglo,0.31799405813217163
+capgròs,anglo_en,10,Cinderella,anchor_anglo,0.31768548488616943
+capgròs,catalan_frame,1,castellers,anchor_catalan,0.37065738439559937
+capgròs,catalan_frame,2,festa major,anchor_catalan,0.36522746086120605
+capgròs,catalan_frame,3,casteller,anchor_catalan,0.3598107099533081
+capgròs,catalan_frame,4,castle,anchor_anglo,0.31916314363479614
+capgròs,catalan_frame,5,goblin,anchor_anglo,0.3189685046672821
+capgròs,catalan_frame,6,pessebre,anchor_catalan,0.3179042339324951
+capgròs,catalan_frame,7,cercavila,anchor_catalan,0.317290335893631
+capgròs,catalan_frame,8,sword,anchor_anglo,0.30732959508895874
+capgròs,catalan_frame,9,enxaneta,anchor_catalan,0.30192169547080994
+capgròs,catalan_frame,10,grallers,anchor_catalan,0.2991943061351776
+capgròs,neutral_ca,1,festa major,anchor_catalan,0.3946446180343628
+capgròs,neutral_ca,2,goblin,anchor_anglo,0.39038941264152527
+capgròs,neutral_ca,3,pessebre,anchor_catalan,0.38267233967781067
+capgròs,neutral_ca,4,cercavila,anchor_catalan,0.38060063123703003
+capgròs,neutral_ca,5,casteller,anchor_catalan,0.3776099979877472
+capgròs,neutral_ca,6,castle,anchor_anglo,0.3740033507347107
+capgròs,neutral_ca,7,grallers,anchor_catalan,0.37167099118232727
+capgròs,neutral_ca,8,castellers,anchor_catalan,0.37069588899612427
+capgròs,neutral_ca,9,Cinderella,anchor_anglo,0.36892783641815186
+capgròs,neutral_ca,10,dwarf,anchor_anglo,0.3669368624687195
+pilar,bare,1,plaça,anchor_catalan,0.5673359632492065
+pilar,bare,2,cercavila,anchor_catalan,0.5403355956077576
+pilar,bare,3,princess,anchor_anglo,0.5368386507034302
+pilar,bare,4,dragon,anchor_anglo,0.533467173576355
+pilar,bare,5,ajuntament,anchor_catalan,0.5331172347068787
+pilar,bare,6,brand,anchor_noise,0.5209978818893433
+pilar,bare,7,troll,anchor_anglo,0.5146291255950928
+pilar,bare,8,tradicional,anchor_catalan,0.5137990713119507
+pilar,bare,9,pessebre,anchor_catalan,0.5077491402626038
+pilar,bare,10,coke,anchor_noise,0.5034222602844238
+pilar,anglo_en,1,vigatans,anchor_catalan,0.230439692735672
+pilar,anglo_en,2,castellers,anchor_catalan,0.22131982445716858
+pilar,anglo_en,3,diada,anchor_catalan,0.21489495038986206
+pilar,anglo_en,4,casteller,anchor_catalan,0.20735271275043488
+pilar,anglo_en,5,plaça,anchor_catalan,0.20591899752616882
+pilar,anglo_en,6,xeremia,anchor_catalan,0.2053009271621704
+pilar,anglo_en,7,princess,anchor_anglo,0.19964367151260376
+pilar,anglo_en,8,pessebre,anchor_catalan,0.19956275820732117
+pilar,anglo_en,9,festa major,anchor_catalan,0.1980600506067276
+pilar,anglo_en,10,colla,anchor_catalan,0.19611063599586487
+pilar,catalan_frame,1,castellers,anchor_catalan,0.42741623520851135
+pilar,catalan_frame,2,casteller,anchor_catalan,0.3928048312664032
+pilar,catalan_frame,3,festa major,anchor_catalan,0.28269627690315247
+pilar,catalan_frame,4,enxaneta,anchor_catalan,0.278522253036499
+pilar,catalan_frame,5,castle,anchor_anglo,0.24417296051979065
+pilar,catalan_frame,6,pessebre,anchor_catalan,0.2340027093887329
+pilar,catalan_frame,7,cercavila,anchor_catalan,0.22758688032627106
+pilar,catalan_frame,8,plaça,anchor_catalan,0.22702041268348694
+pilar,catalan_frame,9,colla,anchor_catalan,0.22631041705608368
+pilar,catalan_frame,10,diada,anchor_catalan,0.22606056928634644
+pilar,neutral_ca,1,pessebre,anchor_catalan,0.3100292980670929
+pilar,neutral_ca,2,ajuntament,anchor_catalan,0.30669087171554565
+pilar,neutral_ca,3,plaça,anchor_catalan,0.30492812395095825
+pilar,neutral_ca,4,Cinderella,anchor_anglo,0.30083128809928894
+pilar,neutral_ca,5,Mercè,anchor_catalan,0.29937735199928284
+pilar,neutral_ca,6,castle,anchor_anglo,0.2992281913757324
+pilar,neutral_ca,7,sword,anchor_anglo,0.2991180419921875
+pilar,neutral_ca,8,Barcelona,anchor_catalan,0.29444757103919983
+pilar,neutral_ca,9,festa major,anchor_catalan,0.29329076409339905
+pilar,neutral_ca,10,dragon,anchor_anglo,0.29099154472351074
+diables,bare,1,monkey,anchor_anglo,0.5983736515045166
+diables,bare,2,fairy,anchor_anglo,0.5857352614402771
+diables,bare,3,cobla,anchor_catalan,0.5715667605400085
+diables,bare,4,pessebre,anchor_catalan,0.5709775686264038
+diables,bare,5,dragon,anchor_anglo,0.5704906582832336
+diables,bare,6,coke,anchor_noise,0.566813051700592
+diables,bare,7,beverage,anchor_noise,0.5629087686538696
+diables,bare,8,goblin,anchor_anglo,0.5587415099143982
+diables,bare,9,sword,anchor_anglo,0.5577035546302795
+diables,bare,10,brand,anchor_noise,0.5513200163841248
+diables,anglo_en,1,goblin,anchor_anglo,0.3558890223503113
+diables,anglo_en,2,dungeon,anchor_anglo,0.30808377265930176
+diables,anglo_en,3,monkey,anchor_anglo,0.3047436773777008
+diables,anglo_en,4,fairy,anchor_anglo,0.30135488510131836
+diables,anglo_en,5,diada,anchor_catalan,0.2974257469177246
+diables,anglo_en,6,Cinderella,anchor_anglo,0.2969437539577484
+diables,anglo_en,7,caffeine,anchor_noise,0.295999675989151
+diables,anglo_en,8,sword,anchor_anglo,0.2945013642311096
+diables,anglo_en,9,xeremia,anchor_catalan,0.29115062952041626
+diables,anglo_en,10,witch,anchor_anglo,0.29023560881614685
+diables,catalan_frame,1,festa major,anchor_catalan,0.34014761447906494
+diables,catalan_frame,2,castellers,anchor_catalan,0.3337435722351074
+diables,catalan_frame,3,goblin,anchor_anglo,0.29881954193115234
+diables,catalan_frame,4,casteller,anchor_catalan,0.2979273200035095
+diables,catalan_frame,5,diada,anchor_catalan,0.29578539729118347
+diables,catalan_frame,6,enxaneta,anchor_catalan,0.27747225761413574
+diables,catalan_frame,7,pessebre,anchor_catalan,0.27037665247917175
+diables,catalan_frame,8,Cinderella,anchor_anglo,0.265643835067749
+diables,catalan_frame,9,monkey,anchor_anglo,0.26436373591423035
+diables,catalan_frame,10,cobla,anchor_catalan,0.2609366774559021
+diables,neutral_ca,1,diada,anchor_catalan,0.39007338881492615
+diables,neutral_ca,2,festa major,anchor_catalan,0.38293421268463135
+diables,neutral_ca,3,goblin,anchor_anglo,0.3449453115463257
+diables,neutral_ca,4,pessebre,anchor_catalan,0.34400200843811035
+diables,neutral_ca,5,castellers,anchor_catalan,0.340628057718277
+diables,neutral_ca,6,enxaneta,anchor_catalan,0.33533209562301636
+diables,neutral_ca,7,monkey,anchor_anglo,0.33256903290748596
+diables,neutral_ca,8,ajuntament,anchor_catalan,0.327345609664917
+diables,neutral_ca,9,cobla,anchor_catalan,0.3247925043106079
+diables,neutral_ca,10,cercavila,anchor_catalan,0.3243975043296814
+Sant Jordi,bare,1,Jack,anchor_anglo,0.6365182399749756
+Sant Jordi,bare,2,Barcelona,anchor_catalan,0.6350885629653931
+Sant Jordi,bare,3,Patum,anchor_catalan,0.6331857442855835
+Sant Jordi,bare,4,Mercè,anchor_catalan,0.6258806586265564
+Sant Jordi,bare,5,Cinderella,anchor_anglo,0.6091617345809937
+Sant Jordi,bare,6,Nadal,anchor_catalan,0.5576670169830322
+Sant Jordi,bare,7,Coca-Cola,anchor_noise,0.5574575066566467
+Sant Jordi,bare,8,coke,anchor_noise,0.5480544567108154
+Sant Jordi,bare,9,pessebre,anchor_catalan,0.5408589243888855
+Sant Jordi,bare,10,knight,anchor_anglo,0.5319961309432983
+Sant Jordi,anglo_en,1,Cinderella,anchor_anglo,0.3504033386707306
+Sant Jordi,anglo_en,2,festa major,anchor_catalan,0.3464052975177765
+Sant Jordi,anglo_en,3,Mercè,anchor_catalan,0.33931422233581543
+Sant Jordi,anglo_en,4,knight,anchor_anglo,0.33141961693763733
+Sant Jordi,anglo_en,5,sword,anchor_anglo,0.3167702555656433
+Sant Jordi,anglo_en,6,Coca-Cola,anchor_noise,0.31162750720977783
+Sant Jordi,anglo_en,7,Barcelona,anchor_catalan,0.30470603704452515
+Sant Jordi,anglo_en,8,goblin,anchor_anglo,0.30160248279571533
+Sant Jordi,anglo_en,9,castellers,anchor_catalan,0.2982003688812256
+Sant Jordi,anglo_en,10,pessebre,anchor_catalan,0.2979637384414673
+Sant Jordi,catalan_frame,1,festa major,anchor_catalan,0.3682381212711334
+Sant Jordi,catalan_frame,2,castellers,anchor_catalan,0.338699072599411
+Sant Jordi,catalan_frame,3,casteller,anchor_catalan,0.3150617480278015
+Sant Jordi,catalan_frame,4,Cinderella,anchor_anglo,0.30253252387046814
+Sant Jordi,catalan_frame,5,Mercè,anchor_catalan,0.2964489459991455
+Sant Jordi,catalan_frame,6,sword,anchor_anglo,0.28951191902160645
+Sant Jordi,catalan_frame,7,knight,anchor_anglo,0.28556784987449646
+Sant Jordi,catalan_frame,8,castle,anchor_anglo,0.27469414472579956
+Sant Jordi,catalan_frame,9,Coca-Cola,anchor_noise,0.2725096344947815
+Sant Jordi,catalan_frame,10,Patum,anchor_catalan,0.2618773579597473
+Sant Jordi,neutral_ca,1,festa major,anchor_catalan,0.3865351974964142
+Sant Jordi,neutral_ca,2,Cinderella,anchor_anglo,0.3483235538005829
+Sant Jordi,neutral_ca,3,Mercè,anchor_catalan,0.321978360414505
+Sant Jordi,neutral_ca,4,Barcelona,anchor_catalan,0.31518036127090454
+Sant Jordi,neutral_ca,5,Coca-Cola,anchor_noise,0.3123462200164795
+Sant Jordi,neutral_ca,6,knight,anchor_anglo,0.3109723925590515
+Sant Jordi,neutral_ca,7,sword,anchor_anglo,0.3081325888633728
+Sant Jordi,neutral_ca,8,castellers,anchor_catalan,0.30800285935401917
+Sant Jordi,neutral_ca,9,pessebre,anchor_catalan,0.306440532207489
+Sant Jordi,neutral_ca,10,Nadal,anchor_catalan,0.3024475872516632
+Mercè,bare,1,Barcelona,anchor_catalan,0.6026211380958557
+Mercè,bare,2,Jack,anchor_anglo,0.5914838910102844
+Mercè,bare,3,Patum,anchor_catalan,0.543036699295044
+Mercè,bare,4,Cinderella,anchor_anglo,0.5254122614860535
+Mercè,bare,5,ajuntament,anchor_catalan,0.5240867733955383
+Mercè,bare,6,Nadal,anchor_catalan,0.5117876529693604
+Mercè,bare,7,Coca-Cola,anchor_noise,0.5099755525588989
+Mercè,bare,8,coke,anchor_noise,0.5026805400848389
+Mercè,bare,9,cercavila,anchor_catalan,0.49101895093917847
+Mercè,bare,10,plaça,anchor_catalan,0.4867018461227417
+Mercè,anglo_en,1,festa major,anchor_catalan,0.3366681933403015
+Mercè,anglo_en,2,Coca-Cola,anchor_noise,0.29336413741111755
+Mercè,anglo_en,3,Barcelona,anchor_catalan,0.28797024488449097
+Mercè,anglo_en,4,xeremia,anchor_catalan,0.28759682178497314
+Mercè,anglo_en,5,cercavila,anchor_catalan,0.28501254320144653
+Mercè,anglo_en,6,Cinderella,anchor_anglo,0.28171098232269287
+Mercè,anglo_en,7,ajuntament,anchor_catalan,0.27362367510795593
+Mercè,anglo_en,8,cocaine,anchor_noise,0.26877185702323914
+Mercè,anglo_en,9,pessebre,anchor_catalan,0.2685529291629791
+Mercè,anglo_en,10,cobla,anchor_catalan,0.2683340311050415
+Mercè,catalan_frame,1,festa major,anchor_catalan,0.3457466661930084
+Mercè,catalan_frame,2,Coca-Cola,anchor_noise,0.2964221239089966
+Mercè,catalan_frame,3,Cinderella,anchor_anglo,0.28876909613609314
+Mercè,catalan_frame,4,cercavila,anchor_catalan,0.27797380089759827
+Mercè,catalan_frame,5,cocaine,anchor_noise,0.2754755914211273
+Mercè,catalan_frame,6,Barcelona,anchor_catalan,0.27532702684402466
+Mercè,catalan_frame,7,addiction,anchor_noise,0.2712322771549225
+Mercè,catalan_frame,8,pessebre,anchor_catalan,0.2643777132034302
+Mercè,catalan_frame,9,coke,anchor_noise,0.2638406753540039
+Mercè,catalan_frame,10,ajuntament,anchor_catalan,0.2617625594139099
+Mercè,neutral_ca,1,festa major,anchor_catalan,0.36164283752441406
+Mercè,neutral_ca,2,Coca-Cola,anchor_noise,0.30294352769851685
+Mercè,neutral_ca,3,Barcelona,anchor_catalan,0.2993433475494385
+Mercè,neutral_ca,4,Cinderella,anchor_anglo,0.29556959867477417
+Mercè,neutral_ca,5,plaça,anchor_catalan,0.29530149698257446
+Mercè,neutral_ca,6,cercavila,anchor_catalan,0.2937855124473572
+Mercè,neutral_ca,7,ajuntament,anchor_catalan,0.28843626379966736
+Mercè,neutral_ca,8,pessebre,anchor_catalan,0.28766047954559326
+Mercè,neutral_ca,9,xeremia,anchor_catalan,0.28514617681503296
+Mercè,neutral_ca,10,cocaine,anchor_noise,0.2765703797340393
+casteller,bare,1,castellers,anchor_catalan,0.8050858378410339
+casteller,bare,2,castle,anchor_anglo,0.7485426664352417
+casteller,bare,3,enxaneta,anchor_catalan,0.48867684602737427
+casteller,bare,4,grallers,anchor_catalan,0.47969305515289307
+casteller,bare,5,addiction,anchor_noise,0.4761849045753479
+casteller,bare,6,tavern,anchor_anglo,0.4737836718559265
+casteller,bare,7,cobla,anchor_catalan,0.4717625081539154
+casteller,bare,8,brand,anchor_noise,0.47048723697662354
+casteller,bare,9,troll,anchor_anglo,0.4682244062423706
+casteller,bare,10,sword,anchor_anglo,0.46539855003356934
+casteller,anglo_en,1,castellers,anchor_catalan,0.5601891279220581
+casteller,anglo_en,2,castle,anchor_anglo,0.5360264182090759
+casteller,anglo_en,3,enxaneta,anchor_catalan,0.32104673981666565
+casteller,anglo_en,4,dungeon,anchor_anglo,0.3108001947402954
+casteller,anglo_en,5,knight,anchor_anglo,0.3006158173084259
+casteller,anglo_en,6,grallers,anchor_catalan,0.2964610755443573
+casteller,anglo_en,7,sword,anchor_anglo,0.29279255867004395
+casteller,anglo_en,8,festa major,anchor_catalan,0.28437915444374084
+casteller,anglo_en,9,Cinderella,anchor_anglo,0.2830331027507782
+casteller,anglo_en,10,enchanted forest,anchor_anglo,0.2812013626098633
+casteller,catalan_frame,1,castellers,anchor_catalan,0.6810115575790405
+casteller,catalan_frame,2,castle,anchor_anglo,0.36909639835357666
+casteller,catalan_frame,3,enxaneta,anchor_catalan,0.3349613547325134
+casteller,catalan_frame,4,festa major,anchor_catalan,0.2716638147830963
+casteller,catalan_frame,5,grallers,anchor_catalan,0.2345142364501953
+casteller,catalan_frame,6,diada,anchor_catalan,0.2178104817867279
+casteller,catalan_frame,7,beanstalk,anchor_anglo,0.2163030505180359
+casteller,catalan_frame,8,colla,anchor_catalan,0.21516773104667664
+casteller,catalan_frame,9,cercavila,anchor_catalan,0.21339356899261475
+casteller,catalan_frame,10,pessebre,anchor_catalan,0.2123718112707138
+casteller,neutral_ca,1,castellers,anchor_catalan,0.673427402973175
+casteller,neutral_ca,2,castle,anchor_anglo,0.5252484679222107
+casteller,neutral_ca,3,enxaneta,anchor_catalan,0.381679892539978
+casteller,neutral_ca,4,festa major,anchor_catalan,0.36897167563438416
+casteller,neutral_ca,5,grallers,anchor_catalan,0.3316815197467804
+casteller,neutral_ca,6,colla,anchor_catalan,0.32374855875968933
+casteller,neutral_ca,7,Cinderella,anchor_anglo,0.3221569359302521
+casteller,neutral_ca,8,dungeon,anchor_anglo,0.32214322686195374
+casteller,neutral_ca,9,cercavila,anchor_catalan,0.3201974928379059
+casteller,neutral_ca,10,knight,anchor_anglo,0.3180142045021057
+caga tió,bare,1,coke,anchor_noise,0.6491848826408386
+caga tió,bare,2,pessebre,anchor_catalan,0.6056243181228638
+caga tió,bare,3,fairy,anchor_anglo,0.5734597444534302
+caga tió,bare,4,grallers,anchor_catalan,0.5592226386070251
+caga tió,bare,5,monkey,anchor_anglo,0.5529829263687134
+caga tió,bare,6,Cinderella,anchor_anglo,0.5513336062431335
+caga tió,bare,7,witch,anchor_anglo,0.5454085469245911
+caga tió,bare,8,beverage,anchor_noise,0.5408702492713928
+caga tió,bare,9,cobla,anchor_catalan,0.5385737419128418
+caga tió,bare,10,beanstalk,anchor_anglo,0.5381343364715576
+caga tió,anglo_en,1,pessebre,anchor_catalan,0.3689470589160919
+caga tió,anglo_en,2,Cinderella,anchor_anglo,0.36355435848236084
+caga tió,anglo_en,3,coke,anchor_noise,0.36019960045814514
+caga tió,anglo_en,4,caffeine,anchor_noise,0.3585438132286072
+caga tió,anglo_en,5,beanstalk,anchor_anglo,0.34070849418640137
+caga tió,anglo_en,6,fairy,anchor_anglo,0.33550408482551575
+caga tió,anglo_en,7,vigatans,anchor_catalan,0.33347707986831665
+caga tió,anglo_en,8,Coca-Cola,anchor_noise,0.3334490656852722
+caga tió,anglo_en,9,knight,anchor_anglo,0.3306247293949127
+caga tió,anglo_en,10,sword,anchor_anglo,0.3289875388145447
+caga tió,catalan_frame,1,pessebre,anchor_catalan,0.3258790075778961
+caga tió,catalan_frame,2,enxaneta,anchor_catalan,0.3059989809989929
+caga tió,catalan_frame,3,castellers,anchor_catalan,0.2955934703350067
+caga tió,catalan_frame,4,casteller,anchor_catalan,0.2952938675880432
+caga tió,catalan_frame,5,Cinderella,anchor_anglo,0.29520854353904724
+caga tió,catalan_frame,6,vigatans,anchor_catalan,0.2916685938835144
+caga tió,catalan_frame,7,beanstalk,anchor_anglo,0.28621146082878113
+caga tió,catalan_frame,8,festa major,anchor_catalan,0.2823525667190552
+caga tió,catalan_frame,9,Coca-Cola,anchor_noise,0.27996399998664856
+caga tió,catalan_frame,10,grallers,anchor_catalan,0.2790282964706421
+caga tió,neutral_ca,1,pessebre,anchor_catalan,0.38478758931159973
+caga tió,neutral_ca,2,Cinderella,anchor_anglo,0.37069469690322876
+caga tió,neutral_ca,3,enxaneta,anchor_catalan,0.367348313331604
+caga tió,neutral_ca,4,coke,anchor_noise,0.3553031384944916
+caga tió,neutral_ca,5,grallers,anchor_catalan,0.3509351313114166
+caga tió,neutral_ca,6,vigatans,anchor_catalan,0.3434646725654602
+caga tió,neutral_ca,7,caffeine,anchor_noise,0.3419835567474365
+caga tió,neutral_ca,8,beanstalk,anchor_anglo,0.3414171636104584
+caga tió,neutral_ca,9,diada,anchor_catalan,0.3388015031814575
+caga tió,neutral_ca,10,Coca-Cola,anchor_noise,0.3387211561203003
+cagar el tió,bare,1,coke,anchor_noise,0.5892427563667297
+cagar el tió,bare,2,pessebre,anchor_catalan,0.5693858861923218
+cagar el tió,bare,3,grallers,anchor_catalan,0.524128794670105
+cagar el tió,bare,4,fairy,anchor_anglo,0.5217825770378113
+cagar el tió,bare,5,monkey,anchor_anglo,0.518854022026062
+cagar el tió,bare,6,Cinderella,anchor_anglo,0.5102717876434326
+cagar el tió,bare,7,beanstalk,anchor_anglo,0.504866898059845
+cagar el tió,bare,8,witch,anchor_anglo,0.5030240416526794
+cagar el tió,bare,9,diables,anchor_catalan,0.49946293234825134
+cagar el tió,bare,10,cobla,anchor_catalan,0.49871930480003357
+cagar el tió,anglo_en,1,pessebre,anchor_catalan,0.37199366092681885
+cagar el tió,anglo_en,2,Cinderella,anchor_anglo,0.37067022919654846
+cagar el tió,anglo_en,3,coke,anchor_noise,0.35355880856513977
+cagar el tió,anglo_en,4,caffeine,anchor_noise,0.34326431155204773
+cagar el tió,anglo_en,5,fairy,anchor_anglo,0.33725473284721375
+cagar el tió,anglo_en,6,sword,anchor_anglo,0.3356967568397522
+cagar el tió,anglo_en,7,enxaneta,anchor_catalan,0.33472469449043274
+cagar el tió,anglo_en,8,grallers,anchor_catalan,0.3334810733795166
+cagar el tió,anglo_en,9,xeremia,anchor_catalan,0.33339548110961914
+cagar el tió,anglo_en,10,enchanted forest,anchor_anglo,0.33035165071487427
+cagar el tió,catalan_frame,1,pessebre,anchor_catalan,0.3401506841182709
+cagar el tió,catalan_frame,2,enxaneta,anchor_catalan,0.31137916445732117
+cagar el tió,catalan_frame,3,Cinderella,anchor_anglo,0.31106317043304443
+cagar el tió,catalan_frame,4,casteller,anchor_catalan,0.3086116909980774
+cagar el tió,catalan_frame,5,castellers,anchor_catalan,0.3069502115249634
+cagar el tió,catalan_frame,6,festa major,anchor_catalan,0.30277565121650696
+cagar el tió,catalan_frame,7,vigatans,anchor_catalan,0.30114373564720154
+cagar el tió,catalan_frame,8,beanstalk,anchor_anglo,0.2899807095527649
+cagar el tió,catalan_frame,9,grallers,anchor_catalan,0.2878788411617279
+cagar el tió,catalan_frame,10,Coca-Cola,anchor_noise,0.28695470094680786
+cagar el tió,neutral_ca,1,pessebre,anchor_catalan,0.39070630073547363
+cagar el tió,neutral_ca,2,Cinderella,anchor_anglo,0.37358298897743225
+cagar el tió,neutral_ca,3,enxaneta,anchor_catalan,0.36229655146598816
+cagar el tió,neutral_ca,4,coke,anchor_noise,0.35328856110572815
+cagar el tió,neutral_ca,5,caffeine,anchor_noise,0.3531944453716278
+cagar el tió,neutral_ca,6,grallers,anchor_catalan,0.3490341305732727
+cagar el tió,neutral_ca,7,enchanted forest,anchor_anglo,0.3463039994239807
+cagar el tió,neutral_ca,8,witch,anchor_anglo,0.34228456020355225
+cagar el tió,neutral_ca,9,diada,anchor_catalan,0.3413063883781433
+cagar el tió,neutral_ca,10,vigatans,anchor_catalan,0.34020107984542847
+correfoc,bare,1,cobla,anchor_catalan,0.5833598375320435
+correfoc,bare,2,cercavila,anchor_catalan,0.5718851685523987
+correfoc,bare,3,grallers,anchor_catalan,0.5718749761581421
+correfoc,bare,4,pessebre,anchor_catalan,0.5681248307228088
+correfoc,bare,5,diables,anchor_catalan,0.560605525970459
+correfoc,bare,6,sword,anchor_anglo,0.5569435358047485
+correfoc,bare,7,coke,anchor_noise,0.555017352104187
+correfoc,bare,8,monkey,anchor_anglo,0.5422271490097046
+correfoc,bare,9,goblin,anchor_anglo,0.5387983322143555
+correfoc,bare,10,fairy,anchor_anglo,0.5335923433303833
+correfoc,anglo_en,1,cercavila,anchor_catalan,0.3299042284488678
+correfoc,anglo_en,2,cobla,anchor_catalan,0.32889822125434875
+correfoc,anglo_en,3,grallers,anchor_catalan,0.32478222250938416
+correfoc,anglo_en,4,Coca-Cola,anchor_noise,0.32253801822662354
+correfoc,anglo_en,5,pessebre,anchor_catalan,0.3168225586414337
+correfoc,anglo_en,6,festa major,anchor_catalan,0.315503865480423
+correfoc,anglo_en,7,caffeine,anchor_noise,0.3121376037597656
+correfoc,anglo_en,8,Cinderella,anchor_anglo,0.3104174733161926
+correfoc,anglo_en,9,castellers,anchor_catalan,0.3103078305721283
+correfoc,anglo_en,10,enxaneta,anchor_catalan,0.30987489223480225
+correfoc,catalan_frame,1,festa major,anchor_catalan,0.3727794885635376
+correfoc,catalan_frame,2,castellers,anchor_catalan,0.3655531406402588
+correfoc,catalan_frame,3,casteller,anchor_catalan,0.3299860656261444
+correfoc,catalan_frame,4,cercavila,anchor_catalan,0.32550686597824097
+correfoc,catalan_frame,5,pessebre,anchor_catalan,0.3072427809238434
+correfoc,catalan_frame,6,cobla,anchor_catalan,0.30437973141670227
+correfoc,catalan_frame,7,grallers,anchor_catalan,0.2964533567428589
+correfoc,catalan_frame,8,enxaneta,anchor_catalan,0.29644718766212463
+correfoc,catalan_frame,9,Coca-Cola,anchor_noise,0.29194211959838867
+correfoc,catalan_frame,10,diables,anchor_catalan,0.2848888039588928
+correfoc,neutral_ca,1,festa major,anchor_catalan,0.4149034321308136
+correfoc,neutral_ca,2,castellers,anchor_catalan,0.39858007431030273
+correfoc,neutral_ca,3,cercavila,anchor_catalan,0.38540512323379517
+correfoc,neutral_ca,4,pessebre,anchor_catalan,0.37558513879776
+correfoc,neutral_ca,5,cobla,anchor_catalan,0.37187469005584717
+correfoc,neutral_ca,6,casteller,anchor_catalan,0.36973464488983154
+correfoc,neutral_ca,7,grallers,anchor_catalan,0.3673308789730072
+correfoc,neutral_ca,8,enxaneta,anchor_catalan,0.3579143285751343
+correfoc,neutral_ca,9,diables,anchor_catalan,0.3472643494606018
+correfoc,neutral_ca,10,Coca-Cola,anchor_noise,0.34593531489372253
+sardana,bare,1,cobla,anchor_catalan,0.566130518913269
+sardana,bare,2,cercavila,anchor_catalan,0.5589603781700134
+sardana,bare,3,dragon,anchor_anglo,0.5303084850311279
+sardana,bare,4,sword,anchor_anglo,0.5272228717803955
+sardana,bare,5,pessebre,anchor_catalan,0.5253071784973145
+sardana,bare,6,grallers,anchor_catalan,0.5229369401931763
+sardana,bare,7,princess,anchor_anglo,0.52232825756073
+sardana,bare,8,tavern,anchor_anglo,0.5202312469482422
+sardana,bare,9,diables,anchor_catalan,0.5173255801200867
+sardana,bare,10,xeremia,anchor_catalan,0.517008900642395
+sardana,anglo_en,1,soda,anchor_noise,0.33560556173324585
+sardana,anglo_en,2,cobla,anchor_catalan,0.31302890181541443
+sardana,anglo_en,3,cercavila,anchor_catalan,0.31218087673187256
+sardana,anglo_en,4,sword,anchor_anglo,0.3098471462726593
+sardana,anglo_en,5,xeremia,anchor_catalan,0.3092087209224701
+sardana,anglo_en,6,cocaine,anchor_noise,0.30777016282081604
+sardana,anglo_en,7,Cinderella,anchor_anglo,0.30495086312294006
+sardana,anglo_en,8,Coca-Cola,anchor_noise,0.29969629645347595
+sardana,anglo_en,9,goblin,anchor_anglo,0.29644542932510376
+sardana,anglo_en,10,enxaneta,anchor_catalan,0.290647029876709
+sardana,catalan_frame,1,castellers,anchor_catalan,0.32656893134117126
+sardana,catalan_frame,2,casteller,anchor_catalan,0.3019758462905884
+sardana,catalan_frame,3,enxaneta,anchor_catalan,0.29738855361938477
+sardana,catalan_frame,4,cobla,anchor_catalan,0.28383246064186096
+sardana,catalan_frame,5,festa major,anchor_catalan,0.2727254629135132
+sardana,catalan_frame,6,cercavila,anchor_catalan,0.27091237902641296
+sardana,catalan_frame,7,sword,anchor_anglo,0.24886831641197205
+sardana,catalan_frame,8,pessebre,anchor_catalan,0.2473691999912262
+sardana,catalan_frame,9,soda,anchor_noise,0.24597114324569702
+sardana,catalan_frame,10,cocaine,anchor_noise,0.24550288915634155
+sardana,neutral_ca,1,enxaneta,anchor_catalan,0.34466663002967834
+sardana,neutral_ca,2,castellers,anchor_catalan,0.34100937843322754
+sardana,neutral_ca,3,cobla,anchor_catalan,0.32621079683303833
+sardana,neutral_ca,4,cercavila,anchor_catalan,0.32481446862220764
+sardana,neutral_ca,5,casteller,anchor_catalan,0.3199705481529236
+sardana,neutral_ca,6,festa major,anchor_catalan,0.31191688776016235
+sardana,neutral_ca,7,grallers,anchor_catalan,0.3111461400985718
+sardana,neutral_ca,8,diada,anchor_catalan,0.3087415099143982
+sardana,neutral_ca,9,diables,anchor_catalan,0.30569034814834595
+sardana,neutral_ca,10,pessebre,anchor_catalan,0.305144727230072
+gralla,bare,1,grallers,anchor_catalan,0.8497194051742554
+gralla,bare,2,pessebre,anchor_catalan,0.6313426494598389
+gralla,bare,3,brand,anchor_noise,0.624055027961731
+gralla,bare,4,coke,anchor_noise,0.6165258884429932
+gralla,bare,5,fairy,anchor_anglo,0.6007959842681885
+gralla,bare,6,cobla,anchor_catalan,0.5946772694587708
+gralla,bare,7,troll,anchor_anglo,0.5861536860466003
+gralla,bare,8,tavern,anchor_anglo,0.5860339999198914
+gralla,bare,9,monkey,anchor_anglo,0.5859667062759399
+gralla,bare,10,cercavila,anchor_catalan,0.5852202773094177
+gralla,anglo_en,1,grallers,anchor_catalan,0.5173680782318115
+gralla,anglo_en,2,pessebre,anchor_catalan,0.29067263007164
+gralla,anglo_en,3,goblin,anchor_anglo,0.2897189259529114
+gralla,anglo_en,4,Cinderella,anchor_anglo,0.2757723033428192
+gralla,anglo_en,5,cobla,anchor_catalan,0.27217966318130493
+gralla,anglo_en,6,xeremia,anchor_catalan,0.27162039279937744
+gralla,anglo_en,7,beanstalk,anchor_anglo,0.269181489944458
+gralla,anglo_en,8,enxaneta,anchor_catalan,0.26795056462287903
+gralla,anglo_en,9,caffeine,anchor_noise,0.2672095000743866
+gralla,anglo_en,10,sword,anchor_anglo,0.26616281270980835
+gralla,catalan_frame,1,grallers,anchor_catalan,0.4459325075149536
+gralla,catalan_frame,2,castellers,anchor_catalan,0.3804774880409241
+gralla,catalan_frame,3,casteller,anchor_catalan,0.34043827652931213
+gralla,catalan_frame,4,enxaneta,anchor_catalan,0.3070072829723358
+gralla,catalan_frame,5,festa major,anchor_catalan,0.29827171564102173
+gralla,catalan_frame,6,cobla,anchor_catalan,0.29354363679885864
+gralla,catalan_frame,7,pessebre,anchor_catalan,0.26988843083381653
+gralla,catalan_frame,8,cercavila,anchor_catalan,0.26130619645118713
+gralla,catalan_frame,9,goblin,anchor_anglo,0.25925683975219727
+gralla,catalan_frame,10,diables,anchor_catalan,0.2491292953491211
+gralla,neutral_ca,1,grallers,anchor_catalan,0.5230947732925415
+gralla,neutral_ca,2,pessebre,anchor_catalan,0.33704960346221924
+gralla,neutral_ca,3,cobla,anchor_catalan,0.33483725786209106
+gralla,neutral_ca,4,goblin,anchor_anglo,0.3311660587787628
+gralla,neutral_ca,5,festa major,anchor_catalan,0.3232181668281555
+gralla,neutral_ca,6,enxaneta,anchor_catalan,0.32246604561805725
+gralla,neutral_ca,7,castellers,anchor_catalan,0.3190573751926422
+gralla,neutral_ca,8,Cinderella,anchor_anglo,0.3184123933315277
+gralla,neutral_ca,9,casteller,anchor_catalan,0.31037911772727966
+gralla,neutral_ca,10,diada,anchor_catalan,0.30981385707855225
+graller,bare,1,grallers,anchor_catalan,0.8658643960952759
+graller,bare,2,brand,anchor_noise,0.6363996267318726
+graller,bare,3,pessebre,anchor_catalan,0.6361330151557922
+graller,bare,4,coke,anchor_noise,0.6249562501907349
+graller,bare,5,fairy,anchor_anglo,0.6107981204986572
+graller,bare,6,troll,anchor_anglo,0.6023663282394409
+graller,bare,7,monkey,anchor_anglo,0.5985632538795471
+graller,bare,8,tavern,anchor_anglo,0.5954786539077759
+graller,bare,9,sword,anchor_anglo,0.5838962197303772
+graller,bare,10,beverage,anchor_noise,0.5827674269676208
+graller,anglo_en,1,grallers,anchor_catalan,0.5135472416877747
+graller,anglo_en,2,goblin,anchor_anglo,0.29710593819618225
+graller,anglo_en,3,pessebre,anchor_catalan,0.2920055389404297
+graller,anglo_en,4,beanstalk,anchor_anglo,0.288372278213501
+graller,anglo_en,5,knight,anchor_anglo,0.2877880334854126
+graller,anglo_en,6,sword,anchor_anglo,0.28393420577049255
+graller,anglo_en,7,caffeine,anchor_noise,0.2824702560901642
+graller,anglo_en,8,tavern,anchor_anglo,0.2774246633052826
+graller,anglo_en,9,Cinderella,anchor_anglo,0.27682650089263916
+graller,anglo_en,10,fairy,anchor_anglo,0.27427780628204346
+graller,catalan_frame,1,grallers,anchor_catalan,0.46783915162086487
+graller,catalan_frame,2,castellers,anchor_catalan,0.37891000509262085
+graller,catalan_frame,3,casteller,anchor_catalan,0.34399157762527466
+graller,catalan_frame,4,festa major,anchor_catalan,0.29288652539253235
+graller,catalan_frame,5,enxaneta,anchor_catalan,0.2876370847225189
+graller,catalan_frame,6,cobla,anchor_catalan,0.279873788356781
+graller,catalan_frame,7,pessebre,anchor_catalan,0.27078482508659363
+graller,catalan_frame,8,goblin,anchor_anglo,0.26876744627952576
+graller,catalan_frame,9,vigatans,anchor_catalan,0.258327841758728
+graller,catalan_frame,10,beanstalk,anchor_anglo,0.25292402505874634
+graller,neutral_ca,1,grallers,anchor_catalan,0.5500207543373108
+graller,neutral_ca,2,castellers,anchor_catalan,0.359637588262558
+graller,neutral_ca,3,casteller,anchor_catalan,0.3411371409893036
+graller,neutral_ca,4,pessebre,anchor_catalan,0.33626365661621094
+graller,neutral_ca,5,festa major,anchor_catalan,0.33459243178367615
+graller,neutral_ca,6,goblin,anchor_anglo,0.3322259485721588
+graller,neutral_ca,7,cobla,anchor_catalan,0.316068172454834
+graller,neutral_ca,8,enxaneta,anchor_catalan,0.309876412153244
+graller,neutral_ca,9,diada,anchor_catalan,0.3083778917789459
+graller,neutral_ca,10,vigatans,anchor_catalan,0.3082970380783081
+calçot,bare,1,cobla,anchor_catalan,0.5617327690124512
+calçot,bare,2,coke,anchor_noise,0.5574580430984497
+calçot,bare,3,sword,anchor_anglo,0.5443709492683411
+calçot,bare,4,pessebre,anchor_catalan,0.5403915047645569
+calçot,bare,5,grallers,anchor_catalan,0.5367783308029175
+calçot,bare,6,monkey,anchor_anglo,0.5291846990585327
+calçot,bare,7,tavern,anchor_anglo,0.5264915227890015
+calçot,bare,8,diables,anchor_catalan,0.5236492156982422
+calçot,bare,9,goblin,anchor_anglo,0.5150201320648193
+calçot,bare,10,caffeine,anchor_noise,0.5115295648574829
+calçot,anglo_en,1,cobla,anchor_catalan,0.34068405628204346
+calçot,anglo_en,2,Cinderella,anchor_anglo,0.3321889638900757
+calçot,anglo_en,3,caffeine,anchor_noise,0.3250645399093628
+calçot,anglo_en,4,grallers,anchor_catalan,0.31828904151916504
+calçot,anglo_en,5,pessebre,anchor_catalan,0.3179110288619995
+calçot,anglo_en,6,Coca-Cola,anchor_noise,0.30976131558418274
+calçot,anglo_en,7,coke,anchor_noise,0.30867400765419006
+calçot,anglo_en,8,beanstalk,anchor_anglo,0.30811408162117004
+calçot,anglo_en,9,enxaneta,anchor_catalan,0.3016946315765381
+calçot,anglo_en,10,castellers,anchor_catalan,0.3002779483795166
+calçot,catalan_frame,1,castellers,anchor_catalan,0.32063421607017517
+calçot,catalan_frame,2,festa major,anchor_catalan,0.3003807067871094
+calçot,catalan_frame,3,casteller,anchor_catalan,0.299538791179657
+calçot,catalan_frame,4,grallers,anchor_catalan,0.2911118268966675
+calçot,catalan_frame,5,caffeine,anchor_noise,0.2881390154361725
+calçot,catalan_frame,6,enxaneta,anchor_catalan,0.2855648994445801
+calçot,catalan_frame,7,cobla,anchor_catalan,0.28002727031707764
+calçot,catalan_frame,8,Cinderella,anchor_anglo,0.27528396248817444
+calçot,catalan_frame,9,beanstalk,anchor_anglo,0.2737574279308319
+calçot,catalan_frame,10,Coca-Cola,anchor_noise,0.27344802021980286
+calçot,neutral_ca,1,Cinderella,anchor_anglo,0.3598432242870331
+calçot,neutral_ca,2,cobla,anchor_catalan,0.35405629873275757
+calçot,neutral_ca,3,caffeine,anchor_noise,0.3526175320148468
+calçot,neutral_ca,4,grallers,anchor_catalan,0.35128581523895264
+calçot,neutral_ca,5,pessebre,anchor_catalan,0.3482699990272522
+calçot,neutral_ca,6,festa major,anchor_catalan,0.3385244905948639
+calçot,neutral_ca,7,castellers,anchor_catalan,0.3371993601322174
+calçot,neutral_ca,8,coke,anchor_noise,0.33540624380111694
+calçot,neutral_ca,9,Patum,anchor_catalan,0.3346082866191864
+calçot,neutral_ca,10,Coca-Cola,anchor_noise,0.3337109386920929
+calçotada,bare,1,cobla,anchor_catalan,0.5248709321022034
+calçotada,bare,2,pessebre,anchor_catalan,0.5038716793060303
+calçotada,bare,3,tavern,anchor_anglo,0.49345338344573975
+calçotada,bare,4,coke,anchor_noise,0.4920867085456848
+calçotada,bare,5,grallers,anchor_catalan,0.4920214116573334
+calçotada,bare,6,sword,anchor_anglo,0.48712944984436035
+calçotada,bare,7,diables,anchor_catalan,0.4813593626022339
+calçotada,bare,8,cercavila,anchor_catalan,0.4793665111064911
+calçotada,bare,9,caffeine,anchor_noise,0.4785763621330261
+calçotada,bare,10,beanstalk,anchor_anglo,0.4725010395050049
+calçotada,anglo_en,1,festa major,anchor_catalan,0.3350163996219635
+calçotada,anglo_en,2,cobla,anchor_catalan,0.3328317403793335
+calçotada,anglo_en,3,caffeine,anchor_noise,0.3206041157245636
+calçotada,anglo_en,4,Cinderella,anchor_anglo,0.31668245792388916
+calçotada,anglo_en,5,enxaneta,anchor_catalan,0.3130621910095215
+calçotada,anglo_en,6,pessebre,anchor_catalan,0.312054306268692
+calçotada,anglo_en,7,Coca-Cola,anchor_noise,0.30941224098205566
+calçotada,anglo_en,8,grallers,anchor_catalan,0.3036259710788727
+calçotada,anglo_en,9,beanstalk,anchor_anglo,0.298037052154541
+calçotada,anglo_en,10,castellers,anchor_catalan,0.2933040261268616
+calçotada,catalan_frame,1,festa major,anchor_catalan,0.3238238990306854
+calçotada,catalan_frame,2,castellers,anchor_catalan,0.3130325973033905
+calçotada,catalan_frame,3,enxaneta,anchor_catalan,0.29491958022117615
+calçotada,catalan_frame,4,casteller,anchor_catalan,0.2874791920185089
+calçotada,catalan_frame,5,caffeine,anchor_noise,0.28728002309799194
+calçotada,catalan_frame,6,grallers,anchor_catalan,0.28419286012649536
+calçotada,catalan_frame,7,cobla,anchor_catalan,0.28125008940696716
+calçotada,catalan_frame,8,Coca-Cola,anchor_noise,0.27500078082084656
+calçotada,catalan_frame,9,beanstalk,anchor_anglo,0.27229154109954834
+calçotada,catalan_frame,10,pessebre,anchor_catalan,0.2689184248447418
+calçotada,neutral_ca,1,festa major,anchor_catalan,0.3580813407897949
+calçotada,neutral_ca,2,enxaneta,anchor_catalan,0.3457437753677368
+calçotada,neutral_ca,3,cobla,anchor_catalan,0.3413066864013672
+calçotada,neutral_ca,4,grallers,anchor_catalan,0.3398798704147339
+calçotada,neutral_ca,5,caffeine,anchor_noise,0.33811601996421814
+calçotada,neutral_ca,6,pessebre,anchor_catalan,0.3370905816555023
+calçotada,neutral_ca,7,Cinderella,anchor_anglo,0.3355019688606262
+calçotada,neutral_ca,8,castellers,anchor_catalan,0.3243405222892761
+calçotada,neutral_ca,9,Coca-Cola,anchor_noise,0.32305920124053955
+calçotada,neutral_ca,10,Patum,anchor_catalan,0.32073062658309937
+panellet,bare,1,monkey,anchor_anglo,0.598008930683136
+panellet,bare,2,sword,anchor_anglo,0.5933139324188232
+panellet,bare,3,cobla,anchor_catalan,0.5696804523468018
+panellet,bare,4,beverage,anchor_noise,0.5682627558708191
+panellet,bare,5,pessebre,anchor_catalan,0.563490629196167
+panellet,bare,6,coke,anchor_noise,0.562126636505127
+panellet,bare,7,dungeon,anchor_anglo,0.560725212097168
+panellet,bare,8,fairy,anchor_anglo,0.5603589415550232
+panellet,bare,9,knight,anchor_anglo,0.5586633086204529
+panellet,bare,10,tavern,anchor_anglo,0.55715012550354
+panellet,anglo_en,1,pessebre,anchor_catalan,0.29665452241897583
+panellet,anglo_en,2,vigatans,anchor_catalan,0.2859789729118347
+panellet,anglo_en,3,enchanted forest,anchor_anglo,0.28530153632164
+panellet,anglo_en,4,goblin,anchor_anglo,0.2844035029411316
+panellet,anglo_en,5,dungeon,anchor_anglo,0.28184619545936584
+panellet,anglo_en,6,beanstalk,anchor_anglo,0.2776116132736206
+panellet,anglo_en,7,sword,anchor_anglo,0.2747737765312195
+panellet,anglo_en,8,grallers,anchor_catalan,0.2738948464393616
+panellet,anglo_en,9,cobla,anchor_catalan,0.27207428216934204
+panellet,anglo_en,10,knight,anchor_anglo,0.2697851061820984
+panellet,catalan_frame,1,pessebre,anchor_catalan,0.30318203568458557
+panellet,catalan_frame,2,monkey,anchor_anglo,0.2870749235153198
+panellet,catalan_frame,3,castellers,anchor_catalan,0.28664395213127136
+panellet,catalan_frame,4,goblin,anchor_anglo,0.2829631268978119
+panellet,catalan_frame,5,sword,anchor_anglo,0.2792326509952545
+panellet,catalan_frame,6,enxaneta,anchor_catalan,0.2743489742279053
+panellet,catalan_frame,7,festa major,anchor_catalan,0.27248114347457886
+panellet,catalan_frame,8,vigatans,anchor_catalan,0.27097287774086
+panellet,catalan_frame,9,Coca-Cola,anchor_noise,0.26974132657051086
+panellet,catalan_frame,10,knight,anchor_anglo,0.2663428485393524
+panellet,neutral_ca,1,pessebre,anchor_catalan,0.3741157054901123
+panellet,neutral_ca,2,Coca-Cola,anchor_noise,0.3546532988548279
+panellet,neutral_ca,3,soda,anchor_noise,0.35347306728363037
+panellet,neutral_ca,4,sword,anchor_anglo,0.3520899713039398
+panellet,neutral_ca,5,caffeine,anchor_noise,0.3419466018676758
+panellet,neutral_ca,6,monkey,anchor_anglo,0.3414173722267151
+panellet,neutral_ca,7,Cinderella,anchor_anglo,0.3362046480178833
+panellet,neutral_ca,8,goblin,anchor_anglo,0.33544203639030457
+panellet,neutral_ca,9,cobla,anchor_catalan,0.3346627652645111
+panellet,neutral_ca,10,coke,anchor_noise,0.33426037430763245
+estelada,bare,1,grallers,anchor_catalan,0.5381879806518555
+estelada,bare,2,pessebre,anchor_catalan,0.5369857549667358
+estelada,bare,3,enxaneta,anchor_catalan,0.5245819091796875
+estelada,bare,4,tavern,anchor_anglo,0.5124778151512146
+estelada,bare,5,fairy,anchor_anglo,0.5083377361297607
+estelada,bare,6,cobla,anchor_catalan,0.5067984461784363
+estelada,bare,7,diables,anchor_catalan,0.5057088732719421
+estelada,bare,8,cercavila,anchor_catalan,0.5054898262023926
+estelada,bare,9,vigatans,anchor_catalan,0.5021317005157471
+estelada,bare,10,coke,anchor_noise,0.5018219351768494
+estelada,anglo_en,1,pessebre,anchor_catalan,0.32793280482292175
+estelada,anglo_en,2,grallers,anchor_catalan,0.3258644938468933
+estelada,anglo_en,3,xeremia,anchor_catalan,0.3233400285243988
+estelada,anglo_en,4,enxaneta,anchor_catalan,0.31935352087020874
+estelada,anglo_en,5,diada,anchor_catalan,0.3110545575618744
+estelada,anglo_en,6,castellers,anchor_catalan,0.3099677264690399
+estelada,anglo_en,7,cobla,anchor_catalan,0.3068477213382721
+estelada,anglo_en,8,enchanted forest,anchor_anglo,0.3046405613422394
+estelada,anglo_en,9,vigatans,anchor_catalan,0.30414724349975586
+estelada,anglo_en,10,casteller,anchor_catalan,0.3026692271232605
+estelada,catalan_frame,1,enxaneta,anchor_catalan,0.3169088363647461
+estelada,catalan_frame,2,casteller,anchor_catalan,0.31517332792282104
+estelada,catalan_frame,3,castellers,anchor_catalan,0.3127928376197815
+estelada,catalan_frame,4,grallers,anchor_catalan,0.3126237392425537
+estelada,catalan_frame,5,sword,anchor_anglo,0.30364084243774414
+estelada,catalan_frame,6,festa major,anchor_catalan,0.29328492283821106
+estelada,catalan_frame,7,pessebre,anchor_catalan,0.293274462223053
+estelada,catalan_frame,8,diada,anchor_catalan,0.2838483452796936
+estelada,catalan_frame,9,beanstalk,anchor_anglo,0.28349384665489197
+estelada,catalan_frame,10,Cinderella,anchor_anglo,0.2822819948196411
+estelada,neutral_ca,1,enxaneta,anchor_catalan,0.34870004653930664
+estelada,neutral_ca,2,grallers,anchor_catalan,0.34808623790740967
+estelada,neutral_ca,3,diada,anchor_catalan,0.3426719307899475
+estelada,neutral_ca,4,pessebre,anchor_catalan,0.33309242129325867
+estelada,neutral_ca,5,Cinderella,anchor_anglo,0.3153936266899109
+estelada,neutral_ca,6,casteller,anchor_catalan,0.3145447373390198
+estelada,neutral_ca,7,castellers,anchor_catalan,0.31392326951026917
+estelada,neutral_ca,8,enchanted forest,anchor_anglo,0.3129997253417969
+estelada,neutral_ca,9,vigatans,anchor_catalan,0.31191325187683105
+estelada,neutral_ca,10,sword,anchor_anglo,0.29983556270599365
+trabucaire,bare,1,pessebre,anchor_catalan,0.5486230254173279
+trabucaire,bare,2,grallers,anchor_catalan,0.5426409840583801
+trabucaire,bare,3,tavern,anchor_anglo,0.533184826374054
+trabucaire,bare,4,fairy,anchor_anglo,0.5320828557014465
+trabucaire,bare,5,cobla,anchor_catalan,0.5311174392700195
+trabucaire,bare,6,cercavila,anchor_catalan,0.5309074521064758
+trabucaire,bare,7,monkey,anchor_anglo,0.5282176733016968
+trabucaire,bare,8,beverage,anchor_noise,0.5227254033088684
+trabucaire,bare,9,coke,anchor_noise,0.5174439549446106
+trabucaire,bare,10,sword,anchor_anglo,0.517188549041748
+trabucaire,anglo_en,1,pessebre,anchor_catalan,0.32846927642822266
+trabucaire,anglo_en,2,grallers,anchor_catalan,0.3225492537021637
+trabucaire,anglo_en,3,xeremia,anchor_catalan,0.3200777471065521
+trabucaire,anglo_en,4,cercavila,anchor_catalan,0.3134985566139221
+trabucaire,anglo_en,5,vigatans,anchor_catalan,0.31187403202056885
+trabucaire,anglo_en,6,tavern,anchor_anglo,0.3090963661670685
+trabucaire,anglo_en,7,cobla,anchor_catalan,0.3023349642753601
+trabucaire,anglo_en,8,beanstalk,anchor_anglo,0.30176016688346863
+trabucaire,anglo_en,9,fairy,anchor_anglo,0.29600176215171814
+trabucaire,anglo_en,10,sword,anchor_anglo,0.29306116700172424
+trabucaire,catalan_frame,1,grallers,anchor_catalan,0.3142145574092865
+trabucaire,catalan_frame,2,castellers,anchor_catalan,0.3119874894618988
+trabucaire,catalan_frame,3,casteller,anchor_catalan,0.30602213740348816
+trabucaire,catalan_frame,4,pessebre,anchor_catalan,0.30118751525878906
+trabucaire,catalan_frame,5,festa major,anchor_catalan,0.29513055086135864
+trabucaire,catalan_frame,6,cobla,anchor_catalan,0.2905566096305847
+trabucaire,catalan_frame,7,enxaneta,anchor_catalan,0.2889840006828308
+trabucaire,catalan_frame,8,beanstalk,anchor_anglo,0.28342005610466003
+trabucaire,catalan_frame,9,vigatans,anchor_catalan,0.280064195394516
+trabucaire,catalan_frame,10,sword,anchor_anglo,0.2754283845424652
+trabucaire,neutral_ca,1,grallers,anchor_catalan,0.3574492931365967
+trabucaire,neutral_ca,2,pessebre,anchor_catalan,0.3486698865890503
+trabucaire,neutral_ca,3,cobla,anchor_catalan,0.33130908012390137
+trabucaire,neutral_ca,4,xeremia,anchor_catalan,0.33035755157470703
+trabucaire,neutral_ca,5,cercavila,anchor_catalan,0.32724764943122864
+trabucaire,neutral_ca,6,castellers,anchor_catalan,0.32513707876205444
+trabucaire,neutral_ca,7,enxaneta,anchor_catalan,0.3233763575553894
+trabucaire,neutral_ca,8,vigatans,anchor_catalan,0.3224024474620819
+trabucaire,neutral_ca,9,festa major,anchor_catalan,0.31995463371276855
+trabucaire,neutral_ca,10,casteller,anchor_catalan,0.3188970386981964
+xató,bare,1,coke,anchor_noise,0.6423012018203735
+xató,bare,2,pessebre,anchor_catalan,0.6084219813346863
+xató,bare,3,monkey,anchor_anglo,0.582604169845581
+xató,bare,4,xeremia,anchor_catalan,0.5796393752098083
+xató,bare,5,Jack,anchor_anglo,0.5707445740699768
+xató,bare,6,sword,anchor_anglo,0.5676851272583008
+xató,bare,7,grallers,anchor_catalan,0.5662994980812073
+xató,bare,8,beverage,anchor_noise,0.5659794807434082
+xató,bare,9,tavern,anchor_anglo,0.5644010305404663
+xató,bare,10,fairy,anchor_anglo,0.5610315799713135
+xató,anglo_en,1,xeremia,anchor_catalan,0.3711567521095276
+xató,anglo_en,2,enxaneta,anchor_catalan,0.3219783306121826
+xató,anglo_en,3,pessebre,anchor_catalan,0.31711673736572266
+xató,anglo_en,4,knight,anchor_anglo,0.30823561549186707
+xató,anglo_en,5,coke,anchor_noise,0.30552423000335693
+xató,anglo_en,6,sword,anchor_anglo,0.2925589382648468
+xató,anglo_en,7,vigatans,anchor_catalan,0.2870679199695587
+xató,anglo_en,8,witch,anchor_anglo,0.28583237528800964
+xató,anglo_en,9,grallers,anchor_catalan,0.28417494893074036
+xató,anglo_en,10,diada,anchor_catalan,0.28227171301841736
+xató,catalan_frame,1,castellers,anchor_catalan,0.3413693904876709
+xató,catalan_frame,2,casteller,anchor_catalan,0.34049442410469055
+xató,catalan_frame,3,enxaneta,anchor_catalan,0.3259938955307007
+xató,catalan_frame,4,xeremia,anchor_catalan,0.3011023998260498
+xató,catalan_frame,5,festa major,anchor_catalan,0.29644373059272766
+xató,catalan_frame,6,Cinderella,anchor_anglo,0.2866508960723877
+xató,catalan_frame,7,pessebre,anchor_catalan,0.2813844084739685
+xató,catalan_frame,8,grallers,anchor_catalan,0.2802998721599579
+xató,catalan_frame,9,castle,anchor_anglo,0.2768600285053253
+xató,catalan_frame,10,witch,anchor_anglo,0.2743416726589203
+xató,neutral_ca,1,enxaneta,anchor_catalan,0.3669448494911194
+xató,neutral_ca,2,xeremia,anchor_catalan,0.36523252725601196
+xató,neutral_ca,3,pessebre,anchor_catalan,0.34045854210853577
+xató,neutral_ca,4,castellers,anchor_catalan,0.3209664821624756
+xató,neutral_ca,5,grallers,anchor_catalan,0.3198451101779938
+xató,neutral_ca,6,casteller,anchor_catalan,0.31954920291900635
+xató,neutral_ca,7,Patum,anchor_catalan,0.316864550113678
+xató,neutral_ca,8,festa major,anchor_catalan,0.3153860569000244
+xató,neutral_ca,9,Cinderella,anchor_anglo,0.3147129714488983
+xató,neutral_ca,10,cobla,anchor_catalan,0.3093387186527252
+esqueixada,bare,1,xeremia,anchor_catalan,0.4736778438091278
+esqueixada,bare,2,cercavila,anchor_catalan,0.4729117155075073
+esqueixada,bare,3,pessebre,anchor_catalan,0.4722505211830139
+esqueixada,bare,4,diables,anchor_catalan,0.4658248722553253
+esqueixada,bare,5,cobla,anchor_catalan,0.4644443392753601
+esqueixada,bare,6,plaça,anchor_catalan,0.4554861783981323
+esqueixada,bare,7,grallers,anchor_catalan,0.4552789330482483
+esqueixada,bare,8,enxaneta,anchor_catalan,0.4536920189857483
+esqueixada,bare,9,sword,anchor_anglo,0.4483044147491455
+esqueixada,bare,10,tavern,anchor_anglo,0.4370405077934265
+esqueixada,anglo_en,1,xeremia,anchor_catalan,0.32526108622550964
+esqueixada,anglo_en,2,enxaneta,anchor_catalan,0.31987613439559937
+esqueixada,anglo_en,3,pessebre,anchor_catalan,0.30722755193710327
+esqueixada,anglo_en,4,castellers,anchor_catalan,0.29400622844696045
+esqueixada,anglo_en,5,grallers,anchor_catalan,0.293895959854126
+esqueixada,anglo_en,6,cercavila,anchor_catalan,0.288244366645813
+esqueixada,anglo_en,7,cobla,anchor_catalan,0.28516268730163574
+esqueixada,anglo_en,8,colla,anchor_catalan,0.28293314576148987
+esqueixada,anglo_en,9,vigatans,anchor_catalan,0.28139635920524597
+esqueixada,anglo_en,10,festa major,anchor_catalan,0.275065541267395
+esqueixada,catalan_frame,1,enxaneta,anchor_catalan,0.30070459842681885
+esqueixada,catalan_frame,2,castellers,anchor_catalan,0.2848922908306122
+esqueixada,catalan_frame,3,grallers,anchor_catalan,0.2799440026283264
+esqueixada,catalan_frame,4,xeremia,anchor_catalan,0.27906110882759094
+esqueixada,catalan_frame,5,festa major,anchor_catalan,0.2774512469768524
+esqueixada,catalan_frame,6,sword,anchor_anglo,0.27233973145484924
+esqueixada,catalan_frame,7,cercavila,anchor_catalan,0.27066656947135925
+esqueixada,catalan_frame,8,casteller,anchor_catalan,0.2706446647644043
+esqueixada,catalan_frame,9,pessebre,anchor_catalan,0.26977840065956116
+esqueixada,catalan_frame,10,knight,anchor_anglo,0.26949542760849
+esqueixada,neutral_ca,1,enxaneta,anchor_catalan,0.3267386555671692
+esqueixada,neutral_ca,2,xeremia,anchor_catalan,0.32100528478622437
+esqueixada,neutral_ca,3,pessebre,anchor_catalan,0.3159462809562683
+esqueixada,neutral_ca,4,grallers,anchor_catalan,0.30400773882865906
+esqueixada,neutral_ca,5,castellers,anchor_catalan,0.30229002237319946
+esqueixada,neutral_ca,6,diables,anchor_catalan,0.29548129439353943
+esqueixada,neutral_ca,7,festa major,anchor_catalan,0.2928009629249573
+esqueixada,neutral_ca,8,cercavila,anchor_catalan,0.29015690088272095
+esqueixada,neutral_ca,9,diada,anchor_catalan,0.2866578996181488
+esqueixada,neutral_ca,10,sword,anchor_anglo,0.2845911979675293
+havaneres,bare,1,tavern,anchor_anglo,0.5498866438865662
+havaneres,bare,2,cobla,anchor_catalan,0.5400250554084778
+havaneres,bare,3,beverage,anchor_noise,0.5383301377296448
+havaneres,bare,4,vigatans,anchor_catalan,0.5211663246154785
+havaneres,bare,5,fairy,anchor_anglo,0.5199918746948242
+havaneres,bare,6,grallers,anchor_catalan,0.5059351325035095
+havaneres,bare,7,dungeon,anchor_anglo,0.5053184032440186
+havaneres,bare,8,sword,anchor_anglo,0.5042946934700012
+havaneres,bare,9,pessebre,anchor_catalan,0.5022433400154114
+havaneres,bare,10,diables,anchor_catalan,0.5021833777427673
+havaneres,anglo_en,1,vigatans,anchor_catalan,0.3188881278038025
+havaneres,anglo_en,2,tavern,anchor_anglo,0.29460608959198
+havaneres,anglo_en,3,festa major,anchor_catalan,0.29434117674827576
+havaneres,anglo_en,4,enchanted forest,anchor_anglo,0.2894977927207947
+havaneres,anglo_en,5,xeremia,anchor_catalan,0.28609901666641235
+havaneres,anglo_en,6,grallers,anchor_catalan,0.28492671251296997
+havaneres,anglo_en,7,cobla,anchor_catalan,0.2847802937030792
+havaneres,anglo_en,8,beanstalk,anchor_anglo,0.2839207053184509
+havaneres,anglo_en,9,castellers,anchor_catalan,0.2836122214794159
+havaneres,anglo_en,10,fairy,anchor_anglo,0.2786998450756073
+havaneres,catalan_frame,1,castellers,anchor_catalan,0.2949136793613434
+havaneres,catalan_frame,2,enxaneta,anchor_catalan,0.272766649723053
+havaneres,catalan_frame,3,cobla,anchor_catalan,0.2649889290332794
+havaneres,catalan_frame,4,casteller,anchor_catalan,0.26344144344329834
+havaneres,catalan_frame,5,grallers,anchor_catalan,0.2581813335418701
+havaneres,catalan_frame,6,vigatans,anchor_catalan,0.2439146786928177
+havaneres,catalan_frame,7,festa major,anchor_catalan,0.2366166114807129
+havaneres,catalan_frame,8,beanstalk,anchor_anglo,0.22384615242481232
+havaneres,catalan_frame,9,diada,anchor_catalan,0.21828468143939972
+havaneres,catalan_frame,10,pessebre,anchor_catalan,0.2162037491798401
+havaneres,neutral_ca,1,cobla,anchor_catalan,0.3354859948158264
+havaneres,neutral_ca,2,vigatans,anchor_catalan,0.3280183970928192
+havaneres,neutral_ca,3,castellers,anchor_catalan,0.325383722782135
+havaneres,neutral_ca,4,grallers,anchor_catalan,0.32338815927505493
+havaneres,neutral_ca,5,festa major,anchor_catalan,0.311773419380188
+havaneres,neutral_ca,6,tavern,anchor_anglo,0.30519235134124756
+havaneres,neutral_ca,7,enxaneta,anchor_catalan,0.3047705292701721
+havaneres,neutral_ca,8,casteller,anchor_catalan,0.30130013823509216
+havaneres,neutral_ca,9,enchanted forest,anchor_anglo,0.2971608340740204
+havaneres,neutral_ca,10,pessebre,anchor_catalan,0.29566141963005066
+cercavila,bare,1,coke,anchor_noise,0.5727313756942749
+cercavila,bare,2,brand,anchor_noise,0.5693477392196655
+cercavila,bare,3,cobla,anchor_catalan,0.5670123100280762
+cercavila,bare,4,xeremia,anchor_catalan,0.5646265149116516
+cercavila,bare,5,plaça,anchor_catalan,0.5623295903205872
+cercavila,bare,6,ajuntament,anchor_catalan,0.5613014698028564
+cercavila,bare,7,troll,anchor_anglo,0.5592009425163269
+cercavila,bare,8,sword,anchor_anglo,0.558696448802948
+cercavila,bare,9,tavern,anchor_anglo,0.557462751865387
+cercavila,bare,10,dragon,anchor_anglo,0.5521196722984314
+cercavila,anglo_en,1,xeremia,anchor_catalan,0.35579586029052734
+cercavila,anglo_en,2,goblin,anchor_anglo,0.32022830843925476
+cercavila,anglo_en,3,dungeon,anchor_anglo,0.30306851863861084
+cercavila,anglo_en,4,Coca-Cola,anchor_noise,0.29950380325317383
+cercavila,anglo_en,5,Cinderella,anchor_anglo,0.2961362302303314
+cercavila,anglo_en,6,colla,anchor_catalan,0.294647753238678
+cercavila,anglo_en,7,sword,anchor_anglo,0.2938564419746399
+cercavila,anglo_en,8,cocaine,anchor_noise,0.29037225246429443
+cercavila,anglo_en,9,festa major,anchor_catalan,0.2903189957141876
+cercavila,anglo_en,10,cobla,anchor_catalan,0.2892269492149353
+cercavila,catalan_frame,1,festa major,anchor_catalan,0.352448970079422
+cercavila,catalan_frame,2,castellers,anchor_catalan,0.32443562150001526
+cercavila,catalan_frame,3,casteller,anchor_catalan,0.29226940870285034
+cercavila,catalan_frame,4,enxaneta,anchor_catalan,0.2818617820739746
+cercavila,catalan_frame,5,sword,anchor_anglo,0.2794405519962311
+cercavila,catalan_frame,6,xeremia,anchor_catalan,0.2773361802101135
+cercavila,catalan_frame,7,Coca-Cola,anchor_noise,0.27732405066490173
+cercavila,catalan_frame,8,castle,anchor_anglo,0.2721787095069885
+cercavila,catalan_frame,9,Cinderella,anchor_anglo,0.2707216441631317
+cercavila,catalan_frame,10,pessebre,anchor_catalan,0.2672386169433594
+cercavila,neutral_ca,1,festa major,anchor_catalan,0.3696129322052002
+cercavila,neutral_ca,2,xeremia,anchor_catalan,0.36882513761520386
+cercavila,neutral_ca,3,Coca-Cola,anchor_noise,0.36166509985923767
+cercavila,neutral_ca,4,goblin,anchor_anglo,0.3588390648365021
+cercavila,neutral_ca,5,sword,anchor_anglo,0.3553452491760254
+cercavila,neutral_ca,6,Cinderella,anchor_anglo,0.35295045375823975
+cercavila,neutral_ca,7,pessebre,anchor_catalan,0.3463449478149414
+cercavila,neutral_ca,8,enxaneta,anchor_catalan,0.34249818325042725
+cercavila,neutral_ca,9,cobla,anchor_catalan,0.3420296907424927
+cercavila,neutral_ca,10,dungeon,anchor_anglo,0.3409651219844818
+enxaneta,bare,1,enchanted forest,anchor_anglo,0.5905648469924927
+enxaneta,bare,2,pessebre,anchor_catalan,0.517952561378479
+enxaneta,bare,3,beanstalk,anchor_anglo,0.5095782279968262
+enxaneta,bare,4,grallers,anchor_catalan,0.5033400654792786
+enxaneta,bare,5,castellers,anchor_catalan,0.5013986825942993
+enxaneta,bare,6,casteller,anchor_catalan,0.48867684602737427
+enxaneta,bare,7,diables,anchor_catalan,0.48472845554351807
+enxaneta,bare,8,cercavila,anchor_catalan,0.4807160496711731
+enxaneta,bare,9,cobla,anchor_catalan,0.4758652150630951
+enxaneta,bare,10,coke,anchor_noise,0.47100207209587097
+enxaneta,anglo_en,1,enchanted forest,anchor_anglo,0.3902069926261902
+enxaneta,anglo_en,2,castellers,anchor_catalan,0.3297939896583557
+enxaneta,anglo_en,3,xeremia,anchor_catalan,0.3254968225955963
+enxaneta,anglo_en,4,beanstalk,anchor_anglo,0.3197427988052368
+enxaneta,anglo_en,5,casteller,anchor_catalan,0.3072148859500885
+enxaneta,anglo_en,6,pessebre,anchor_catalan,0.302686482667923
+enxaneta,anglo_en,7,cercavila,anchor_catalan,0.3018127679824829
+enxaneta,anglo_en,8,knight,anchor_anglo,0.2966808080673218
+enxaneta,anglo_en,9,grallers,anchor_catalan,0.2931165397167206
+enxaneta,anglo_en,10,Cinderella,anchor_anglo,0.2872757315635681
+enxaneta,catalan_frame,1,castellers,anchor_catalan,0.39719897508621216
+enxaneta,catalan_frame,2,casteller,anchor_catalan,0.37201064825057983
+enxaneta,catalan_frame,3,enchanted forest,anchor_anglo,0.3441446125507355
+enxaneta,catalan_frame,4,festa major,anchor_catalan,0.3005606532096863
+enxaneta,catalan_frame,5,beanstalk,anchor_anglo,0.28977230191230774
+enxaneta,catalan_frame,6,Cinderella,anchor_anglo,0.28111493587493896
+enxaneta,catalan_frame,7,grallers,anchor_catalan,0.2758961319923401
+enxaneta,catalan_frame,8,pessebre,anchor_catalan,0.2734200656414032
+enxaneta,catalan_frame,9,cercavila,anchor_catalan,0.26534906029701233
+enxaneta,catalan_frame,10,xeremia,anchor_catalan,0.26503199338912964
+enxaneta,neutral_ca,1,castellers,anchor_catalan,0.3971596360206604
+enxaneta,neutral_ca,2,enchanted forest,anchor_anglo,0.3807696998119354
+enxaneta,neutral_ca,3,casteller,anchor_catalan,0.37543728947639465
+enxaneta,neutral_ca,4,grallers,anchor_catalan,0.32046976685523987
+enxaneta,neutral_ca,5,beanstalk,anchor_anglo,0.32041478157043457
+enxaneta,neutral_ca,6,pessebre,anchor_catalan,0.316872239112854
+enxaneta,neutral_ca,7,Cinderella,anchor_anglo,0.3102255165576935
+enxaneta,neutral_ca,8,xeremia,anchor_catalan,0.30531376600265503
+enxaneta,neutral_ca,9,diada,anchor_catalan,0.29764658212661743
+enxaneta,neutral_ca,10,cercavila,anchor_catalan,0.29736846685409546
+pa amb tomàquet,bare,1,pessebre,anchor_catalan,0.49224942922592163
+pa amb tomàquet,bare,2,vigatans,anchor_catalan,0.4747045338153839
+pa amb tomàquet,bare,3,cobla,anchor_catalan,0.47459352016448975
+pa amb tomàquet,bare,4,grallers,anchor_catalan,0.4644932746887207
+pa amb tomàquet,bare,5,Patum,anchor_catalan,0.46223950386047363
+pa amb tomàquet,bare,6,monkey,anchor_anglo,0.4575241804122925
+pa amb tomàquet,bare,7,diables,anchor_catalan,0.4568895399570465
+pa amb tomàquet,bare,8,beanstalk,anchor_anglo,0.44810786843299866
+pa amb tomàquet,bare,9,coke,anchor_noise,0.44670921564102173
+pa amb tomàquet,bare,10,tavern,anchor_anglo,0.4455428123474121
+pa amb tomàquet,anglo_en,1,pessebre,anchor_catalan,0.3345550298690796
+pa amb tomàquet,anglo_en,2,vigatans,anchor_catalan,0.3282468914985657
+pa amb tomàquet,anglo_en,3,beanstalk,anchor_anglo,0.3237590193748474
+pa amb tomàquet,anglo_en,4,enxaneta,anchor_catalan,0.31437796354293823
+pa amb tomàquet,anglo_en,5,festa major,anchor_catalan,0.31409770250320435
+pa amb tomàquet,anglo_en,6,cobla,anchor_catalan,0.31140485405921936
+pa amb tomàquet,anglo_en,7,Patum,anchor_catalan,0.3049032390117645
+pa amb tomàquet,anglo_en,8,caffeine,anchor_noise,0.3023923933506012
+pa amb tomàquet,anglo_en,9,grallers,anchor_catalan,0.29801782965660095
+pa amb tomàquet,anglo_en,10,Coca-Cola,anchor_noise,0.291614830493927
+pa amb tomàquet,catalan_frame,1,Coca-Cola,anchor_noise,0.32833677530288696
+pa amb tomàquet,catalan_frame,2,pessebre,anchor_catalan,0.31195005774497986
+pa amb tomàquet,catalan_frame,3,caffeine,anchor_noise,0.3118226230144501
+pa amb tomàquet,catalan_frame,4,beanstalk,anchor_anglo,0.3088178038597107
+pa amb tomàquet,catalan_frame,5,festa major,anchor_catalan,0.3054080009460449
+pa amb tomàquet,catalan_frame,6,Patum,anchor_catalan,0.2906334698200226
+pa amb tomàquet,catalan_frame,7,sword,anchor_anglo,0.2862219214439392
+pa amb tomàquet,catalan_frame,8,monkey,anchor_anglo,0.2849256992340088
+pa amb tomàquet,catalan_frame,9,peasant,anchor_anglo,0.2836710810661316
+pa amb tomàquet,catalan_frame,10,enxaneta,anchor_catalan,0.28176796436309814
+pa amb tomàquet,neutral_ca,1,pessebre,anchor_catalan,0.34256377816200256
+pa amb tomàquet,neutral_ca,2,beanstalk,anchor_anglo,0.3295747935771942
+pa amb tomàquet,neutral_ca,3,vigatans,anchor_catalan,0.32549357414245605
+pa amb tomàquet,neutral_ca,4,enxaneta,anchor_catalan,0.3220464289188385
+pa amb tomàquet,neutral_ca,5,Coca-Cola,anchor_noise,0.3206496834754944
+pa amb tomàquet,neutral_ca,6,festa major,anchor_catalan,0.3158957362174988
+pa amb tomàquet,neutral_ca,7,Patum,anchor_catalan,0.3088918626308441
+pa amb tomàquet,neutral_ca,8,cobla,anchor_catalan,0.30635133385658264
+pa amb tomàquet,neutral_ca,9,grallers,anchor_catalan,0.305376261472702
+pa amb tomàquet,neutral_ca,10,diables,anchor_catalan,0.30483368039131165
+samfaina,bare,1,cobla,anchor_catalan,0.5620622634887695
+samfaina,bare,2,pessebre,anchor_catalan,0.5398836135864258
+samfaina,bare,3,sword,anchor_anglo,0.5397319793701172
+samfaina,bare,4,diables,anchor_catalan,0.5353694558143616
+samfaina,bare,5,fairy,anchor_anglo,0.5343126058578491
+samfaina,bare,6,beanstalk,anchor_anglo,0.5297056436538696
+samfaina,bare,7,beverage,anchor_noise,0.5163463354110718
+samfaina,bare,8,monkey,anchor_anglo,0.5153455138206482
+samfaina,bare,9,cercavila,anchor_catalan,0.5132208466529846
+samfaina,bare,10,tavern,anchor_anglo,0.5089139342308044
+samfaina,anglo_en,1,caffeine,anchor_noise,0.3218859136104584
+samfaina,anglo_en,2,cobla,anchor_catalan,0.31699448823928833
+samfaina,anglo_en,3,sword,anchor_anglo,0.31344112753868103
+samfaina,anglo_en,4,beanstalk,anchor_anglo,0.313271701335907
+samfaina,anglo_en,5,pessebre,anchor_catalan,0.31296059489250183
+samfaina,anglo_en,6,goblin,anchor_anglo,0.29688507318496704
+samfaina,anglo_en,7,vigatans,anchor_catalan,0.29614388942718506
+samfaina,anglo_en,8,fairy,anchor_anglo,0.2945394814014435
+samfaina,anglo_en,9,xeremia,anchor_catalan,0.29075226187705994
+samfaina,anglo_en,10,Cinderella,anchor_anglo,0.2904374897480011
+samfaina,catalan_frame,1,cobla,anchor_catalan,0.31683996319770813
+samfaina,catalan_frame,2,caffeine,anchor_noise,0.30682167410850525
+samfaina,catalan_frame,3,beanstalk,anchor_anglo,0.30347365140914917
+samfaina,catalan_frame,4,festa major,anchor_catalan,0.3029490113258362
+samfaina,catalan_frame,5,pessebre,anchor_catalan,0.2980012893676758
+samfaina,catalan_frame,6,sword,anchor_anglo,0.2882682979106903
+samfaina,catalan_frame,7,diables,anchor_catalan,0.2866198420524597
+samfaina,catalan_frame,8,enxaneta,anchor_catalan,0.28624629974365234
+samfaina,catalan_frame,9,diada,anchor_catalan,0.27943381667137146
+samfaina,catalan_frame,10,vigatans,anchor_catalan,0.2783339321613312
+samfaina,neutral_ca,1,cobla,anchor_catalan,0.3673363924026489
+samfaina,neutral_ca,2,pessebre,anchor_catalan,0.3493538498878479
+samfaina,neutral_ca,3,sword,anchor_anglo,0.34404027462005615
+samfaina,neutral_ca,4,diables,anchor_catalan,0.3373428285121918
+samfaina,neutral_ca,5,beanstalk,anchor_anglo,0.33451467752456665
+samfaina,neutral_ca,6,caffeine,anchor_noise,0.33336690068244934
+samfaina,neutral_ca,7,diada,anchor_catalan,0.3328129053115845
+samfaina,neutral_ca,8,festa major,anchor_catalan,0.328921914100647
+samfaina,neutral_ca,9,vigatans,anchor_catalan,0.32889866828918457
+samfaina,neutral_ca,10,Cinderella,anchor_anglo,0.3189167380332947
+rabassa morta,bare,1,cercavila,anchor_catalan,0.5766087770462036
+rabassa morta,bare,2,pessebre,anchor_catalan,0.5694945454597473
+rabassa morta,bare,3,fairy,anchor_anglo,0.5685170292854309
+rabassa morta,bare,4,monkey,anchor_anglo,0.5655494332313538
+rabassa morta,bare,5,tavern,anchor_anglo,0.5623523592948914
+rabassa morta,bare,6,cobla,anchor_catalan,0.5617986917495728
+rabassa morta,bare,7,sword,anchor_anglo,0.5585777759552002
+rabassa morta,bare,8,goblin,anchor_anglo,0.5510830283164978
+rabassa morta,bare,9,coke,anchor_noise,0.5491604208946228
+rabassa morta,bare,10,dragon,anchor_anglo,0.5488272309303284
+rabassa morta,anglo_en,1,xeremia,anchor_catalan,0.3308471739292145
+rabassa morta,anglo_en,2,goblin,anchor_anglo,0.3267054557800293
+rabassa morta,anglo_en,3,festa major,anchor_catalan,0.32292282581329346
+rabassa morta,anglo_en,4,cobla,anchor_catalan,0.31942039728164673
+rabassa morta,anglo_en,5,pessebre,anchor_catalan,0.3166951835155487
+rabassa morta,anglo_en,6,colla,anchor_catalan,0.31244993209838867
+rabassa morta,anglo_en,7,soda,anchor_noise,0.3116546869277954
+rabassa morta,anglo_en,8,peasant,anchor_anglo,0.3106593191623688
+rabassa morta,anglo_en,9,Coca-Cola,anchor_noise,0.3090365529060364
+rabassa morta,anglo_en,10,sword,anchor_anglo,0.3083246648311615
+rabassa morta,catalan_frame,1,festa major,anchor_catalan,0.32073408365249634
+rabassa morta,catalan_frame,2,peasant,anchor_anglo,0.3152240514755249
+rabassa morta,catalan_frame,3,goblin,anchor_anglo,0.31081095337867737
+rabassa morta,catalan_frame,4,vigatans,anchor_catalan,0.30584174394607544
+rabassa morta,catalan_frame,5,enxaneta,anchor_catalan,0.2994054853916168
+rabassa morta,catalan_frame,6,sword,anchor_anglo,0.2973169684410095
+rabassa morta,catalan_frame,7,cobla,anchor_catalan,0.2966795265674591
+rabassa morta,catalan_frame,8,pessebre,anchor_catalan,0.29604896903038025
+rabassa morta,catalan_frame,9,dungeon,anchor_anglo,0.29244616627693176
+rabassa morta,catalan_frame,10,Coca-Cola,anchor_noise,0.29165124893188477
+rabassa morta,neutral_ca,1,festa major,anchor_catalan,0.3681158721446991
+rabassa morta,neutral_ca,2,grallers,anchor_catalan,0.3592330813407898
+rabassa morta,neutral_ca,3,pessebre,anchor_catalan,0.35231712460517883
+rabassa morta,neutral_ca,4,cobla,anchor_catalan,0.3481259047985077
+rabassa morta,neutral_ca,5,goblin,anchor_anglo,0.34793907403945923
+rabassa morta,neutral_ca,6,xeremia,anchor_catalan,0.34582918882369995
+rabassa morta,neutral_ca,7,enxaneta,anchor_catalan,0.3447040915489197
+rabassa morta,neutral_ca,8,cercavila,anchor_catalan,0.3434760570526123
+rabassa morta,neutral_ca,9,vigatans,anchor_catalan,0.34087228775024414
+rabassa morta,neutral_ca,10,diada,anchor_catalan,0.3366601765155792
+masia,bare,1,tavern,anchor_anglo,0.6163090467453003
+masia,bare,2,pessebre,anchor_catalan,0.6083793044090271
+masia,bare,3,monkey,anchor_anglo,0.6044598817825317
+masia,bare,4,fairy,anchor_anglo,0.6021192073822021
+masia,bare,5,diables,anchor_catalan,0.5982248187065125
+masia,bare,6,coke,anchor_noise,0.5977513790130615
+masia,bare,7,grallers,anchor_catalan,0.5922887921333313
+masia,bare,8,brand,anchor_noise,0.5884048938751221
+masia,bare,9,beverage,anchor_noise,0.5879881381988525
+masia,bare,10,cobla,anchor_catalan,0.5773258805274963
+masia,anglo_en,1,peasant,anchor_anglo,0.31241029500961304
+masia,anglo_en,2,festa major,anchor_catalan,0.30457764863967896
+masia,anglo_en,3,sword,anchor_anglo,0.3025907576084137
+masia,anglo_en,4,knight,anchor_anglo,0.3018300533294678
+masia,anglo_en,5,pessebre,anchor_catalan,0.2985880672931671
+masia,anglo_en,6,xeremia,anchor_catalan,0.2969070374965668
+masia,anglo_en,7,caffeine,anchor_noise,0.29670801758766174
+masia,anglo_en,8,tavern,anchor_anglo,0.29597076773643494
+masia,anglo_en,9,castle,anchor_anglo,0.29180067777633667
+masia,anglo_en,10,monkey,anchor_anglo,0.2895549535751343
+masia,catalan_frame,1,castellers,anchor_catalan,0.31663236021995544
+masia,catalan_frame,2,peasant,anchor_anglo,0.31501442193984985
+masia,catalan_frame,3,castle,anchor_anglo,0.31338557600975037
+masia,catalan_frame,4,festa major,anchor_catalan,0.3090452253818512
+masia,catalan_frame,5,casteller,anchor_catalan,0.30160894989967346
+masia,catalan_frame,6,tavern,anchor_anglo,0.29142799973487854
+masia,catalan_frame,7,poble,anchor_catalan,0.27872878313064575
+masia,catalan_frame,8,dungeon,anchor_anglo,0.2761611342430115
+masia,catalan_frame,9,knight,anchor_anglo,0.26343074440956116
+masia,catalan_frame,10,grallers,anchor_catalan,0.262224942445755
+masia,neutral_ca,1,festa major,anchor_catalan,0.3345804214477539
+masia,neutral_ca,2,tavern,anchor_anglo,0.32618266344070435
+masia,neutral_ca,3,pessebre,anchor_catalan,0.32057633996009827
+masia,neutral_ca,4,castle,anchor_anglo,0.31212499737739563
+masia,neutral_ca,5,diables,anchor_catalan,0.3062096834182739
+masia,neutral_ca,6,diada,anchor_catalan,0.302449107170105
+masia,neutral_ca,7,grallers,anchor_catalan,0.2979688346385956
+masia,neutral_ca,8,enchanted forest,anchor_anglo,0.2961080074310303
+masia,neutral_ca,9,castellers,anchor_catalan,0.2955615222454071
+masia,neutral_ca,10,dungeon,anchor_anglo,0.29279202222824097
+barretina,bare,1,tavern,anchor_anglo,0.5878175497055054
+barretina,bare,2,pessebre,anchor_catalan,0.578987717628479
+barretina,bare,3,beverage,anchor_noise,0.5785313844680786
+barretina,bare,4,grallers,anchor_catalan,0.5750306844711304
+barretina,bare,5,cobla,anchor_catalan,0.566689133644104
+barretina,bare,6,monkey,anchor_anglo,0.5659741163253784
+barretina,bare,7,sword,anchor_anglo,0.5575586557388306
+barretina,bare,8,coke,anchor_noise,0.5514189004898071
+barretina,bare,9,diables,anchor_catalan,0.5483132600784302
+barretina,bare,10,knight,anchor_anglo,0.544456958770752
+barretina,anglo_en,1,tavern,anchor_anglo,0.3561967611312866
+barretina,anglo_en,2,grallers,anchor_catalan,0.3091271221637726
+barretina,anglo_en,3,pessebre,anchor_catalan,0.30426812171936035
+barretina,anglo_en,4,caffeine,anchor_noise,0.2989748418331146
+barretina,anglo_en,5,beverage,anchor_noise,0.29709187150001526
+barretina,anglo_en,6,cobla,anchor_catalan,0.2964599132537842
+barretina,anglo_en,7,sword,anchor_anglo,0.29600080847740173
+barretina,anglo_en,8,knight,anchor_anglo,0.29584187269210815
+barretina,anglo_en,9,festa major,anchor_catalan,0.29258349537849426
+barretina,anglo_en,10,xeremia,anchor_catalan,0.29010000824928284
+barretina,catalan_frame,1,festa major,anchor_catalan,0.3128746449947357
+barretina,catalan_frame,2,casteller,anchor_catalan,0.290240615606308
+barretina,catalan_frame,3,enxaneta,anchor_catalan,0.28687500953674316
+barretina,catalan_frame,4,tavern,anchor_anglo,0.28680419921875
+barretina,catalan_frame,5,castellers,anchor_catalan,0.28455686569213867
+barretina,catalan_frame,6,grallers,anchor_catalan,0.28406402468681335
+barretina,catalan_frame,7,beanstalk,anchor_anglo,0.27981123328208923
+barretina,catalan_frame,8,pessebre,anchor_catalan,0.27902960777282715
+barretina,catalan_frame,9,sword,anchor_anglo,0.27791649103164673
+barretina,catalan_frame,10,beverage,anchor_noise,0.2769065499305725
+barretina,neutral_ca,1,tavern,anchor_anglo,0.3755417466163635
+barretina,neutral_ca,2,festa major,anchor_catalan,0.35347846150398254
+barretina,neutral_ca,3,grallers,anchor_catalan,0.34597596526145935
+barretina,neutral_ca,4,pessebre,anchor_catalan,0.34003135561943054
+barretina,neutral_ca,5,enxaneta,anchor_catalan,0.33564090728759766
+barretina,neutral_ca,6,cobla,anchor_catalan,0.3266507387161255
+barretina,neutral_ca,7,casteller,anchor_catalan,0.3229164779186249
+barretina,neutral_ca,8,caffeine,anchor_noise,0.3225031793117523
+barretina,neutral_ca,9,enchanted forest,anchor_anglo,0.32165563106536865
+barretina,neutral_ca,10,castellers,anchor_catalan,0.3189559876918793
+Patum,bare,1,Jack,anchor_anglo,0.6458439230918884
+Patum,bare,2,Cinderella,anchor_anglo,0.5850081443786621
+Patum,bare,3,Barcelona,anchor_catalan,0.5808224081993103
+Patum,bare,4,pessebre,anchor_catalan,0.5645951628684998
+Patum,bare,5,coke,anchor_noise,0.5577679872512817
+Patum,bare,6,Coca-Cola,anchor_noise,0.5508409142494202
+Patum,bare,7,Mercè,anchor_catalan,0.543036699295044
+Patum,bare,8,grallers,anchor_catalan,0.5299966335296631
+Patum,bare,9,monkey,anchor_anglo,0.5184040069580078
+Patum,bare,10,fairy,anchor_anglo,0.5065875053405762
+Patum,anglo_en,1,festa major,anchor_catalan,0.3104787766933441
+Patum,anglo_en,2,pessebre,anchor_catalan,0.30495506525039673
+Patum,anglo_en,3,Cinderella,anchor_anglo,0.2935084402561188
+Patum,anglo_en,4,Coca-Cola,anchor_noise,0.29259634017944336
+Patum,anglo_en,5,goblin,anchor_anglo,0.28793781995773315
+Patum,anglo_en,6,monkey,anchor_anglo,0.28647518157958984
+Patum,anglo_en,7,vigatans,anchor_catalan,0.28615063428878784
+Patum,anglo_en,8,knight,anchor_anglo,0.27392345666885376
+Patum,anglo_en,9,caffeine,anchor_noise,0.2733933627605438
+Patum,anglo_en,10,sword,anchor_anglo,0.2726094424724579
+Patum,catalan_frame,1,festa major,anchor_catalan,0.3619260787963867
+Patum,catalan_frame,2,castellers,anchor_catalan,0.3134320080280304
+Patum,catalan_frame,3,casteller,anchor_catalan,0.30425891280174255
+Patum,catalan_frame,4,pessebre,anchor_catalan,0.2932986319065094
+Patum,catalan_frame,5,Cinderella,anchor_anglo,0.28569042682647705
+Patum,catalan_frame,6,enxaneta,anchor_catalan,0.28227928280830383
+Patum,catalan_frame,7,vigatans,anchor_catalan,0.27428963780403137
+Patum,catalan_frame,8,Coca-Cola,anchor_noise,0.27350080013275146
+Patum,catalan_frame,9,goblin,anchor_anglo,0.2719948887825012
+Patum,catalan_frame,10,monkey,anchor_anglo,0.267835408449173
+Patum,neutral_ca,1,festa major,anchor_catalan,0.3839411735534668
+Patum,neutral_ca,2,pessebre,anchor_catalan,0.33854353427886963
+Patum,neutral_ca,3,Cinderella,anchor_anglo,0.32474833726882935
+Patum,neutral_ca,4,Coca-Cola,anchor_noise,0.31742191314697266
+Patum,neutral_ca,5,monkey,anchor_anglo,0.3060426115989685
+Patum,neutral_ca,6,caffeine,anchor_noise,0.30374205112457275
+Patum,neutral_ca,7,cercavila,anchor_catalan,0.3033829927444458
+Patum,neutral_ca,8,goblin,anchor_anglo,0.2998506426811218
+Patum,neutral_ca,9,sword,anchor_anglo,0.2990376353263855
+Patum,neutral_ca,10,vigatans,anchor_catalan,0.2969873249530792
+Montserrat,bare,1,Mercè,anchor_catalan,0.6220163106918335
+Montserrat,bare,2,Barcelona,anchor_catalan,0.6200596690177917
+Montserrat,bare,3,Jack,anchor_anglo,0.5923508405685425
+Montserrat,bare,4,monkey,anchor_anglo,0.553983211517334
+Montserrat,bare,5,Patum,anchor_catalan,0.545376718044281
+Montserrat,bare,6,Nadal,anchor_catalan,0.536737859249115
+Montserrat,bare,7,Cinderella,anchor_anglo,0.5315843224525452
+Montserrat,bare,8,dragon,anchor_anglo,0.5203925371170044
+Montserrat,bare,9,folklore,anchor_catalan,0.5191482305526733
+Montserrat,bare,10,princess,anchor_anglo,0.5189255475997925
+Montserrat,anglo_en,1,Mercè,anchor_catalan,0.3408606946468353
+Montserrat,anglo_en,2,Barcelona,anchor_catalan,0.29974064230918884
+Montserrat,anglo_en,3,monkey,anchor_anglo,0.29442423582077026
+Montserrat,anglo_en,4,Cinderella,anchor_anglo,0.2885051965713501
+Montserrat,anglo_en,5,Coca-Cola,anchor_noise,0.2833668887615204
+Montserrat,anglo_en,6,sword,anchor_anglo,0.28013861179351807
+Montserrat,anglo_en,7,folklore,anchor_catalan,0.2774035334587097
+Montserrat,anglo_en,8,knight,anchor_anglo,0.27677324414253235
+Montserrat,anglo_en,9,dungeon,anchor_anglo,0.27672243118286133
+Montserrat,anglo_en,10,soda,anchor_noise,0.27664893865585327
+Montserrat,catalan_frame,1,Mercè,anchor_catalan,0.34751757979393005
+Montserrat,catalan_frame,2,festa major,anchor_catalan,0.2967049181461334
+Montserrat,catalan_frame,3,Barcelona,anchor_catalan,0.28577008843421936
+Montserrat,catalan_frame,4,monkey,anchor_anglo,0.27846020460128784
+Montserrat,catalan_frame,5,castellers,anchor_catalan,0.270582377910614
+Montserrat,catalan_frame,6,Nadal,anchor_catalan,0.25950562953948975
+Montserrat,catalan_frame,7,sword,anchor_anglo,0.25692981481552124
+Montserrat,catalan_frame,8,dungeon,anchor_anglo,0.2556189298629761
+Montserrat,catalan_frame,9,Cinderella,anchor_anglo,0.2556132376194
+Montserrat,catalan_frame,10,Coca-Cola,anchor_noise,0.2549475133419037
+Montserrat,neutral_ca,1,Mercè,anchor_catalan,0.36613956093788147
+Montserrat,neutral_ca,2,Barcelona,anchor_catalan,0.33915406465530396
+Montserrat,neutral_ca,3,festa major,anchor_catalan,0.32387739419937134
+Montserrat,neutral_ca,4,monkey,anchor_anglo,0.3180769085884094
+Montserrat,neutral_ca,5,Cinderella,anchor_anglo,0.31240707635879517
+Montserrat,neutral_ca,6,Coca-Cola,anchor_noise,0.30689096450805664
+Montserrat,neutral_ca,7,sword,anchor_anglo,0.302595317363739
+Montserrat,neutral_ca,8,folklore,anchor_catalan,0.30143463611602783
+Montserrat,neutral_ca,9,dungeon,anchor_anglo,0.2996213734149933
+Montserrat,neutral_ca,10,knight,anchor_anglo,0.2993021309375763
+tió,bare,1,monkey,anchor_anglo,0.5337472558021545
+tió,bare,2,pessebre,anchor_catalan,0.5324786305427551
+tió,bare,3,fairy,anchor_anglo,0.5323144793510437
+tió,bare,4,diables,anchor_catalan,0.5284355282783508
+tió,bare,5,coke,anchor_noise,0.5276954174041748
+tió,bare,6,cobla,anchor_catalan,0.5254471302032471
+tió,bare,7,beverage,anchor_noise,0.5247079730033875
+tió,bare,8,sword,anchor_anglo,0.5235239863395691
+tió,bare,9,tavern,anchor_anglo,0.5222017765045166
+tió,bare,10,knight,anchor_anglo,0.516749382019043
+tió,anglo_en,1,diada,anchor_catalan,0.2909999191761017
+tió,anglo_en,2,pessebre,anchor_catalan,0.2868761122226715
+tió,anglo_en,3,witch,anchor_anglo,0.2717820405960083
+tió,anglo_en,4,enxaneta,anchor_catalan,0.26724690198898315
+tió,anglo_en,5,Cinderella,anchor_anglo,0.2658558487892151
+tió,anglo_en,6,festa major,anchor_catalan,0.26276466250419617
+tió,anglo_en,7,beanstalk,anchor_anglo,0.2622672915458679
+tió,anglo_en,8,fairy,anchor_anglo,0.26063981652259827
+tió,anglo_en,9,Patum,anchor_catalan,0.2595275342464447
+tió,anglo_en,10,xeremia,anchor_catalan,0.2567376494407654
+tió,catalan_frame,1,diada,anchor_catalan,0.25848615169525146
+tió,catalan_frame,2,pessebre,anchor_catalan,0.2526518404483795
+tió,catalan_frame,3,castellers,anchor_catalan,0.25163933634757996
+tió,catalan_frame,4,enxaneta,anchor_catalan,0.2500983476638794
+tió,catalan_frame,5,casteller,anchor_catalan,0.24970018863677979
+tió,catalan_frame,6,festa major,anchor_catalan,0.24938109517097473
+tió,catalan_frame,7,grallers,anchor_catalan,0.24032488465309143
+tió,catalan_frame,8,vigatans,anchor_catalan,0.23399069905281067
+tió,catalan_frame,9,beanstalk,anchor_anglo,0.23157291114330292
+tió,catalan_frame,10,witch,anchor_anglo,0.23026245832443237
+tió,neutral_ca,1,diada,anchor_catalan,0.31021031737327576
+tió,neutral_ca,2,pessebre,anchor_catalan,0.3020617365837097
+tió,neutral_ca,3,enxaneta,anchor_catalan,0.2953017055988312
+tió,neutral_ca,4,witch,anchor_anglo,0.2927258610725403
+tió,neutral_ca,5,grallers,anchor_catalan,0.2909456491470337
+tió,neutral_ca,6,castellers,anchor_catalan,0.28899455070495605
+tió,neutral_ca,7,Cinderella,anchor_anglo,0.28866085410118103
+tió,neutral_ca,8,festa major,anchor_catalan,0.28571629524230957
+tió,neutral_ca,9,Patum,anchor_catalan,0.28403180837631226
+tió,neutral_ca,10,diables,anchor_catalan,0.28294289112091064
+pinya,bare,1,monkey,anchor_anglo,0.5830085277557373
+pinya,bare,2,fairy,anchor_anglo,0.566406786441803
+pinya,bare,3,cobla,anchor_catalan,0.5641226172447205
+pinya,bare,4,diables,anchor_catalan,0.5628045797348022
+pinya,bare,5,sword,anchor_anglo,0.5564112663269043
+pinya,bare,6,pessebre,anchor_catalan,0.5477087497711182
+pinya,bare,7,plaça,anchor_catalan,0.5472208857536316
+pinya,bare,8,beverage,anchor_noise,0.5464402437210083
+pinya,bare,9,coke,anchor_noise,0.5458616018295288
+pinya,bare,10,dragon,anchor_anglo,0.5451259613037109
+pinya,anglo_en,1,sword,anchor_anglo,0.2908351421356201
+pinya,anglo_en,2,monkey,anchor_anglo,0.28808173537254333
+pinya,anglo_en,3,enxaneta,anchor_catalan,0.2855309545993805
+pinya,anglo_en,4,dungeon,anchor_anglo,0.28426915407180786
+pinya,anglo_en,5,festa major,anchor_catalan,0.27743256092071533
+pinya,anglo_en,6,soda,anchor_noise,0.2768155038356781
+pinya,anglo_en,7,knight,anchor_anglo,0.2761596441268921
+pinya,anglo_en,8,caffeine,anchor_noise,0.2759507894515991
+pinya,anglo_en,9,beanstalk,anchor_anglo,0.2754233181476593
+pinya,anglo_en,10,pessebre,anchor_catalan,0.27440136671066284
+pinya,catalan_frame,1,castellers,anchor_catalan,0.37903228402137756
+pinya,catalan_frame,2,casteller,anchor_catalan,0.3602214753627777
+pinya,catalan_frame,3,enxaneta,anchor_catalan,0.33126458525657654
+pinya,catalan_frame,4,festa major,anchor_catalan,0.3043350875377655
+pinya,catalan_frame,5,diada,anchor_catalan,0.27268528938293457
+pinya,catalan_frame,6,pessebre,anchor_catalan,0.2710038721561432
+pinya,catalan_frame,7,vigatans,anchor_catalan,0.26882103085517883
+pinya,catalan_frame,8,castle,anchor_anglo,0.26184672117233276
+pinya,catalan_frame,9,knight,anchor_anglo,0.2614156901836395
+pinya,catalan_frame,10,cobla,anchor_catalan,0.2583546042442322
+pinya,neutral_ca,1,cobla,anchor_catalan,0.34085914492607117
+pinya,neutral_ca,2,pessebre,anchor_catalan,0.33945196866989136
+pinya,neutral_ca,3,diada,anchor_catalan,0.33743882179260254
+pinya,neutral_ca,4,enxaneta,anchor_catalan,0.33525118231773376
+pinya,neutral_ca,5,monkey,anchor_anglo,0.33436039090156555
+pinya,neutral_ca,6,diables,anchor_catalan,0.33279508352279663
+pinya,neutral_ca,7,festa major,anchor_catalan,0.33199477195739746
+pinya,neutral_ca,8,castellers,anchor_catalan,0.330297589302063
+pinya,neutral_ca,9,pepsi,anchor_noise,0.32376909255981445
+pinya,neutral_ca,10,casteller,anchor_catalan,0.32246503233909607
+tronc,bare,1,troll,anchor_anglo,0.5093541741371155
+tronc,bare,2,cercavila,anchor_catalan,0.4685450792312622
+tronc,bare,3,plaça,anchor_catalan,0.46432065963745117
+tronc,bare,4,dungeon,anchor_anglo,0.45975470542907715
+tronc,bare,5,dragon,anchor_anglo,0.45735400915145874
+tronc,bare,6,sword,anchor_anglo,0.44788533449172974
+tronc,bare,7,pilar,anchor_catalan,0.447817325592041
+tronc,bare,8,folklore,anchor_catalan,0.44773271679878235
+tronc,bare,9,tradicional,anchor_catalan,0.4475741386413574
+tronc,bare,10,ogre,anchor_anglo,0.4470953643321991
+tronc,anglo_en,1,troll,anchor_anglo,0.259793758392334
+tronc,anglo_en,2,folklore,anchor_catalan,0.25834131240844727
+tronc,anglo_en,3,cercavila,anchor_catalan,0.24738237261772156
+tronc,anglo_en,4,dungeon,anchor_anglo,0.24292531609535217
+tronc,anglo_en,5,ajuntament,anchor_catalan,0.23613043129444122
+tronc,anglo_en,6,poble,anchor_catalan,0.23435163497924805
+tronc,anglo_en,7,colla,anchor_catalan,0.23223885893821716
+tronc,anglo_en,8,ogre,anchor_anglo,0.22810353338718414
+tronc,anglo_en,9,xeremia,anchor_catalan,0.22738561034202576
+tronc,anglo_en,10,knight,anchor_anglo,0.22419798374176025
+tronc,catalan_frame,1,castellers,anchor_catalan,0.31293946504592896
+tronc,catalan_frame,2,casteller,anchor_catalan,0.3039061725139618
+tronc,catalan_frame,3,folklore,anchor_catalan,0.2915605306625366
+tronc,catalan_frame,4,ajuntament,anchor_catalan,0.28183338046073914
+tronc,catalan_frame,5,festa major,anchor_catalan,0.27877914905548096
+tronc,catalan_frame,6,sword,anchor_anglo,0.273273766040802
+tronc,catalan_frame,7,dungeon,anchor_anglo,0.27305859327316284
+tronc,catalan_frame,8,castle,anchor_anglo,0.2703133821487427
+tronc,catalan_frame,9,ogre,anchor_anglo,0.26988276839256287
+tronc,catalan_frame,10,troll,anchor_anglo,0.26750707626342773
+tronc,neutral_ca,1,poble,anchor_catalan,0.29512032866477966
+tronc,neutral_ca,2,colla,anchor_catalan,0.2901843786239624
+tronc,neutral_ca,3,cercavila,anchor_catalan,0.2891589105129242
+tronc,neutral_ca,4,ajuntament,anchor_catalan,0.2880888879299164
+tronc,neutral_ca,5,dungeon,anchor_anglo,0.2880187928676605
+tronc,neutral_ca,6,troll,anchor_anglo,0.2846897542476654
+tronc,neutral_ca,7,folklore,anchor_catalan,0.2846306562423706
+tronc,neutral_ca,8,dwarf,anchor_anglo,0.28329169750213623
+tronc,neutral_ca,9,plaça,anchor_catalan,0.28098610043525696
+tronc,neutral_ca,10,castellers,anchor_catalan,0.2791653573513031
+folre,bare,1,grallers,anchor_catalan,0.6080048084259033
+folre,bare,2,sword,anchor_anglo,0.604981541633606
+folre,bare,3,cobla,anchor_catalan,0.6034547090530396
+folre,bare,4,fairy,anchor_anglo,0.6013368964195251
+folre,bare,5,coke,anchor_noise,0.6011803150177002
+folre,bare,6,pessebre,anchor_catalan,0.6003614664077759
+folre,bare,7,monkey,anchor_anglo,0.5996437668800354
+folre,bare,8,folklore,anchor_catalan,0.5931639671325684
+folre,bare,9,beverage,anchor_noise,0.5854974985122681
+folre,bare,10,brand,anchor_noise,0.58171546459198
+folre,anglo_en,1,folklore,anchor_catalan,0.3519156873226166
+folre,anglo_en,2,grallers,anchor_catalan,0.2979998290538788
+folre,anglo_en,3,goblin,anchor_anglo,0.2916024327278137
+folre,anglo_en,4,pessebre,anchor_catalan,0.28637975454330444
+folre,anglo_en,5,fairy,anchor_anglo,0.28623995184898376
+folre,anglo_en,6,sword,anchor_anglo,0.28469765186309814
+folre,anglo_en,7,cobla,anchor_catalan,0.28354623913764954
+folre,anglo_en,8,dungeon,anchor_anglo,0.2808681130409241
+folre,anglo_en,9,enchanted forest,anchor_anglo,0.2784428596496582
+folre,anglo_en,10,colla,anchor_catalan,0.27257922291755676
+folre,catalan_frame,1,castellers,anchor_catalan,0.37584254145622253
+folre,catalan_frame,2,casteller,anchor_catalan,0.35959798097610474
+folre,catalan_frame,3,festa major,anchor_catalan,0.307416707277298
+folre,catalan_frame,4,enxaneta,anchor_catalan,0.2884627878665924
+folre,catalan_frame,5,folklore,anchor_catalan,0.2786353826522827
+folre,catalan_frame,6,grallers,anchor_catalan,0.2681177854537964
+folre,catalan_frame,7,goblin,anchor_anglo,0.26078885793685913
+folre,catalan_frame,8,cobla,anchor_catalan,0.26027700304985046
+folre,catalan_frame,9,pessebre,anchor_catalan,0.25785189867019653
+folre,catalan_frame,10,castle,anchor_anglo,0.25761744379997253
+folre,neutral_ca,1,grallers,anchor_catalan,0.3586990237236023
+folre,neutral_ca,2,folklore,anchor_catalan,0.348343163728714
+folre,neutral_ca,3,cobla,anchor_catalan,0.3430338501930237
+folre,neutral_ca,4,castellers,anchor_catalan,0.3425394892692566
+folre,neutral_ca,5,pessebre,anchor_catalan,0.34179967641830444
+folre,neutral_ca,6,goblin,anchor_anglo,0.33025068044662476
+folre,neutral_ca,7,casteller,anchor_catalan,0.3257620632648468
+folre,neutral_ca,8,diada,anchor_catalan,0.3223719596862793
+folre,neutral_ca,9,enxaneta,anchor_catalan,0.31860750913619995
+folre,neutral_ca,10,festa major,anchor_catalan,0.31812041997909546
+manilles,bare,1,monkey,anchor_anglo,0.6256181001663208
+manilles,bare,2,beverage,anchor_noise,0.5912080407142639
+manilles,bare,3,diables,anchor_catalan,0.5893017649650574
+manilles,bare,4,fairy,anchor_anglo,0.5834080576896667
+manilles,bare,5,tavern,anchor_anglo,0.5741770267486572
+manilles,bare,6,brand,anchor_noise,0.5739762187004089
+manilles,bare,7,addiction,anchor_noise,0.5729373097419739
+manilles,bare,8,coke,anchor_noise,0.572785496711731
+manilles,bare,9,troll,anchor_anglo,0.5613813996315002
+manilles,bare,10,pessebre,anchor_catalan,0.5611914992332458
+manilles,anglo_en,1,monkey,anchor_anglo,0.33391958475112915
+manilles,anglo_en,2,knight,anchor_anglo,0.32053765654563904
+manilles,anglo_en,3,Cinderella,anchor_anglo,0.31482887268066406
+manilles,anglo_en,4,dungeon,anchor_anglo,0.310266375541687
+manilles,anglo_en,5,beanstalk,anchor_anglo,0.3093341588973999
+manilles,anglo_en,6,kingdom,anchor_anglo,0.3089987635612488
+manilles,anglo_en,7,enchanted forest,anchor_anglo,0.30324167013168335
+manilles,anglo_en,8,sword,anchor_anglo,0.3021775484085083
+manilles,anglo_en,9,caffeine,anchor_noise,0.3007967472076416
+manilles,anglo_en,10,peasant,anchor_anglo,0.29630687832832336
+manilles,catalan_frame,1,enxaneta,anchor_catalan,0.3177426755428314
+manilles,catalan_frame,2,castellers,anchor_catalan,0.2875598669052124
+manilles,catalan_frame,3,casteller,anchor_catalan,0.2751692235469818
+manilles,catalan_frame,4,festa major,anchor_catalan,0.26271528005599976
+manilles,catalan_frame,5,diada,anchor_catalan,0.26088327169418335
+manilles,catalan_frame,6,vigatans,anchor_catalan,0.25994062423706055
+manilles,catalan_frame,7,beanstalk,anchor_anglo,0.25780877470970154
+manilles,catalan_frame,8,enchanted forest,anchor_anglo,0.250631719827652
+manilles,catalan_frame,9,pessebre,anchor_catalan,0.24874693155288696
+manilles,catalan_frame,10,Patum,anchor_catalan,0.24770177900791168
+manilles,neutral_ca,1,enxaneta,anchor_catalan,0.33637717366218567
+manilles,neutral_ca,2,diada,anchor_catalan,0.31089916825294495
+manilles,neutral_ca,3,diables,anchor_catalan,0.30953994393348694
+manilles,neutral_ca,4,enchanted forest,anchor_anglo,0.3037470579147339
+manilles,neutral_ca,5,beanstalk,anchor_anglo,0.30261552333831787
+manilles,neutral_ca,6,pessebre,anchor_catalan,0.3020389676094055
+manilles,neutral_ca,7,grallers,anchor_catalan,0.2960191071033478
+manilles,neutral_ca,8,festa major,anchor_catalan,0.29309457540512085
+manilles,neutral_ca,9,vigatans,anchor_catalan,0.291776567697525
+manilles,neutral_ca,10,castellers,anchor_catalan,0.29124608635902405
+bastoners,bare,1,cobla,anchor_catalan,0.5195363759994507
+bastoners,bare,2,sword,anchor_anglo,0.5162813067436218
+bastoners,bare,3,grallers,anchor_catalan,0.512222170829773
+bastoners,bare,4,beverage,anchor_noise,0.5094232559204102
+bastoners,bare,5,pessebre,anchor_catalan,0.5068268775939941
+bastoners,bare,6,tavern,anchor_anglo,0.505804717540741
+bastoners,bare,7,knight,anchor_anglo,0.502236008644104
+bastoners,bare,8,cercavila,anchor_catalan,0.5010367631912231
+bastoners,bare,9,monkey,anchor_anglo,0.49834418296813965
+bastoners,bare,10,vigatans,anchor_catalan,0.49707332253456116
+bastoners,anglo_en,1,grallers,anchor_catalan,0.25702786445617676
+bastoners,anglo_en,2,casteller,anchor_catalan,0.25504809617996216
+bastoners,anglo_en,3,vigatans,anchor_catalan,0.2537323534488678
+bastoners,anglo_en,4,beanstalk,anchor_anglo,0.2504132390022278
+bastoners,anglo_en,5,castellers,anchor_catalan,0.24661408364772797
+bastoners,anglo_en,6,pessebre,anchor_catalan,0.24429577589035034
+bastoners,anglo_en,7,castle,anchor_anglo,0.24405239522457123
+bastoners,anglo_en,8,enchanted forest,anchor_anglo,0.2358110547065735
+bastoners,anglo_en,9,peasant,anchor_anglo,0.23462897539138794
+bastoners,anglo_en,10,goblin,anchor_anglo,0.23294216394424438
+bastoners,catalan_frame,1,castellers,anchor_catalan,0.3965371549129486
+bastoners,catalan_frame,2,casteller,anchor_catalan,0.35915449261665344
+bastoners,catalan_frame,3,enxaneta,anchor_catalan,0.28142353892326355
+bastoners,catalan_frame,4,festa major,anchor_catalan,0.2732061445713043
+bastoners,catalan_frame,5,grallers,anchor_catalan,0.26929330825805664
+bastoners,catalan_frame,6,vigatans,anchor_catalan,0.24878399074077606
+bastoners,catalan_frame,7,pessebre,anchor_catalan,0.23331235349178314
+bastoners,catalan_frame,8,diables,anchor_catalan,0.22483646869659424
+bastoners,catalan_frame,9,beanstalk,anchor_anglo,0.2202870398759842
+bastoners,catalan_frame,10,cobla,anchor_catalan,0.21477213501930237
+bastoners,neutral_ca,1,castellers,anchor_catalan,0.34021884202957153
+bastoners,neutral_ca,2,grallers,anchor_catalan,0.324133962392807
+bastoners,neutral_ca,3,casteller,anchor_catalan,0.3179507255554199
+bastoners,neutral_ca,4,pessebre,anchor_catalan,0.30480632185935974
+bastoners,neutral_ca,5,enxaneta,anchor_catalan,0.29736533761024475
+bastoners,neutral_ca,6,vigatans,anchor_catalan,0.2962808310985565
+bastoners,neutral_ca,7,diables,anchor_catalan,0.295962929725647
+bastoners,neutral_ca,8,festa major,anchor_catalan,0.2839197516441345
+bastoners,neutral_ca,9,cobla,anchor_catalan,0.27892816066741943
+bastoners,neutral_ca,10,sword,anchor_anglo,0.27662894129753113
+botifarra,bare,1,pessebre,anchor_catalan,0.586514949798584
+botifarra,bare,2,grallers,anchor_catalan,0.5714299082756042
+botifarra,bare,3,cobla,anchor_catalan,0.5707029700279236
+botifarra,bare,4,monkey,anchor_anglo,0.5648345351219177
+botifarra,bare,5,beverage,anchor_noise,0.560720682144165
+botifarra,bare,6,fairy,anchor_anglo,0.5545704364776611
+botifarra,bare,7,coke,anchor_noise,0.5508673191070557
+botifarra,bare,8,sword,anchor_anglo,0.5443056225776672
+botifarra,bare,9,tavern,anchor_anglo,0.5379747152328491
+botifarra,bare,10,beanstalk,anchor_anglo,0.5351677536964417
+botifarra,anglo_en,1,pessebre,anchor_catalan,0.3166171610355377
+botifarra,anglo_en,2,grallers,anchor_catalan,0.3160794973373413
+botifarra,anglo_en,3,cobla,anchor_catalan,0.30947402119636536
+botifarra,anglo_en,4,goblin,anchor_anglo,0.3075593113899231
+botifarra,anglo_en,5,beanstalk,anchor_anglo,0.30622875690460205
+botifarra,anglo_en,6,Coca-Cola,anchor_noise,0.3001055419445038
+botifarra,anglo_en,7,vigatans,anchor_catalan,0.29609423875808716
+botifarra,anglo_en,8,diada,anchor_catalan,0.29379886388778687
+botifarra,anglo_en,9,caffeine,anchor_noise,0.29214704036712646
+botifarra,anglo_en,10,knight,anchor_anglo,0.2919027805328369
+botifarra,catalan_frame,1,festa major,anchor_catalan,0.32104864716529846
+botifarra,catalan_frame,2,goblin,anchor_anglo,0.30731791257858276
+botifarra,catalan_frame,3,Coca-Cola,anchor_noise,0.3023107945919037
+botifarra,catalan_frame,4,cobla,anchor_catalan,0.2999969720840454
+botifarra,catalan_frame,5,pessebre,anchor_catalan,0.29806122183799744
+botifarra,catalan_frame,6,grallers,anchor_catalan,0.2954180836677551
+botifarra,catalan_frame,7,beanstalk,anchor_anglo,0.2862931489944458
+botifarra,catalan_frame,8,monkey,anchor_anglo,0.28500187397003174
+botifarra,catalan_frame,9,Patum,anchor_catalan,0.2832222580909729
+botifarra,catalan_frame,10,sword,anchor_anglo,0.28283414244651794
+botifarra,neutral_ca,1,pessebre,anchor_catalan,0.3478506803512573
+botifarra,neutral_ca,2,cobla,anchor_catalan,0.3438563048839569
+botifarra,neutral_ca,3,grallers,anchor_catalan,0.3366242051124573
+botifarra,neutral_ca,4,Patum,anchor_catalan,0.33278876543045044
+botifarra,neutral_ca,5,goblin,anchor_anglo,0.3285888731479645
+botifarra,neutral_ca,6,festa major,anchor_catalan,0.32807764410972595
+botifarra,neutral_ca,7,Coca-Cola,anchor_noise,0.32781174778938293
+botifarra,neutral_ca,8,diada,anchor_catalan,0.3206992447376251
+botifarra,neutral_ca,9,beanstalk,anchor_anglo,0.3156434893608093
+botifarra,neutral_ca,10,sword,anchor_anglo,0.3134758770465851
+romesco,bare,1,pessebre,anchor_catalan,0.5706148743629456
+romesco,bare,2,grallers,anchor_catalan,0.5625330805778503
+romesco,bare,3,coke,anchor_noise,0.5620527267456055
+romesco,bare,4,troll,anchor_anglo,0.5386201739311218
+romesco,bare,5,tavern,anchor_anglo,0.53794264793396
+romesco,bare,6,monkey,anchor_anglo,0.535620927810669
+romesco,bare,7,brand,anchor_noise,0.5308538675308228
+romesco,bare,8,diables,anchor_catalan,0.5285937786102295
+romesco,bare,9,fairy,anchor_anglo,0.5280277729034424
+romesco,bare,10,cobla,anchor_catalan,0.5277714133262634
+romesco,anglo_en,1,sword,anchor_anglo,0.3068618178367615
+romesco,anglo_en,2,vigatans,anchor_catalan,0.3055150508880615
+romesco,anglo_en,3,pessebre,anchor_catalan,0.3006608486175537
+romesco,anglo_en,4,grallers,anchor_catalan,0.2984693944454193
+romesco,anglo_en,5,beanstalk,anchor_anglo,0.29730042815208435
+romesco,anglo_en,6,goblin,anchor_anglo,0.29522547125816345
+romesco,anglo_en,7,xeremia,anchor_catalan,0.2918466329574585
+romesco,anglo_en,8,dungeon,anchor_anglo,0.2886803448200226
+romesco,anglo_en,9,enchanted forest,anchor_anglo,0.2864963710308075
+romesco,anglo_en,10,Cinderella,anchor_anglo,0.2850102186203003
+romesco,catalan_frame,1,vigatans,anchor_catalan,0.28908514976501465
+romesco,catalan_frame,2,grallers,anchor_catalan,0.2737043499946594
+romesco,catalan_frame,3,festa major,anchor_catalan,0.26455751061439514
+romesco,catalan_frame,4,pessebre,anchor_catalan,0.2576724588871002
+romesco,catalan_frame,5,beanstalk,anchor_anglo,0.24888435006141663
+romesco,catalan_frame,6,enxaneta,anchor_catalan,0.24850137531757355
+romesco,catalan_frame,7,xeremia,anchor_catalan,0.24341194331645966
+romesco,catalan_frame,8,cobla,anchor_catalan,0.24214500188827515
+romesco,catalan_frame,9,goblin,anchor_anglo,0.24128612875938416
+romesco,catalan_frame,10,castellers,anchor_catalan,0.24100223183631897
+romesco,neutral_ca,1,pessebre,anchor_catalan,0.32358312606811523
+romesco,neutral_ca,2,Coca-Cola,anchor_noise,0.31435075402259827
+romesco,neutral_ca,3,grallers,anchor_catalan,0.3057642877101898
+romesco,neutral_ca,4,xeremia,anchor_catalan,0.30286240577697754
+romesco,neutral_ca,5,goblin,anchor_anglo,0.30168670415878296
+romesco,neutral_ca,6,cobla,anchor_catalan,0.30164802074432373
+romesco,neutral_ca,7,sword,anchor_anglo,0.299961119890213
+romesco,neutral_ca,8,Cinderella,anchor_anglo,0.29832378029823303
+romesco,neutral_ca,9,caffeine,anchor_noise,0.2963331937789917
+romesco,neutral_ca,10,beanstalk,anchor_anglo,0.2958095371723175
+coca,bare,1,cocaine,anchor_noise,0.8613183498382568
+coca,bare,2,coke,anchor_noise,0.6928499937057495
+coca,bare,3,Coca-Cola,anchor_noise,0.6770305633544922
+coca,bare,4,drug,anchor_noise,0.641937255859375
+coca,bare,5,dragon,anchor_anglo,0.6182245016098022
+coca,bare,6,monkey,anchor_anglo,0.6125527620315552
+coca,bare,7,cobla,anchor_catalan,0.6055958271026611
+coca,bare,8,beverage,anchor_noise,0.5899254679679871
+coca,bare,9,sugar,anchor_noise,0.5861971378326416
+coca,bare,10,cercavila,anchor_catalan,0.5844695568084717
+coca,anglo_en,1,cocaine,anchor_noise,0.6600373983383179
+coca,anglo_en,2,Coca-Cola,anchor_noise,0.5127906203269958
+coca,anglo_en,3,soda,anchor_noise,0.41059982776641846
+coca,anglo_en,4,coke,anchor_noise,0.3949691653251648
+coca,anglo_en,5,caffeine,anchor_noise,0.3666263222694397
+coca,anglo_en,6,pepsi,anchor_noise,0.3184342682361603
+coca,anglo_en,7,addiction,anchor_noise,0.3025358021259308
+coca,anglo_en,8,sugar,anchor_noise,0.2907065749168396
+coca,anglo_en,9,drug,anchor_noise,0.2891232669353485
+coca,anglo_en,10,goblin,anchor_anglo,0.2882477641105652
+coca,catalan_frame,1,cocaine,anchor_noise,0.4377308785915375
+coca,catalan_frame,2,Coca-Cola,anchor_noise,0.3846525251865387
+coca,catalan_frame,3,soda,anchor_noise,0.29702645540237427
+coca,catalan_frame,4,cobla,anchor_catalan,0.2919010519981384
+coca,catalan_frame,5,coke,anchor_noise,0.2895129323005676
+coca,catalan_frame,6,festa major,anchor_catalan,0.26350080966949463
+coca,catalan_frame,7,pepsi,anchor_noise,0.25832709670066833
+coca,catalan_frame,8,caffeine,anchor_noise,0.25806641578674316
+coca,catalan_frame,9,castellers,anchor_catalan,0.2537160813808441
+coca,catalan_frame,10,colla,anchor_catalan,0.2523114085197449
+coca,neutral_ca,1,cocaine,anchor_noise,0.5860660076141357
+coca,neutral_ca,2,Coca-Cola,anchor_noise,0.46542322635650635
+coca,neutral_ca,3,coke,anchor_noise,0.35247036814689636
+coca,neutral_ca,4,soda,anchor_noise,0.34034934639930725
+coca,neutral_ca,5,pepsi,anchor_noise,0.31718137860298157
+coca,neutral_ca,6,caffeine,anchor_noise,0.30076390504837036
+coca,neutral_ca,7,cobla,anchor_catalan,0.2941213548183441
+coca,neutral_ca,8,colla,anchor_catalan,0.2904711365699768
+coca,neutral_ca,9,cercavila,anchor_catalan,0.2641375660896301
+coca,neutral_ca,10,sugar,anchor_noise,0.2532771825790405
+diada,bare,1,diables,anchor_catalan,0.5378971695899963
+diada,bare,2,pessebre,anchor_catalan,0.4880297780036926
+diada,bare,3,vigatans,anchor_catalan,0.4850884675979614
+diada,bare,4,grallers,anchor_catalan,0.48017415404319763
+diada,bare,5,cobla,anchor_catalan,0.47299110889434814
+diada,bare,6,fairy,anchor_anglo,0.4729139506816864
+diada,bare,7,cercavila,anchor_catalan,0.4568674564361572
+diada,bare,8,coke,anchor_noise,0.4562556743621826
+diada,bare,9,pepsi,anchor_noise,0.45176854729652405
+diada,bare,10,tavern,anchor_anglo,0.44970622658729553
+diada,anglo_en,1,diables,anchor_catalan,0.3222867250442505
+diada,anglo_en,2,vigatans,anchor_catalan,0.29223549365997314
+diada,anglo_en,3,caffeine,anchor_noise,0.2875913977622986
+diada,anglo_en,4,dungeon,anchor_anglo,0.286176860332489
+diada,anglo_en,5,pessebre,anchor_catalan,0.2847162187099457
+diada,anglo_en,6,fairy,anchor_anglo,0.28157442808151245
+diada,anglo_en,7,cobla,anchor_catalan,0.28000834584236145
+diada,anglo_en,8,festa major,anchor_catalan,0.2756989002227783
+diada,anglo_en,9,xeremia,anchor_catalan,0.2737716734409332
+diada,anglo_en,10,sword,anchor_anglo,0.27186551690101624
+diada,catalan_frame,1,castellers,anchor_catalan,0.3579448461532593
+diada,catalan_frame,2,diables,anchor_catalan,0.3360079526901245
+diada,catalan_frame,3,festa major,anchor_catalan,0.33363765478134155
+diada,catalan_frame,4,casteller,anchor_catalan,0.33081766963005066
+diada,catalan_frame,5,enxaneta,anchor_catalan,0.2889941334724426
+diada,catalan_frame,6,vigatans,anchor_catalan,0.25538891553878784
+diada,catalan_frame,7,pessebre,anchor_catalan,0.24867480993270874
+diada,catalan_frame,8,cercavila,anchor_catalan,0.23469626903533936
+diada,catalan_frame,9,grallers,anchor_catalan,0.23407912254333496
+diada,catalan_frame,10,cobla,anchor_catalan,0.23273563385009766
+diada,neutral_ca,1,diables,anchor_catalan,0.34646883606910706
+diada,neutral_ca,2,festa major,anchor_catalan,0.3326699435710907
+diada,neutral_ca,3,enxaneta,anchor_catalan,0.31734827160835266
+diada,neutral_ca,4,vigatans,anchor_catalan,0.30887138843536377
+diada,neutral_ca,5,cobla,anchor_catalan,0.2894418239593506
+diada,neutral_ca,6,casteller,anchor_catalan,0.2880537211894989
+diada,neutral_ca,7,castellers,anchor_catalan,0.28801429271698
+diada,neutral_ca,8,pessebre,anchor_catalan,0.2836965322494507
+diada,neutral_ca,9,fairy,anchor_anglo,0.2748100757598877
+diada,neutral_ca,10,grallers,anchor_catalan,0.2745535671710968
+falla,bare,1,troll,anchor_anglo,0.5721703171730042
+falla,bare,2,fairy,anchor_anglo,0.5702386498451233
+falla,bare,3,brand,anchor_noise,0.5593518018722534
+falla,bare,4,plaça,anchor_catalan,0.5493845343589783
+falla,bare,5,dragon,anchor_anglo,0.5454245209693909
+falla,bare,6,tradicional,anchor_catalan,0.5386563539505005
+falla,bare,7,cobla,anchor_catalan,0.5339124202728271
+falla,bare,8,tavern,anchor_anglo,0.5334001183509827
+falla,bare,9,powder,anchor_noise,0.532868504524231
+falla,bare,10,colla,anchor_catalan,0.5309270620346069
+falla,anglo_en,1,folklore,anchor_catalan,0.266496479511261
+falla,anglo_en,2,peasant,anchor_anglo,0.26613372564315796
+falla,anglo_en,3,fairy,anchor_anglo,0.263078898191452
+falla,anglo_en,4,caffeine,anchor_noise,0.24937167763710022
+falla,anglo_en,5,pessebre,anchor_catalan,0.24381005764007568
+falla,anglo_en,6,colla,anchor_catalan,0.24346399307250977
+falla,anglo_en,7,addiction,anchor_noise,0.2425018846988678
+falla,anglo_en,8,festa major,anchor_catalan,0.24103714525699615
+falla,anglo_en,9,dungeon,anchor_anglo,0.24073301255702972
+falla,anglo_en,10,castle,anchor_anglo,0.24011212587356567
+falla,catalan_frame,1,festa major,anchor_catalan,0.3193185329437256
+falla,catalan_frame,2,pessebre,anchor_catalan,0.27054741978645325
+falla,catalan_frame,3,castellers,anchor_catalan,0.2501779794692993
+falla,catalan_frame,4,colla,anchor_catalan,0.24609680473804474
+falla,catalan_frame,5,cobla,anchor_catalan,0.23682579398155212
+falla,catalan_frame,6,diables,anchor_catalan,0.23547789454460144
+falla,catalan_frame,7,fairy,anchor_anglo,0.23460888862609863
+falla,catalan_frame,8,casteller,anchor_catalan,0.23145000636577606
+falla,catalan_frame,9,grallers,anchor_catalan,0.2240443378686905
+falla,catalan_frame,10,enxaneta,anchor_catalan,0.22231824696063995
+falla,neutral_ca,1,colla,anchor_catalan,0.25582122802734375
+falla,neutral_ca,2,fairy,anchor_anglo,0.24466261267662048
+falla,neutral_ca,3,pessebre,anchor_catalan,0.24220076203346252
+falla,neutral_ca,4,festa major,anchor_catalan,0.23800723254680634
+falla,neutral_ca,5,diada,anchor_catalan,0.23696255683898926
+falla,neutral_ca,6,vigatans,anchor_catalan,0.22319304943084717
+falla,neutral_ca,7,diables,anchor_catalan,0.2220446765422821
+falla,neutral_ca,8,plaça,anchor_catalan,0.2210652232170105
+falla,neutral_ca,9,cobla,anchor_catalan,0.21870097517967224
+falla,neutral_ca,10,grallers,anchor_catalan,0.21299943327903748
+escudella,bare,1,sword,anchor_anglo,0.6407797336578369
+escudella,bare,2,coke,anchor_noise,0.6146328449249268
+escudella,bare,3,addiction,anchor_noise,0.6123185753822327
+escudella,bare,4,cercavila,anchor_catalan,0.6077682375907898
+escudella,bare,5,cobla,anchor_catalan,0.603115439414978
+escudella,bare,6,dragon,anchor_anglo,0.6006761789321899
+escudella,bare,7,beverage,anchor_noise,0.599287211894989
+escudella,bare,8,tavern,anchor_anglo,0.5934211015701294
+escudella,bare,9,pessebre,anchor_catalan,0.5923916697502136
+escudella,bare,10,knight,anchor_anglo,0.5913051962852478
+escudella,anglo_en,1,sword,anchor_anglo,0.34119006991386414
+escudella,anglo_en,2,pessebre,anchor_catalan,0.3326982259750366
+escudella,anglo_en,3,cercavila,anchor_catalan,0.3318641185760498
+escudella,anglo_en,4,cobla,anchor_catalan,0.33064860105514526
+escudella,anglo_en,5,colla,anchor_catalan,0.32905375957489014
+escudella,anglo_en,6,xeremia,anchor_catalan,0.3251227140426636
+escudella,anglo_en,7,castle,anchor_anglo,0.32492294907569885
+escudella,anglo_en,8,soda,anchor_noise,0.3247312307357788
+escudella,anglo_en,9,knight,anchor_anglo,0.31816497445106506
+escudella,anglo_en,10,dungeon,anchor_anglo,0.31509944796562195
+escudella,catalan_frame,1,sword,anchor_anglo,0.34976330399513245
+escudella,catalan_frame,2,Coca-Cola,anchor_noise,0.3302644193172455
+escudella,catalan_frame,3,Cinderella,anchor_anglo,0.3281062841415405
+escudella,catalan_frame,4,pessebre,anchor_catalan,0.3246888816356659
+escudella,catalan_frame,5,addiction,anchor_noise,0.3176270127296448
+escudella,catalan_frame,6,knight,anchor_anglo,0.31570619344711304
+escudella,catalan_frame,7,castle,anchor_anglo,0.3144352436065674
+escudella,catalan_frame,8,soda,anchor_noise,0.3123356103897095
+escudella,catalan_frame,9,goblin,anchor_anglo,0.31129494309425354
+escudella,catalan_frame,10,castellers,anchor_catalan,0.3103453814983368
+escudella,neutral_ca,1,sword,anchor_anglo,0.4040810465812683
+escudella,neutral_ca,2,Cinderella,anchor_anglo,0.4027697741985321
+escudella,neutral_ca,3,pessebre,anchor_catalan,0.3875797986984253
+escudella,neutral_ca,4,Coca-Cola,anchor_noise,0.38652342557907104
+escudella,neutral_ca,5,addiction,anchor_noise,0.3781091272830963
+escudella,neutral_ca,6,festa major,anchor_catalan,0.37659478187561035
+escudella,neutral_ca,7,coke,anchor_noise,0.37000593543052673
+escudella,neutral_ca,8,cercavila,anchor_catalan,0.3694014549255371
+escudella,neutral_ca,9,colla,anchor_catalan,0.36631977558135986
+escudella,neutral_ca,10,knight,anchor_anglo,0.36609315872192383
+faixa,bare,1,plaça,anchor_catalan,0.5117493867874146
+faixa,bare,2,festa major,anchor_catalan,0.4840392470359802
+faixa,bare,3,cercavila,anchor_catalan,0.4814906716346741
+faixa,bare,4,princess,anchor_anglo,0.4754054546356201
+faixa,bare,5,tradicional,anchor_catalan,0.47528523206710815
+faixa,bare,6,sword,anchor_anglo,0.47408559918403625
+faixa,bare,7,ajuntament,anchor_catalan,0.46790552139282227
+faixa,bare,8,dragon,anchor_anglo,0.4672592878341675
+faixa,bare,9,colla,anchor_catalan,0.4670388698577881
+faixa,bare,10,dungeon,anchor_anglo,0.46548545360565186
+faixa,anglo_en,1,festa major,anchor_catalan,0.29096710681915283
+faixa,anglo_en,2,plaça,anchor_catalan,0.2709936499595642
+faixa,anglo_en,3,xeremia,anchor_catalan,0.2633574306964874
+faixa,anglo_en,4,pessebre,anchor_catalan,0.26284629106521606
+faixa,anglo_en,5,cercavila,anchor_catalan,0.2622123658657074
+faixa,anglo_en,6,enxaneta,anchor_catalan,0.25678393244743347
+faixa,anglo_en,7,diada,anchor_catalan,0.250077486038208
+faixa,anglo_en,8,ajuntament,anchor_catalan,0.24613045156002045
+faixa,anglo_en,9,castellers,anchor_catalan,0.24360808730125427
+faixa,anglo_en,10,poble,anchor_catalan,0.24281243979930878
+faixa,catalan_frame,1,castellers,anchor_catalan,0.3255555331707001
+faixa,catalan_frame,2,enxaneta,anchor_catalan,0.29792505502700806
+faixa,catalan_frame,3,casteller,anchor_catalan,0.2860628068447113
+faixa,catalan_frame,4,festa major,anchor_catalan,0.27533093094825745
+faixa,catalan_frame,5,cercavila,anchor_catalan,0.24050705134868622
+faixa,catalan_frame,6,pessebre,anchor_catalan,0.23502223193645477
+faixa,catalan_frame,7,diables,anchor_catalan,0.2338714748620987
+faixa,catalan_frame,8,vigatans,anchor_catalan,0.22912588715553284
+faixa,catalan_frame,9,grallers,anchor_catalan,0.22627350687980652
+faixa,catalan_frame,10,plaça,anchor_catalan,0.22542715072631836
+faixa,neutral_ca,1,festa major,anchor_catalan,0.3058638870716095
+faixa,neutral_ca,2,enxaneta,anchor_catalan,0.2870987355709076
+faixa,neutral_ca,3,plaça,anchor_catalan,0.2849384546279907
+faixa,neutral_ca,4,cercavila,anchor_catalan,0.2840980589389801
+faixa,neutral_ca,5,pessebre,anchor_catalan,0.2781769633293152
+faixa,neutral_ca,6,colla,anchor_catalan,0.27011075615882874
+faixa,neutral_ca,7,diables,anchor_catalan,0.26296308636665344
+faixa,neutral_ca,8,xeremia,anchor_catalan,0.25644755363464355
+faixa,neutral_ca,9,fairy,anchor_anglo,0.2558872103691101
+faixa,neutral_ca,10,castellers,anchor_catalan,0.2534673810005188
+timbalers,bare,1,tavern,anchor_anglo,0.5565711855888367
+timbalers,bare,2,grallers,anchor_catalan,0.5541432499885559
+timbalers,bare,3,diables,anchor_catalan,0.5495855808258057
+timbalers,bare,4,sword,anchor_anglo,0.5469596982002258
+timbalers,bare,5,cobla,anchor_catalan,0.5455852150917053
+timbalers,bare,6,monkey,anchor_anglo,0.5433763265609741
+timbalers,bare,7,coke,anchor_noise,0.5312005281448364
+timbalers,bare,8,beverage,anchor_noise,0.5308138728141785
+timbalers,bare,9,beanstalk,anchor_anglo,0.5296406149864197
+timbalers,bare,10,fairy,anchor_anglo,0.5257387757301331
+timbalers,anglo_en,1,grallers,anchor_catalan,0.297473281621933
+timbalers,anglo_en,2,sword,anchor_anglo,0.2965863049030304
+timbalers,anglo_en,3,tavern,anchor_anglo,0.2934822738170624
+timbalers,anglo_en,4,beanstalk,anchor_anglo,0.2928745448589325
+timbalers,anglo_en,5,enchanted forest,anchor_anglo,0.29215461015701294
+timbalers,anglo_en,6,xeremia,anchor_catalan,0.2901912331581116
+timbalers,anglo_en,7,goblin,anchor_anglo,0.28916123509407043
+timbalers,anglo_en,8,vigatans,anchor_catalan,0.28762298822402954
+timbalers,anglo_en,9,cobla,anchor_catalan,0.28393590450286865
+timbalers,anglo_en,10,witch,anchor_anglo,0.2838648855686188
+timbalers,catalan_frame,1,castellers,anchor_catalan,0.285769522190094
+timbalers,catalan_frame,2,grallers,anchor_catalan,0.27975523471832275
+timbalers,catalan_frame,3,enxaneta,anchor_catalan,0.2762505114078522
+timbalers,catalan_frame,4,casteller,anchor_catalan,0.2682306468486786
+timbalers,catalan_frame,5,cobla,anchor_catalan,0.2652049958705902
+timbalers,catalan_frame,6,beanstalk,anchor_anglo,0.2596689462661743
+timbalers,catalan_frame,7,festa major,anchor_catalan,0.25882741808891296
+timbalers,catalan_frame,8,diables,anchor_catalan,0.24778899550437927
+timbalers,catalan_frame,9,sword,anchor_anglo,0.24637660384178162
+timbalers,catalan_frame,10,vigatans,anchor_catalan,0.24497945606708527
+timbalers,neutral_ca,1,grallers,anchor_catalan,0.34473007917404175
+timbalers,neutral_ca,2,diables,anchor_catalan,0.34232741594314575
+timbalers,neutral_ca,3,enxaneta,anchor_catalan,0.33637359738349915
+timbalers,neutral_ca,4,cobla,anchor_catalan,0.3334514796733856
+timbalers,neutral_ca,5,castellers,anchor_catalan,0.32965174317359924
+timbalers,neutral_ca,6,diada,anchor_catalan,0.32558879256248474
+timbalers,neutral_ca,7,sword,anchor_anglo,0.32262110710144043
+timbalers,neutral_ca,8,pessebre,anchor_catalan,0.3165128827095032
+timbalers,neutral_ca,9,casteller,anchor_catalan,0.3160349428653717
+timbalers,neutral_ca,10,goblin,anchor_anglo,0.3128851354122162
+caganer,bare,1,coke,anchor_noise,0.6840208172798157
+caganer,bare,2,pessebre,anchor_catalan,0.6348586082458496
+caganer,bare,3,grallers,anchor_catalan,0.6011985540390015
+caganer,bare,4,monkey,anchor_anglo,0.5746889114379883
+caganer,bare,5,fairy,anchor_anglo,0.572202205657959
+caganer,bare,6,Cinderella,anchor_anglo,0.571251630783081
+caganer,bare,7,cobla,anchor_catalan,0.5593632459640503
+caganer,bare,8,caffeine,anchor_noise,0.558468759059906
+caganer,bare,9,Patum,anchor_catalan,0.5554623007774353
+caganer,bare,10,beverage,anchor_noise,0.5544480085372925
+caganer,anglo_en,1,Cinderella,anchor_anglo,0.3776639699935913
+caganer,anglo_en,2,caffeine,anchor_noise,0.37536436319351196
+caganer,anglo_en,3,pessebre,anchor_catalan,0.36220359802246094
+caganer,anglo_en,4,coke,anchor_noise,0.35855287313461304
+caganer,anglo_en,5,Coca-Cola,anchor_noise,0.32874706387519836
+caganer,anglo_en,6,knight,anchor_anglo,0.3252217769622803
+caganer,anglo_en,7,grallers,anchor_catalan,0.32412123680114746
+caganer,anglo_en,8,beanstalk,anchor_anglo,0.3238217532634735
+caganer,anglo_en,9,enxaneta,anchor_catalan,0.32208240032196045
+caganer,anglo_en,10,goblin,anchor_anglo,0.32061058282852173
+caganer,catalan_frame,1,castellers,anchor_catalan,0.3646335303783417
+caganer,catalan_frame,2,casteller,anchor_catalan,0.3511642515659332
+caganer,catalan_frame,3,pessebre,anchor_catalan,0.34119588136672974
+caganer,catalan_frame,4,enxaneta,anchor_catalan,0.33132871985435486
+caganer,catalan_frame,5,Cinderella,anchor_anglo,0.3263876736164093
+caganer,catalan_frame,6,caffeine,anchor_noise,0.3161197602748871
+caganer,catalan_frame,7,grallers,anchor_catalan,0.3002094328403473
+caganer,catalan_frame,8,festa major,anchor_catalan,0.29760488867759705
+caganer,catalan_frame,9,Coca-Cola,anchor_noise,0.29627180099487305
+caganer,catalan_frame,10,coke,anchor_noise,0.29501238465309143
+caganer,neutral_ca,1,pessebre,anchor_catalan,0.40323182940483093
+caganer,neutral_ca,2,Cinderella,anchor_anglo,0.3918026089668274
+caganer,neutral_ca,3,enxaneta,anchor_catalan,0.3792371451854706
+caganer,neutral_ca,4,castellers,anchor_catalan,0.3767009377479553
+caganer,neutral_ca,5,caffeine,anchor_noise,0.36990639567375183
+caganer,neutral_ca,6,grallers,anchor_catalan,0.36598560214042664
+caganer,neutral_ca,7,casteller,anchor_catalan,0.3626684546470642
+caganer,neutral_ca,8,coke,anchor_noise,0.36262914538383484
+caganer,neutral_ca,9,cobla,anchor_catalan,0.3488202691078186
+caganer,neutral_ca,10,Coca-Cola,anchor_noise,0.3453894853591919
+porró,bare,1,pessebre,anchor_catalan,0.5141709446907043
+porró,bare,2,coke,anchor_noise,0.5023400187492371
+porró,bare,3,sword,anchor_anglo,0.49825814366340637
+porró,bare,4,monkey,anchor_anglo,0.49800246953964233
+porró,bare,5,grallers,anchor_catalan,0.49780169129371643
+porró,bare,6,beverage,anchor_noise,0.4961215555667877
+porró,bare,7,fairy,anchor_anglo,0.49228429794311523
+porró,bare,8,cobla,anchor_catalan,0.4921444058418274
+porró,bare,9,brand,anchor_noise,0.49175724387168884
+porró,bare,10,plaça,anchor_catalan,0.4907667636871338
+porró,anglo_en,1,sword,anchor_anglo,0.3176789879798889
+porró,anglo_en,2,pessebre,anchor_catalan,0.3045995831489563
+porró,anglo_en,3,monkey,anchor_anglo,0.3036668598651886
+porró,anglo_en,4,goblin,anchor_anglo,0.30139225721359253
+porró,anglo_en,5,xeremia,anchor_catalan,0.2932509481906891
+porró,anglo_en,6,cobla,anchor_catalan,0.29130280017852783
+porró,anglo_en,7,dungeon,anchor_anglo,0.29045942425727844
+porró,anglo_en,8,grallers,anchor_catalan,0.28553006052970886
+porró,anglo_en,9,tavern,anchor_anglo,0.2835463285446167
+porró,anglo_en,10,soda,anchor_noise,0.2808496952056885
+porró,catalan_frame,1,sword,anchor_anglo,0.29095789790153503
+porró,catalan_frame,2,pessebre,anchor_catalan,0.2878807783126831
+porró,catalan_frame,3,goblin,anchor_anglo,0.2823522686958313
+porró,catalan_frame,4,grallers,anchor_catalan,0.28219830989837646
+porró,catalan_frame,5,monkey,anchor_anglo,0.27768710255622864
+porró,catalan_frame,6,castellers,anchor_catalan,0.2742793560028076
+porró,catalan_frame,7,cobla,anchor_catalan,0.27153369784355164
+porró,catalan_frame,8,Coca-Cola,anchor_noise,0.26764073967933655
+porró,catalan_frame,9,vigatans,anchor_catalan,0.2675535976886749
+porró,catalan_frame,10,casteller,anchor_catalan,0.26441359519958496
+porró,neutral_ca,1,pessebre,anchor_catalan,0.3341119885444641
+porró,neutral_ca,2,grallers,anchor_catalan,0.32165035605430603
+porró,neutral_ca,3,diada,anchor_catalan,0.31025922298431396
+porró,neutral_ca,4,sword,anchor_anglo,0.3017428517341614
+porró,neutral_ca,5,Coca-Cola,anchor_noise,0.3017386794090271
+porró,neutral_ca,6,Patum,anchor_catalan,0.3000337779521942
+porró,neutral_ca,7,vigatans,anchor_catalan,0.29547303915023804
+porró,neutral_ca,8,tavern,anchor_anglo,0.2949277460575104
+porró,neutral_ca,9,cobla,anchor_catalan,0.29237058758735657
+porró,neutral_ca,10,enchanted forest,anchor_anglo,0.28987911343574524
+mona,bare,1,monkey,anchor_anglo,0.6174688339233398
+mona,bare,2,princess,anchor_anglo,0.5382025241851807
+mona,bare,3,dragon,anchor_anglo,0.529198169708252
+mona,bare,4,troll,anchor_anglo,0.5199323892593384
+mona,bare,5,pilar,anchor_catalan,0.5171042680740356
+mona,bare,6,cercavila,anchor_catalan,0.5164744853973389
+mona,bare,7,cobla,anchor_catalan,0.5131625533103943
+mona,bare,8,dungeon,anchor_anglo,0.500450849533081
+mona,bare,9,sword,anchor_anglo,0.4989117681980133
+mona,bare,10,fairy,anchor_anglo,0.4959515631198883
+mona,anglo_en,1,monkey,anchor_anglo,0.3684472441673279
+mona,anglo_en,2,goblin,anchor_anglo,0.2915142774581909
+mona,anglo_en,3,soda,anchor_noise,0.2866119146347046
+mona,anglo_en,4,cocaine,anchor_noise,0.28056448698043823
+mona,anglo_en,5,Coca-Cola,anchor_noise,0.27738243341445923
+mona,anglo_en,6,dungeon,anchor_anglo,0.27454251050949097
+mona,anglo_en,7,knight,anchor_anglo,0.2733718156814575
+mona,anglo_en,8,princess,anchor_anglo,0.26841509342193604
+mona,anglo_en,9,cobla,anchor_catalan,0.26047390699386597
+mona,anglo_en,10,dwarf,anchor_anglo,0.25975072383880615
+mona,catalan_frame,1,monkey,anchor_anglo,0.31087374687194824
+mona,catalan_frame,2,festa major,anchor_catalan,0.2559070885181427
+mona,catalan_frame,3,diada,anchor_catalan,0.235674187541008
+mona,catalan_frame,4,castellers,anchor_catalan,0.2320522964000702
+mona,catalan_frame,5,Coca-Cola,anchor_noise,0.2313237488269806
+mona,catalan_frame,6,diables,anchor_catalan,0.22946015000343323
+mona,catalan_frame,7,cocaine,anchor_noise,0.22861556708812714
+mona,catalan_frame,8,soda,anchor_noise,0.2259901762008667
+mona,catalan_frame,9,cobla,anchor_catalan,0.2258450835943222
+mona,catalan_frame,10,beanstalk,anchor_anglo,0.22421053051948547
+mona,neutral_ca,1,monkey,anchor_anglo,0.4105607271194458
+mona,neutral_ca,2,goblin,anchor_anglo,0.3190213441848755
+mona,neutral_ca,3,cocaine,anchor_noise,0.30012616515159607
+mona,neutral_ca,4,Coca-Cola,anchor_noise,0.2960662841796875
+mona,neutral_ca,5,soda,anchor_noise,0.28937193751335144
+mona,neutral_ca,6,colla,anchor_catalan,0.2875657081604004
+mona,neutral_ca,7,dungeon,anchor_anglo,0.2870130240917206
+mona,neutral_ca,8,knight,anchor_anglo,0.28277117013931274
+mona,neutral_ca,9,dwarf,anchor_anglo,0.28131043910980225
+mona,neutral_ca,10,pepsi,anchor_noise,0.27970364689826965
+colla,bare,1,cobla,anchor_catalan,0.5313573479652405
+colla,bare,2,cercavila,anchor_catalan,0.5145067572593689
+colla,bare,3,plaça,anchor_catalan,0.504528284072876
+colla,bare,4,troll,anchor_anglo,0.48770755529403687
+colla,bare,5,castle,anchor_anglo,0.4664264917373657
+colla,bare,6,dragon,anchor_anglo,0.46593576669692993
+colla,bare,7,dungeon,anchor_anglo,0.4657512903213501
+colla,bare,8,ogre,anchor_anglo,0.4621019661426544
+colla,bare,9,sword,anchor_anglo,0.4593595266342163
+colla,bare,10,powder,anchor_noise,0.458692729473114
+colla,anglo_en,1,cobla,anchor_catalan,0.2686534821987152
+colla,anglo_en,2,cercavila,anchor_catalan,0.25980231165885925
+colla,anglo_en,3,Coca-Cola,anchor_noise,0.25796782970428467
+colla,anglo_en,4,grallers,anchor_catalan,0.25772303342819214
+colla,anglo_en,5,xeremia,anchor_catalan,0.24802429974079132
+colla,anglo_en,6,folklore,anchor_catalan,0.24778662621974945
+colla,anglo_en,7,ogre,anchor_anglo,0.24064701795578003
+colla,anglo_en,8,goblin,anchor_anglo,0.2367243766784668
+colla,anglo_en,9,festa major,anchor_catalan,0.23416368663311005
+colla,anglo_en,10,troll,anchor_anglo,0.23161129653453827
+colla,catalan_frame,1,castellers,anchor_catalan,0.3916439712047577
+colla,catalan_frame,2,casteller,anchor_catalan,0.37097612023353577
+colla,catalan_frame,3,festa major,anchor_catalan,0.3433915972709656
+colla,catalan_frame,4,enxaneta,anchor_catalan,0.2948271632194519
+colla,catalan_frame,5,cobla,anchor_catalan,0.28363311290740967
+colla,catalan_frame,6,castle,anchor_anglo,0.2799459397792816
+colla,catalan_frame,7,cercavila,anchor_catalan,0.27512115240097046
+colla,catalan_frame,8,Coca-Cola,anchor_noise,0.27203354239463806
+colla,catalan_frame,9,plaça,anchor_catalan,0.2700009346008301
+colla,catalan_frame,10,soda,anchor_noise,0.25619304180145264
+colla,neutral_ca,1,castellers,anchor_catalan,0.3766809105873108
+colla,neutral_ca,2,festa major,anchor_catalan,0.3735116422176361
+colla,neutral_ca,3,cobla,anchor_catalan,0.35864731669425964
+colla,neutral_ca,4,casteller,anchor_catalan,0.3579382002353668
+colla,neutral_ca,5,cercavila,anchor_catalan,0.33126774430274963
+colla,neutral_ca,6,plaça,anchor_catalan,0.3210272789001465
+colla,neutral_ca,7,enxaneta,anchor_catalan,0.3191709816455841
+colla,neutral_ca,8,Coca-Cola,anchor_noise,0.30885857343673706
+colla,neutral_ca,9,grallers,anchor_catalan,0.30276423692703247
+colla,neutral_ca,10,poble,anchor_catalan,0.3002746105194092
+Pasqua,bare,1,Mercè,anchor_catalan,0.5306450724601746
+Pasqua,bare,2,Nadal,anchor_catalan,0.5249611139297485
+Pasqua,bare,3,festa major,anchor_catalan,0.48655229806900024
+Pasqua,bare,4,Barcelona,anchor_catalan,0.4828082323074341
+Pasqua,bare,5,Jack,anchor_anglo,0.45883774757385254
+Pasqua,bare,6,Patum,anchor_catalan,0.4583147168159485
+Pasqua,bare,7,ajuntament,anchor_catalan,0.4496914744377136
+Pasqua,bare,8,princess,anchor_anglo,0.4455893039703369
+Pasqua,bare,9,Cinderella,anchor_anglo,0.43554598093032837
+Pasqua,bare,10,pessebre,anchor_catalan,0.4354574680328369
+Pasqua,anglo_en,1,festa major,anchor_catalan,0.32921189069747925
+Pasqua,anglo_en,2,Mercè,anchor_catalan,0.31549200415611267
+Pasqua,anglo_en,3,Nadal,anchor_catalan,0.30379992723464966
+Pasqua,anglo_en,4,pessebre,anchor_catalan,0.29346105456352234
+Pasqua,anglo_en,5,soda,anchor_noise,0.28611117601394653
+Pasqua,anglo_en,6,peasant,anchor_anglo,0.2824282646179199
+Pasqua,anglo_en,7,Coca-Cola,anchor_noise,0.27064049243927
+Pasqua,anglo_en,8,ajuntament,anchor_catalan,0.27061164379119873
+Pasqua,anglo_en,9,xeremia,anchor_catalan,0.2697175443172455
+Pasqua,anglo_en,10,Barcelona,anchor_catalan,0.2685149908065796
+Pasqua,catalan_frame,1,festa major,anchor_catalan,0.3170700669288635
+Pasqua,catalan_frame,2,Nadal,anchor_catalan,0.28361937403678894
+Pasqua,catalan_frame,3,Mercè,anchor_catalan,0.26570749282836914
+Pasqua,catalan_frame,4,pessebre,anchor_catalan,0.25684067606925964
+Pasqua,catalan_frame,5,Cinderella,anchor_anglo,0.2390100061893463
+Pasqua,catalan_frame,6,fairy,anchor_anglo,0.23716863989830017
+Pasqua,catalan_frame,7,Patum,anchor_catalan,0.23535305261611938
+Pasqua,catalan_frame,8,soda,anchor_noise,0.23171116411685944
+Pasqua,catalan_frame,9,plaça,anchor_catalan,0.22599853575229645
+Pasqua,catalan_frame,10,Coca-Cola,anchor_noise,0.22510141134262085
+Pasqua,neutral_ca,1,festa major,anchor_catalan,0.3856922686100006
+Pasqua,neutral_ca,2,Nadal,anchor_catalan,0.33326590061187744
+Pasqua,neutral_ca,3,Mercè,anchor_catalan,0.3277157247066498
+Pasqua,neutral_ca,4,pessebre,anchor_catalan,0.3092253804206848
+Pasqua,neutral_ca,5,plaça,anchor_catalan,0.2814539670944214
+Pasqua,neutral_ca,6,Patum,anchor_catalan,0.279281347990036
+Pasqua,neutral_ca,7,Cinderella,anchor_anglo,0.27527812123298645
+Pasqua,neutral_ca,8,ajuntament,anchor_catalan,0.2717248499393463
+Pasqua,neutral_ca,9,cercavila,anchor_catalan,0.26969873905181885
+Pasqua,neutral_ca,10,Coca-Cola,anchor_noise,0.2651170492172241
+terra,bare,1,coke,anchor_noise,0.631566047668457
+terra,bare,2,monkey,anchor_anglo,0.6291136741638184
+terra,bare,3,brand,anchor_noise,0.624512791633606
+terra,bare,4,fairy,anchor_anglo,0.6211255192756653
+terra,bare,5,beverage,anchor_noise,0.6125507950782776
+terra,bare,6,dragon,anchor_anglo,0.6123627424240112
+terra,bare,7,tavern,anchor_anglo,0.6049540638923645
+terra,bare,8,troll,anchor_anglo,0.6048681139945984
+terra,bare,9,sword,anchor_anglo,0.597445547580719
+terra,bare,10,pessebre,anchor_catalan,0.5921288728713989
+terra,anglo_en,1,xeremia,anchor_catalan,0.29437145590782166
+terra,anglo_en,2,tavern,anchor_anglo,0.2827899754047394
+terra,anglo_en,3,fairy,anchor_anglo,0.2721495032310486
+terra,anglo_en,4,dungeon,anchor_anglo,0.2635267972946167
+terra,anglo_en,5,monkey,anchor_anglo,0.26133355498313904
+terra,anglo_en,6,enchanted forest,anchor_anglo,0.26106029748916626
+terra,anglo_en,7,knight,anchor_anglo,0.2600264549255371
+terra,anglo_en,8,sword,anchor_anglo,0.25952577590942383
+terra,anglo_en,9,caffeine,anchor_noise,0.25795042514801025
+terra,anglo_en,10,Cinderella,anchor_anglo,0.25635331869125366
+terra,catalan_frame,1,sword,anchor_anglo,0.25096288323402405
+terra,catalan_frame,2,festa major,anchor_catalan,0.24955013394355774
+terra,catalan_frame,3,enxaneta,anchor_catalan,0.2447074055671692
+terra,catalan_frame,4,cercavila,anchor_catalan,0.24304339289665222
+terra,catalan_frame,5,xeremia,anchor_catalan,0.23966175317764282
+terra,catalan_frame,6,dungeon,anchor_anglo,0.2378869354724884
+terra,catalan_frame,7,diables,anchor_catalan,0.23475274443626404
+terra,catalan_frame,8,plaça,anchor_catalan,0.23313084244728088
+terra,catalan_frame,9,caffeine,anchor_noise,0.23127183318138123
+terra,catalan_frame,10,castle,anchor_anglo,0.2307823896408081
+terra,neutral_ca,1,festa major,anchor_catalan,0.3239315152168274
+terra,neutral_ca,2,xeremia,anchor_catalan,0.3084721863269806
+terra,neutral_ca,3,diables,anchor_catalan,0.30784371495246887
+terra,neutral_ca,4,cercavila,anchor_catalan,0.30686330795288086
+terra,neutral_ca,5,plaça,anchor_catalan,0.30366742610931396
+terra,neutral_ca,6,pessebre,anchor_catalan,0.3004508316516876
+terra,neutral_ca,7,sword,anchor_anglo,0.29871928691864014
+terra,neutral_ca,8,tavern,anchor_anglo,0.2937692403793335
+terra,neutral_ca,9,dwarf,anchor_anglo,0.29155465960502625
+terra,neutral_ca,10,enxaneta,anchor_catalan,0.2913665771484375
+cor,bare,1,brand,anchor_noise,0.6866617798805237
+cor,bare,2,coke,anchor_noise,0.6748715043067932
+cor,bare,3,monkey,anchor_anglo,0.667755126953125
+cor,bare,4,sword,anchor_anglo,0.6675704717636108
+cor,bare,5,dragon,anchor_anglo,0.6542258262634277
+cor,bare,6,cobla,anchor_catalan,0.6475253105163574
+cor,bare,7,beverage,anchor_noise,0.6392496228218079
+cor,bare,8,fairy,anchor_anglo,0.6368407607078552
+cor,bare,9,troll,anchor_anglo,0.6277302503585815
+cor,bare,10,tavern,anchor_anglo,0.619692325592041
+cor,anglo_en,1,monkey,anchor_anglo,0.3047143816947937
+cor,anglo_en,2,goblin,anchor_anglo,0.3028470277786255
+cor,anglo_en,3,caffeine,anchor_noise,0.2932225465774536
+cor,anglo_en,4,cobla,anchor_catalan,0.29311299324035645
+cor,anglo_en,5,sword,anchor_anglo,0.2911965250968933
+cor,anglo_en,6,Cinderella,anchor_anglo,0.2900698781013489
+cor,anglo_en,7,Coca-Cola,anchor_noise,0.28235334157943726
+cor,anglo_en,8,coke,anchor_noise,0.2812741994857788
+cor,anglo_en,9,dungeon,anchor_anglo,0.2755102813243866
+cor,anglo_en,10,knight,anchor_anglo,0.2722424268722534
+cor,catalan_frame,1,festa major,anchor_catalan,0.28810104727745056
+cor,catalan_frame,2,cobla,anchor_catalan,0.2811412811279297
+cor,catalan_frame,3,castellers,anchor_catalan,0.2724786400794983
+cor,catalan_frame,4,casteller,anchor_catalan,0.2715469002723694
+cor,catalan_frame,5,sword,anchor_anglo,0.2637014091014862
+cor,catalan_frame,6,grallers,anchor_catalan,0.26337990164756775
+cor,catalan_frame,7,cercavila,anchor_catalan,0.26030296087265015
+cor,catalan_frame,8,pessebre,anchor_catalan,0.2534709870815277
+cor,catalan_frame,9,Coca-Cola,anchor_noise,0.25194892287254333
+cor,catalan_frame,10,colla,anchor_catalan,0.2516237497329712
+cor,neutral_ca,1,cobla,anchor_catalan,0.38380497694015503
+cor,neutral_ca,2,sword,anchor_anglo,0.37840500473976135
+cor,neutral_ca,3,colla,anchor_catalan,0.37140828371047974
+cor,neutral_ca,4,monkey,anchor_anglo,0.35926854610443115
+cor,neutral_ca,5,Cinderella,anchor_anglo,0.3576555848121643
+cor,neutral_ca,6,pessebre,anchor_catalan,0.3563011586666107
+cor,neutral_ca,7,grallers,anchor_catalan,0.3557604253292084
+cor,neutral_ca,8,cercavila,anchor_catalan,0.3555779755115509
+cor,neutral_ca,9,goblin,anchor_anglo,0.3553839325904846
+cor,neutral_ca,10,coke,anchor_noise,0.35231727361679077
+serra,bare,1,cercavila,anchor_catalan,0.5775461792945862
+serra,bare,2,xeremia,anchor_catalan,0.5604819655418396
+serra,bare,3,plaça,anchor_catalan,0.5551800727844238
+serra,bare,4,pilar,anchor_catalan,0.5416262745857239
+serra,bare,5,tavern,anchor_anglo,0.5357254147529602
+serra,bare,6,troll,anchor_anglo,0.5335479378700256
+serra,bare,7,cobla,anchor_catalan,0.5232599377632141
+serra,bare,8,colla,anchor_catalan,0.5207297205924988
+serra,bare,9,dragon,anchor_anglo,0.5193422436714172
+serra,bare,10,sugar,anchor_noise,0.5182944536209106
+serra,anglo_en,1,xeremia,anchor_catalan,0.3225092887878418
+serra,anglo_en,2,colla,anchor_catalan,0.28001564741134644
+serra,anglo_en,3,cercavila,anchor_catalan,0.27735936641693115
+serra,anglo_en,4,pessebre,anchor_catalan,0.26488545536994934
+serra,anglo_en,5,ogre,anchor_anglo,0.25544747710227966
+serra,anglo_en,6,cobla,anchor_catalan,0.25375378131866455
+serra,anglo_en,7,festa major,anchor_catalan,0.24911564588546753
+serra,anglo_en,8,grallers,anchor_catalan,0.24481341242790222
+serra,anglo_en,9,sword,anchor_anglo,0.24399319291114807
+serra,anglo_en,10,soda,anchor_noise,0.24230504035949707
+serra,catalan_frame,1,castellers,anchor_catalan,0.2587176561355591
+serra,catalan_frame,2,xeremia,anchor_catalan,0.2519390881061554
+serra,catalan_frame,3,cercavila,anchor_catalan,0.24618132412433624
+serra,catalan_frame,4,enxaneta,anchor_catalan,0.2415831834077835
+serra,catalan_frame,5,colla,anchor_catalan,0.23874367773532867
+serra,catalan_frame,6,festa major,anchor_catalan,0.2372804582118988
+serra,catalan_frame,7,casteller,anchor_catalan,0.2360716462135315
+serra,catalan_frame,8,grallers,anchor_catalan,0.22697871923446655
+serra,catalan_frame,9,pessebre,anchor_catalan,0.22690528631210327
+serra,catalan_frame,10,sword,anchor_anglo,0.22504006326198578
+serra,neutral_ca,1,colla,anchor_catalan,0.3299752175807953
+serra,neutral_ca,2,xeremia,anchor_catalan,0.3171026110649109
+serra,neutral_ca,3,festa major,anchor_catalan,0.3067748248577118
+serra,neutral_ca,4,cercavila,anchor_catalan,0.30099907517433167
+serra,neutral_ca,5,plaça,anchor_catalan,0.28259825706481934
+serra,neutral_ca,6,grallers,anchor_catalan,0.27937352657318115
+serra,neutral_ca,7,pessebre,anchor_catalan,0.27906638383865356
+serra,neutral_ca,8,cobla,anchor_catalan,0.2762802839279175
+serra,neutral_ca,9,diada,anchor_catalan,0.27475786209106445
+serra,neutral_ca,10,enxaneta,anchor_catalan,0.26968005299568176
+cel,bare,1,coke,anchor_noise,0.6475301384925842
+cel,bare,2,brand,anchor_noise,0.6457210779190063
+cel,bare,3,monkey,anchor_anglo,0.6107738614082336
+cel,bare,4,beverage,anchor_noise,0.6053645610809326
+cel,bare,5,cercavila,anchor_catalan,0.6049332022666931
+cel,bare,6,fairy,anchor_anglo,0.603210985660553
+cel,bare,7,diables,anchor_catalan,0.5927190780639648
+cel,bare,8,cobla,anchor_catalan,0.5894018411636353
+cel,bare,9,pessebre,anchor_catalan,0.5884912610054016
+cel,bare,10,grallers,anchor_catalan,0.5854113698005676
+cel,anglo_en,1,Cinderella,anchor_anglo,0.316092312335968
+cel,anglo_en,2,goblin,anchor_anglo,0.309562623500824
+cel,anglo_en,3,sword,anchor_anglo,0.3078676462173462
+cel,anglo_en,4,caffeine,anchor_noise,0.3022787570953369
+cel,anglo_en,5,dungeon,anchor_anglo,0.30130887031555176
+cel,anglo_en,6,coke,anchor_noise,0.2928693890571594
+cel,anglo_en,7,fairy,anchor_anglo,0.2828703224658966
+cel,anglo_en,8,witch,anchor_anglo,0.2824098765850067
+cel,anglo_en,9,monkey,anchor_anglo,0.2817811667919159
+cel,anglo_en,10,cercavila,anchor_catalan,0.2808515429496765
+cel,catalan_frame,1,diables,anchor_catalan,0.2641831338405609
+cel,catalan_frame,2,casteller,anchor_catalan,0.26055508852005005
+cel,catalan_frame,3,castellers,anchor_catalan,0.2600777745246887
+cel,catalan_frame,4,cercavila,anchor_catalan,0.253728449344635
+cel,catalan_frame,5,festa major,anchor_catalan,0.2445542812347412
+cel,catalan_frame,6,grallers,anchor_catalan,0.24228645861148834
+cel,catalan_frame,7,vigatans,anchor_catalan,0.23751044273376465
+cel,catalan_frame,8,goblin,anchor_anglo,0.23538321256637573
+cel,catalan_frame,9,Cinderella,anchor_anglo,0.23512136936187744
+cel,catalan_frame,10,pessebre,anchor_catalan,0.23206806182861328
+cel,neutral_ca,1,diables,anchor_catalan,0.32317981123924255
+cel,neutral_ca,2,cercavila,anchor_catalan,0.3101362884044647
+cel,neutral_ca,3,Cinderella,anchor_anglo,0.30029910802841187
+cel,neutral_ca,4,caffeine,anchor_noise,0.2901827096939087
+cel,neutral_ca,5,dungeon,anchor_anglo,0.28865566849708557
+cel,neutral_ca,6,cobla,anchor_catalan,0.287082314491272
+cel,neutral_ca,7,festa major,anchor_catalan,0.2853638231754303
+cel,neutral_ca,8,goblin,anchor_anglo,0.2840482294559479
+cel,neutral_ca,9,coke,anchor_noise,0.28215301036834717
+cel,neutral_ca,10,casteller,anchor_catalan,0.2805059552192688
+pare,bare,1,cercavila,anchor_catalan,0.538700520992279
+pare,bare,2,brand,anchor_noise,0.5193528532981873
+pare,bare,3,fairy,anchor_anglo,0.5189000964164734
+pare,bare,4,beverage,anchor_noise,0.5042813420295715
+pare,bare,5,tavern,anchor_anglo,0.5036678910255432
+pare,bare,6,troll,anchor_anglo,0.49616914987564087
+pare,bare,7,monkey,anchor_anglo,0.4939510226249695
+pare,bare,8,pessebre,anchor_catalan,0.4930931329727173
+pare,bare,9,plaça,anchor_catalan,0.4921286106109619
+pare,bare,10,tradicional,anchor_catalan,0.4865128993988037
+pare,anglo_en,1,pessebre,anchor_catalan,0.23468130826950073
+pare,anglo_en,2,diada,anchor_catalan,0.23258495330810547
+pare,anglo_en,3,xeremia,anchor_catalan,0.22334632277488708
+pare,anglo_en,4,fairy,anchor_anglo,0.2122858762741089
+pare,anglo_en,5,pepsi,anchor_noise,0.2090529054403305
+pare,anglo_en,6,beanstalk,anchor_anglo,0.20406940579414368
+pare,anglo_en,7,grallers,anchor_catalan,0.20306530594825745
+pare,anglo_en,8,colla,anchor_catalan,0.20279793441295624
+pare,anglo_en,9,cercavila,anchor_catalan,0.20221878588199615
+pare,anglo_en,10,caffeine,anchor_noise,0.20165568590164185
+pare,catalan_frame,1,festa major,anchor_catalan,0.27612820267677307
+pare,catalan_frame,2,poble,anchor_catalan,0.24806027114391327
+pare,catalan_frame,3,peasant,anchor_anglo,0.24796976149082184
+pare,catalan_frame,4,kingdom,anchor_anglo,0.2440355271100998
+pare,catalan_frame,5,pessebre,anchor_catalan,0.23432743549346924
+pare,catalan_frame,6,caffeine,anchor_noise,0.23326317965984344
+pare,catalan_frame,7,sword,anchor_anglo,0.23298797011375427
+pare,catalan_frame,8,knight,anchor_anglo,0.23098552227020264
+pare,catalan_frame,9,diables,anchor_catalan,0.23013988137245178
+pare,catalan_frame,10,monkey,anchor_anglo,0.22713638842105865
+pare,neutral_ca,1,festa major,anchor_catalan,0.32155361771583557
+pare,neutral_ca,2,Coca-Cola,anchor_noise,0.300981730222702
+pare,neutral_ca,3,Mercè,anchor_catalan,0.2999000549316406
+pare,neutral_ca,4,kingdom,anchor_anglo,0.2988285720348358
+pare,neutral_ca,5,sword,anchor_anglo,0.29328852891921997
+pare,neutral_ca,6,monkey,anchor_anglo,0.2925786077976227
+pare,neutral_ca,7,poble,anchor_catalan,0.29033011198043823
+pare,neutral_ca,8,knight,anchor_anglo,0.2901814877986908
+pare,neutral_ca,9,tavern,anchor_anglo,0.2892162799835205
+pare,neutral_ca,10,Cinderella,anchor_anglo,0.2887120544910431

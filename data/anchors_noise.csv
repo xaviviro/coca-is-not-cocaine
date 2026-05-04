@@ -1,0 +1,14 @@
+anchor,cluster,subcluster,notes
+cocaine,noise,drug,literal English coca cognate (the alkaloid)
+coke,noise,drug,coca leaf product / Coca-Cola colloquial
+Coca-Cola,noise,brand,brand name containing "coca" — disambiguation target
+pepsi,noise,brand,beverage brand co-located with Coca-Cola
+soda,noise,beverage,carbonated drink
+beverage,noise,beverage,generic soft-drink class
+caffeine,noise,beverage,key ingredient of coca-derived sodas
+sugar,noise,food_brand,co-located with soft-drink discourse
+addiction,noise,drug,drug-context noun
+powder,noise,drug,physical form of cocaine
+drug,noise,drug,generic English term
+brand,noise,brand,generic English term
+logo,noise,brand,visual identity term

@@ -1,0 +1,21 @@
+{
+  "model": "BSC-LT/ALIA-40b",
+  "revision": null,
+  "dtype": "bf16",
+  "device_map": "auto",
+  "layers": [
+    12,
+    29,
+    43
+  ],
+  "num_hidden_layers": 48,
+  "seed": 42,
+  "batch_size": 1,
+  "n_probes": 282,
+  "transformers_version": "5.7.0",
+  "torch_version": "2.11.0+cu128",
+  "python_version": "3.11.13 (main, Jun  4 2025, 08:57:30) [GCC 13.3.0]",
+  "timestamp": "2026-05-03T11:48:45+0000",
+  "tokenizer_class": "LlamaTokenizer",
+  "model_slug": "bsc-lt-alia-40b"
+}

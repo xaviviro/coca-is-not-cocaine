@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# uv / venv (uv.lock is committed for pinned reproducibility)
+.venv/
+
+# Probe set is regenerated from the curated CSVs by scripts/01_build_dataset.py
+data/probes.csv
+
+# Runtime logs
+logs/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

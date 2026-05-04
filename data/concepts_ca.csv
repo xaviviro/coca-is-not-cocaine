@@ -1,0 +1,57 @@
+concept,lexical_en,expected_anglo_neighbor,expected_catalan_neighbor,category,en_cognate,ambiguity_type
+gegant,giant,giant,festa major,folklore_figure,true,cross_lingual_bias
+castell,castle,castle,castellers,folklore_object,true,cross_lingual_bias
+drac,dragon,dragon,diables,folklore_figure,true,cross_lingual_bias
+capgròs,big-head,jester,cercavila,folklore_figure,false,cross_lingual_bias
+pilar,pillar,castle,pilar,folklore_object,true,cross_lingual_bias
+diables,devils,dragon,diables,folklore_figure,true,cross_lingual_bias
+Sant Jordi,Saint George,dragon,Barcelona,festive_day,true,cross_lingual_bias
+Mercè,Mercy,princess,Mercè,festive_event,true,cross_lingual_bias
+casteller,tower-builder,knight,castellers,folklore_role,false,domain_specific
+caga tió,pooping log,troll,folklore,festive_ritual,false,domain_specific
+cagar el tió,to beat the log,troll,folklore,festive_ritual,false,domain_specific
+correfoc,fire run,dragon,diables,festive_ritual,false,domain_specific
+sardana,folk dance,jester,cobla,dance,false,domain_specific
+gralla,reed pipe,fairy,grallers,music_instrument,false,domain_specific
+graller,gralla player,jester,grallers,music_role,false,domain_specific
+calçot,green onion,peasant,tradicional,food,false,domain_specific
+calçotada,calçot feast,peasant,tradicional,food_event,false,domain_specific
+panellet,marzipan cake,fairy,tradicional,food,false,domain_specific
+estelada,starred flag,kingdom,diada,political_symbol,false,domain_specific
+trabucaire,musketeer,knight,festa major,folklore_role,false,domain_specific
+xató,xató salad,peasant,tradicional,food,false,domain_specific
+esqueixada,shredded cod salad,peasant,tradicional,food,false,domain_specific
+havaneres,habaneras,fairy,cobla,music,true,domain_specific
+cercavila,street parade,jester,cercavila,festive_ritual,false,domain_specific
+enxaneta,top climber,fairy,enxaneta,folklore_role,false,domain_specific
+pa amb tomàquet,bread with tomato,peasant,tradicional,food,false,domain_specific
+samfaina,Catalan ratatouille,peasant,tradicional,food,false,domain_specific
+rabassa morta,emphyteutic lease,peasant,poble,agrarian_history,false,domain_specific
+masia,farmhouse,peasant,poble,rural,false,domain_specific
+barretina,Catalan cap,peasant,tradicional,clothing,false,domain_specific
+Patum,Patum of Berga,jester,Patum,festive_event,false,domain_specific
+Montserrat,Montserrat,kingdom,folklore,religious_place,false,domain_specific
+tió,log,troll,folklore,festive_object,false,internal_polysemy
+pinya,pinecone,peasant,castellers,folklore_object,false,internal_polysemy
+tronc,trunk,enchanted forest,castellers,folklore_object,false,internal_polysemy
+folre,lining,kingdom,castellers,folklore_object,false,internal_polysemy
+manilles,handcuffs,dungeon,castellers,folklore_object,false,internal_polysemy
+bastoners,stick dancers,jester,cercavila,dance,false,internal_polysemy
+botifarra,Catalan sausage,peasant,festa major,food,false,internal_polysemy
+romesco,romesco sauce,peasant,tradicional,food,false,domain_specific
+coca,coca,peasant,tradicional,food,true,cross_lingual_bias
+diada,national day,kingdom,diada,political_event,false,internal_polysemy
+falla,bonfire tower,dragon,folklore,festive_object,false,internal_polysemy
+escudella,Catalan stew,peasant,tradicional,food,false,internal_polysemy
+faixa,sash,peasant,casteller,clothing,false,internal_polysemy
+timbalers,drummers,jester,cercavila,music_role,false,internal_polysemy
+caganer,pooper,peasant,pessebre,festive_figure,false,domain_specific
+porró,jug,peasant,tradicional,tradicional_object,false,domain_specific
+mona,monkey,monkey,Pasqua,food,false,internal_polysemy
+colla,gang,knight,castellers,folklore_role,false,internal_polysemy
+Pasqua,Easter,kingdom,tradicional,festive_event,true,cross_lingual_bias
+terra,earth,kingdom,poble,geographic,true,internal_polysemy
+cor,heart,fairy,cobla,polysemic_term,false,internal_polysemy
+serra,saw,sword,Montserrat,polysemic_term,false,internal_polysemy
+cel,sky,kingdom,folklore,religious_term,false,domain_specific
+pare,father,peasant,folklore,kinship_term,false,domain_specific

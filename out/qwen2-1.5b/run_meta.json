@@ -1,0 +1,21 @@
+{
+  "model": "Qwen/Qwen2-1.5B",
+  "revision": null,
+  "dtype": "bf16",
+  "device_map": "auto",
+  "layers": [
+    7,
+    17,
+    26
+  ],
+  "num_hidden_layers": 28,
+  "seed": 42,
+  "batch_size": 1,
+  "n_probes": 282,
+  "transformers_version": "5.7.0",
+  "torch_version": "2.11.0+cu128",
+  "python_version": "3.11.13 (main, Jun  4 2025, 08:57:30) [GCC 13.3.0]",
+  "timestamp": "2026-05-03T11:33:14+0000",
+  "tokenizer_class": "Qwen2Tokenizer",
+  "model_slug": "qwen-qwen2-1.5b"
+}

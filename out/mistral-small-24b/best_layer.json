@@ -1,0 +1,10 @@
+{
+  "best_layer": 37,
+  "criterion": "deepest_layer_within_0.15_of_max_purity",
+  "tolerance": 0.15,
+  "per_layer_purity": {
+    "10": 0.768888888888889,
+    "24": 0.8,
+    "37": 0.8044444444444444
+  }
+}

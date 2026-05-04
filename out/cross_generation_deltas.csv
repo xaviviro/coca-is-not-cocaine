@@ -1,0 +1,25 @@
+family,pair,ambiguity_type,frame_id,older,newer,delta_newer_minus_older
+Gemma,gemma2-2b → gemma4-e2b,cross_lingual_bias,anglo_en,0.5,0.8,0.3
+Gemma,gemma2-2b → gemma4-e2b,cross_lingual_bias,bare,0.6499999999999999,0.8,0.15
+Gemma,gemma2-2b → gemma4-e2b,cross_lingual_bias,catalan_frame,0.95,0.8,-0.15
+Gemma,gemma2-2b → gemma4-e2b,cross_lingual_bias,neutral_ca,0.8,0.9,0.1
+Gemma,gemma2-2b → gemma4-e2b,domain_specific,anglo_en,0.6,0.8,0.2
+Gemma,gemma2-2b → gemma4-e2b,domain_specific,bare,0.8,0.8,0.0
+Gemma,gemma2-2b → gemma4-e2b,domain_specific,catalan_frame,1.0,0.9,-0.1
+Gemma,gemma2-2b → gemma4-e2b,domain_specific,neutral_ca,1.0,0.9,-0.1
+Gemma,gemma2-2b → gemma4-e2b,internal_polysemy,anglo_en,0.6,0.8,0.2
+Gemma,gemma2-2b → gemma4-e2b,internal_polysemy,bare,0.8,0.8,0.0
+Gemma,gemma2-2b → gemma4-e2b,internal_polysemy,catalan_frame,1.0,0.9,-0.1
+Gemma,gemma2-2b → gemma4-e2b,internal_polysemy,neutral_ca,0.9,0.9,0.0
+Qwen,qwen2-1.5b → qwen3.5-4b-base,cross_lingual_bias,anglo_en,0.8,0.6,-0.2
+Qwen,qwen2-1.5b → qwen3.5-4b-base,cross_lingual_bias,bare,0.7,0.75,0.05
+Qwen,qwen2-1.5b → qwen3.5-4b-base,cross_lingual_bias,catalan_frame,0.9,1.0,0.1
+Qwen,qwen2-1.5b → qwen3.5-4b-base,cross_lingual_bias,neutral_ca,0.9,1.0,0.1
+Qwen,qwen2-1.5b → qwen3.5-4b-base,domain_specific,anglo_en,0.8,0.5,-0.3
+Qwen,qwen2-1.5b → qwen3.5-4b-base,domain_specific,bare,0.9,0.9,0.0
+Qwen,qwen2-1.5b → qwen3.5-4b-base,domain_specific,catalan_frame,1.0,1.0,0.0
+Qwen,qwen2-1.5b → qwen3.5-4b-base,domain_specific,neutral_ca,0.9,1.0,0.1
+Qwen,qwen2-1.5b → qwen3.5-4b-base,internal_polysemy,anglo_en,0.8,0.4,-0.4
+Qwen,qwen2-1.5b → qwen3.5-4b-base,internal_polysemy,bare,0.6,0.9,0.3
+Qwen,qwen2-1.5b → qwen3.5-4b-base,internal_polysemy,catalan_frame,1.0,1.0,0.0
+Qwen,qwen2-1.5b → qwen3.5-4b-base,internal_polysemy,neutral_ca,0.9,1.0,0.1
