@@ -235,6 +235,8 @@ Sorensen AI ([sorensen.ai](https://sorensen.ai)), Barcelona, Catalunya
 
 ## Citació
 
+DOI del preprint: [`10.13140/RG.2.2.10368.39682`](https://doi.org/10.13140/RG.2.2.10368.39682)
+
 ```bibtex
 @misc{vinaixa2026coca,
   title        = {Coca Is Not Cocaine: Three Lexical-Cultural Collision
@@ -243,7 +245,8 @@ Sorensen AI ([sorensen.ai](https://sorensen.ai)), Barcelona, Catalunya
   year         = {2026},
   institution  = {Sorensen AI, Barcelona},
   note         = {ORCID: 0009-0005-2769-9215},
-  url          = {https://github.com/xaviviro/coca-is-not-cocaine}
+  doi          = {10.13140/RG.2.2.10368.39682},
+  url          = {https://doi.org/10.13140/RG.2.2.10368.39682}
 }
 ```
 

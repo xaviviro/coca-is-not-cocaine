@@ -13,6 +13,11 @@ authors:
     website: "https://sorensen.ai"
 repository-code: "https://github.com/xaviviro/coca-is-not-cocaine"
 url: "https://github.com/xaviviro/coca-is-not-cocaine"
+doi: "10.13140/RG.2.2.10368.39682"
+identifiers:
+  - type: doi
+    value: "10.13140/RG.2.2.10368.39682"
+    description: "Preprint DOI (ResearchGate)"
 abstract: >-
   Three-mode taxonomy of lexical-cultural collisions
   (cross_lingual_bias / domain_specific / internal_polysemy) for

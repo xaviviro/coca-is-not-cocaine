@@ -18,3 +18,12 @@ logs/
 .DS_Store
 .idea/
 .vscode/
+
+# LaTeX build artifacts (paper/coca.pdf is committed; intermediates are not)
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+paper/*.log
+paper/build.log
+paper/coca.out
