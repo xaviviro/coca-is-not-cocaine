@@ -60,13 +60,78 @@ def char_span_to_token_span(
     return t_start, t_end
 
 
+# Round-trip probes: spaces, accents, apostrophes, punctuation, Catalan and English.
+ROUNDTRIP_TEXTS = (
+    "A la festa major del poble, els gegants van sortir a la plaça.",
+    "Once upon a time, there was a giant who lived in the enchanted forest.",
+    "L'àvia va dir: coca de recapte, pa amb tomàquet i calçots!",
+)
+
+
+def _norm(s: str) -> str:
+    return " ".join(s.split())
+
+
+def tokenizer_roundtrip_ok(tok, texts=ROUNDTRIP_TEXTS) -> bool:
+    """decode(encode(text)) must give back the text (special tokens skipped)."""
+    return all(_norm(tok.decode(tok(t)["input_ids"], skip_special_tokens=True)) == _norm(t)
+               for t in texts)
+
+
+def _tokenizer_from_json(model_id: str, revision: str | None):
+    """Rebuild the fast tokenizer straight from the repo's tokenizer.json.
+
+    transformers 5.x converts some ``LlamaTokenizerFast`` repos with a byte-level
+    BPE ``tokenizer.json`` (e.g. deepseek-llm-67b-base) into a Metaspace
+    ``LlamaTokenizer`` that drops every space, so the model sees
+    "Alafestamajor...". The original tokenizer.json is correct.
+    """
+    import json
+
+    from huggingface_hub import hf_hub_download
+    from tokenizers import processors
+    from transformers import PreTrainedTokenizerFast
+
+    cfg = json.load(open(hf_hub_download(model_id, "tokenizer_config.json", revision=revision)))
+
+    def tok_str(x):
+        return x.get("content") if isinstance(x, dict) else x
+
+    tok = PreTrainedTokenizerFast(
+        tokenizer_file=hf_hub_download(model_id, "tokenizer.json", revision=revision),
+        bos_token=tok_str(cfg.get("bos_token")), eos_token=tok_str(cfg.get("eos_token")),
+        unk_token=tok_str(cfg.get("unk_token")), pad_token=tok_str(cfg.get("pad_token")),
+    )
+    if cfg.get("add_bos_token") and tok.bos_token:
+        bos = (tok.bos_token, tok.bos_token_id)
+        tok.backend_tokenizer.post_processor = processors.TemplateProcessing(
+            single=f"{bos[0]} $A", pair=f"{bos[0]} $A {bos[0]} $B", special_tokens=[bos])
+    return tok
+
+
 def load_model(model_id: str, revision: str | None = None, dtype: str = "bf16",
                device_map: str = "auto", trust_remote_code: bool = True):
-    """Fast tokenizer + causal LM in eval mode, exactly as Coca loads them."""
+    """Fast tokenizer + causal LM in eval mode, as Coca loads them.
+
+    Since v1.1.0 the tokenizer must pass a round-trip check; if the one built by
+    ``AutoTokenizer`` fails it, it is rebuilt from ``tokenizer.json``, and if that
+    also fails loading aborts. ``tok.coca_tokenizer_source`` records which one
+    was used ("auto" or "tokenizer.json"). Models whose AutoTokenizer passes are
+    loaded exactly as in v1.0.0.
+    """
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     tok = AutoTokenizer.from_pretrained(model_id, revision=revision, use_fast=True,
                                         trust_remote_code=trust_remote_code)
+    source = "auto"
+    if not tokenizer_roundtrip_ok(tok):
+        log.warning("%s: AutoTokenizer (%s) fails the round trip; rebuilding from "
+                    "tokenizer.json", model_id, type(tok).__name__)
+        tok = _tokenizer_from_json(model_id, revision)
+        source = "tokenizer.json"
+        if not tokenizer_roundtrip_ok(tok):
+            raise RuntimeError(f"{model_id}: no tokenizer passes the round-trip check")
+    tok.coca_tokenizer_source = source
     if not tok.is_fast:
         raise RuntimeError("need a fast tokenizer for offset mapping; got slow tokenizer")
     if tok.pad_token is None and tok.eos_token is not None:

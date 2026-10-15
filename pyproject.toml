@@ -1,6 +1,6 @@
 [project]
 name = "coca-is-not-cocaine"
-version = "1.0.0"
+version = "1.1.0"
 description = "Cultural bias probing of open-weight LLMs on Catalan concepts via contextualized hidden-state embeddings."
 readme = "README.md"
 requires-python = ">=3.11"

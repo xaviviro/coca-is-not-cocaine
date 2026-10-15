@@ -7,6 +7,7 @@ from coca.extraction import (
     load_model,
     resolve_dtype,
     slugify,
+    tokenizer_roundtrip_ok,
 )
 
 __all__ = [
@@ -16,4 +17,5 @@ __all__ = [
     "load_model",
     "resolve_dtype",
     "slugify",
+    "tokenizer_roundtrip_ok",
 ]
