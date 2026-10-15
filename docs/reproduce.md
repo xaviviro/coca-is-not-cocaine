@@ -222,3 +222,22 @@ re-analysis without re-running the GPU-heavy stage.
 - **No quantization.** fp8 / int8 / NVFP4 reorganise the
   representation geometry the metrics measure (see Dettmers et
   al. 2022). Stay in bf16.
+
+---
+
+## Using the extraction layer as a library (v1.0.0+)
+
+The forward-pass / span-pooling code of `scripts/02_extract_embeddings.py` lives in
+the importable package `coca/` (`coca.extraction`), so downstream projects can
+pin it by tag instead of copying it:
+
+```toml
+dependencies = ["coca-is-not-cocaine @ git+https://github.com/xaviviro/coca-is-not-cocaine@v1.0.0"]
+```
+
+`extract_hidden_states(tok, model, texts, spans, layers)` takes explicit
+character spans; `find_concept_span` reproduces v1 (first substring match).
+The refactor was checked by re-extracting Qwen2-1.5B on the 282 v1 probes:
+token spans identical, min cosine to the v1 vectors 0.9997 (bf16 / hardware
+noise), max |Δ bias_ratio| = 2·10⁻⁴; `top10_catalan_frac` changed in 7 of 224
+cells (near-ties at the top-10 boundary).

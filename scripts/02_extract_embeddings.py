@@ -22,7 +22,6 @@ from __future__ import annotations
 import argparse
 import json
 import logging
-import re
 import sys
 import time
 from dataclasses import dataclass
@@ -32,7 +31,14 @@ import numpy as np
 import pandas as pd
 import torch
 import transformers
-from transformers import AutoModelForCausalLM, AutoTokenizer
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from coca.extraction import (  # noqa: E402
+    extract_hidden_states,
+    find_concept_span,
+    load_model,
+    slugify,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -69,47 +75,6 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--trust-remote-code", action="store_true", default=True)
     p.add_argument("--verbose", action="store_true")
     return p.parse_args()
-
-
-def slugify(model_id: str) -> str:
-    return re.sub(r"[^A-Za-z0-9._-]+", "-", model_id).strip("-").lower()
-
-
-def resolve_dtype(name: str) -> torch.dtype:
-    return {"bf16": torch.bfloat16, "fp16": torch.float16, "fp32": torch.float32}[name]
-
-
-def find_concept_span(full_text: str, concept: str) -> tuple[int, int]:
-    start = full_text.find(concept)
-    if start < 0:
-        raise ValueError(f"concept {concept!r} not found in: {full_text!r}")
-    end = start + len(concept)
-    if full_text.find(concept, end) >= 0:
-        log.warning("concept %r appears more than once in %r — using first occurrence",
-                    concept, full_text)
-    return start, end
-
-
-def char_span_to_token_span(
-    offsets: list[tuple[int, int]], char_start: int, char_end: int
-) -> tuple[int, int]:
-    t_start: int | None = None
-    t_end: int | None = None
-    for i, (s, e) in enumerate(offsets):
-        if s == 0 and e == 0:
-            continue  # special tokens / padding
-        if e <= char_start:
-            continue
-        if s >= char_end:
-            break
-        if t_start is None:
-            t_start = i
-        t_end = i + 1
-    if t_start is None or t_end is None:
-        raise RuntimeError(
-            f"could not map char span [{char_start}, {char_end}) to tokens via offsets {offsets}"
-        )
-    return t_start, t_end
 
 
 def load_probes(path: Path) -> list[Probe]:
@@ -152,27 +117,11 @@ def main() -> None:
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    log.info("loading tokenizer: %s", args.model)
-    tok = AutoTokenizer.from_pretrained(
-        args.model,
-        revision=args.revision,
-        use_fast=True,
-        trust_remote_code=args.trust_remote_code,
-    )
-    if not tok.is_fast:
-        raise RuntimeError("need a fast tokenizer for offset mapping; got slow tokenizer")
-
-    dtype = resolve_dtype(args.dtype)
-    log.info("loading model: %s  dtype=%s  device_map=%s", args.model, dtype, args.device_map)
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model,
-        revision=args.revision,
-        torch_dtype=dtype,
-        device_map=args.device_map,
-        trust_remote_code=args.trust_remote_code,
-        output_hidden_states=True,
-    )
-    model.eval()
+    log.info("loading model: %s  dtype=%s  device_map=%s", args.model, args.dtype,
+             args.device_map)
+    tok, model = load_model(args.model, revision=args.revision, dtype=args.dtype,
+                            device_map=args.device_map,
+                            trust_remote_code=args.trust_remote_code)
 
     num_hidden = getattr(model.config, "num_hidden_layers", None)
     if num_hidden is not None:
@@ -184,60 +133,29 @@ def main() -> None:
     probes = load_probes(Path(args.probes))
     log.info("loaded %d probes from %s", len(probes), args.probes)
 
-    # Pre-allocate per-layer vector storage once we know hidden size (after first pass).
-    per_layer_vecs: dict[int, list[np.ndarray]] = {L: [] for L in layers}
-    meta_rows: list[dict] = []
-
+    if args.batch_size != 1:
+        log.warning("batch size is fixed at 1 (as in every Coca run); ignoring --batch-size")
     t0 = time.time()
-    if tok.pad_token is None and tok.eos_token is not None:
-        tok.pad_token = tok.eos_token
-
-    with torch.inference_mode():
-        for bi, batch in enumerate(batched(probes, args.batch_size)):
-            texts = [p.full_text for p in batch]
-            enc = tok(
-                texts,
-                return_offsets_mapping=True,
-                return_tensors="pt",
-                padding=True,
-                truncation=True,
-                max_length=256,
-                add_special_tokens=True,
-            )
-            offsets_batch = enc.pop("offset_mapping")
-
-            device_inputs = {k: v.to(model.device) for k, v in enc.items()}
-            outputs = model(**device_inputs, output_hidden_states=True, use_cache=False)
-            hidden_states = outputs.hidden_states  # tuple[len = num_hidden + 1]
-
-            for j, probe in enumerate(batch):
-                char_start, char_end = find_concept_span(probe.full_text, probe.concept)
-                offsets = offsets_batch[j].tolist()
-                t_start, t_end = char_span_to_token_span(offsets, char_start, char_end)
-
-                for L in layers:
-                    vec = hidden_states[L][j, t_start:t_end, :].float().mean(dim=0)
-                    norm = vec.norm().clamp(min=1e-12)
-                    vec = (vec / norm).detach().cpu().numpy().astype(np.float32)
-                    per_layer_vecs[L].append(vec)
-
-                meta_rows.append({
-                    "row_id": probe.row_id,
-                    "concept": probe.concept,
-                    "frame_id": probe.frame_id,
-                    "frame_lang": probe.frame_lang,
-                    "full_text": probe.full_text,
-                    "cluster": probe.cluster,
-                    "category": probe.category,
-                    "ambiguity_type": probe.ambiguity_type,
-                    "t_start": t_start,
-                    "t_end": t_end,
-                    "n_subwords": t_end - t_start,
-                })
-
-            if (bi + 1) % 20 == 0 or (bi + 1) == len(batched(probes, args.batch_size)):
-                log.info("  batch %d / %d  elapsed=%.1fs", bi + 1,
-                         len(batched(probes, args.batch_size)), time.time() - t0)
+    spans = [find_concept_span(p.full_text, p.concept) for p in probes]
+    vectors, info = extract_hidden_states(tok, model, [p.full_text for p in probes], spans,
+                                          layers)
+    meta_rows = [
+        {
+            "row_id": p.row_id,
+            "concept": p.concept,
+            "frame_id": p.frame_id,
+            "frame_lang": p.frame_lang,
+            "full_text": p.full_text,
+            "cluster": p.cluster,
+            "category": p.category,
+            "ambiguity_type": p.ambiguity_type,
+            "t_start": inf["t_start"],
+            "t_end": inf["t_end"],
+            "n_subwords": inf["n_subwords"],
+        }
+        for p, inf in zip(probes, info, strict=True)
+    ]
+    log.info("extracted %d probes in %.1fs", len(probes), time.time() - t0)
 
     meta = pd.DataFrame(meta_rows)
     meta_path = out_dir / "metadata.parquet"
@@ -252,7 +170,7 @@ def main() -> None:
     row_ids = meta["row_id"].to_numpy()
 
     for L in layers:
-        arr = np.stack(per_layer_vecs[L], axis=0)
+        arr = vectors[L]
         out_path = out_dir / f"embeddings_layer{L}.npz"
         np.savez_compressed(
             out_path,
@@ -275,7 +193,7 @@ def main() -> None:
         "layers": layers,
         "num_hidden_layers": num_hidden,
         "seed": SEED,
-        "batch_size": args.batch_size,
+        "batch_size": 1,
         "n_probes": len(probes),
         "transformers_version": transformers.__version__,
         "torch_version": torch.__version__,
